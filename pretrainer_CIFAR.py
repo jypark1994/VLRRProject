@@ -49,7 +49,7 @@ num_classes = 10
 
 def get_model(model, pretrained=False, num_classes = 18):
     if model == 'resnet18':
-        net = lrResnet.resnet18_CIFAR(scale=down_scale, pretrained=pretrained)
+        net = lrResnet.resnet18_CIFAR(pretrained=pretrained)
         net.fc = nn.Linear(in_features=512, out_features=num_classes)
     return net
 

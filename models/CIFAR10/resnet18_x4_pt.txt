@@ -1,2 +1,0 @@
-Namespace(batch_size=128, down_scale=4, epochs=300, interpolate=True, model_name='resnet18', multi_gpu=False, num_workers=8, pretrained=True)
-Using device ... cuda
