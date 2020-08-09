@@ -1,0 +1,66 @@
+Namespace(batch_size=128, down_scale=1, epochs=300, interpolate=True, model_name='resnet18', multi_gpu=False, num_workers=8, pretrained=True)
+Using device ... cuda
+Files already downloaded and verified
+Files already downloaded and verified
+─── Start Training & Evalutation ───
+┌── Epoch (0/299)
+├── Training Loss : 0.0155
+├── Training accuracy : 26.84%
+│
+└── Testing accuracy : 35.84%
+  └──> Saving the best model to "./models/CIFAR10/best_resnet18_x1_True.pth"
+Epoch time ─ 0[h] 0[m] 12[s]
+Estimated time ─ 1[h] 1[m] 48[s]
+
+
+┌── Epoch (1/299)
+├── Training Loss : 0.0136
+├── Training accuracy : 35.76%
+│
+└── Testing accuracy : 43.21%
+  └──> Saving the best model to "./models/CIFAR10/best_resnet18_x1_True.pth"
+Epoch time ─ 0[h] 0[m] 12[s]
+Estimated time ─ 1[h] 2[m] 33[s]
+
+
+┌── Epoch (2/299)
+├── Training Loss : 0.0118
+├── Training accuracy : 44.92%
+│
+└── Testing accuracy : 50.01%
+  └──> Saving the best model to "./models/CIFAR10/best_resnet18_x1_True.pth"
+Epoch time ─ 0[h] 0[m] 12[s]
+Estimated time ─ 1[h] 1[m] 46[s]
+
+
+┌── Epoch (3/299)
+├── Training Loss : 0.0098
+├── Training accuracy : 54.17%
+│
+└── Testing accuracy : 53.33%
+  └──> Saving the best model to "./models/CIFAR10/best_resnet18_x1_True.pth"
+Epoch time ─ 0[h] 0[m] 12[s]
+Estimated time ─ 1[h] 2[m] 24[s]
+
+
+┌── Epoch (4/299)
+├── Training Loss : 0.0085
+├── Training accuracy : 60.57%
+│
+└── Testing accuracy : 61.72%
+  └──> Saving the best model to "./models/CIFAR10/best_resnet18_x1_True.pth"
+Epoch time ─ 0[h] 0[m] 12[s]
+Estimated time ─ 1[h] 2[m] 3[s]
+
+
+┌── Epoch (5/299)
+├── Training Loss : 0.0078
+├── Training accuracy : 64.44%
+│
+└── Testing accuracy : 66.59%
+  └──> Saving the best model to "./models/CIFAR10/best_resnet18_x1_True.pth"
+Epoch time ─ 0[h] 0[m] 12[s]
+Estimated time ─ 1[h] 1[m] 43[s]
+
+
+┌── Epoch (6/299)

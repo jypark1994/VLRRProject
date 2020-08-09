@@ -223,6 +223,16 @@ def _resnet(block, layers, **kwargs):
 
 # TODO : Build smaller resnets for 2x, 4x and 8x downsampled inputs.
 
+def resnet18_CIFAR(pretrained=False, progress=True):
+    model = _resnet(BasicBlock, [2,2,2,2], pool=False, block_stride=[1,2,2,2])
+        
+    if pretrained:
+        state_dict = load_state_dict_from_url(model_urls['resnet18'],
+                                              progress=progress)
+        model.load_state_dict(state_dict)
+        
+    return model
+
 def resnet18_LR(scale, pretrained=False, progress=True):
     if scale == 2:
         model = _resnet(BasicBlock, [2,2,2,2], pool=False, block_stride=[2,2,2,2])

@@ -27,14 +27,14 @@ import argparse
 import time
 
 parser = argparse.ArgumentParser()
+parser.add_argument("--epochs", type=int, default=300)
+parser.add_argument("--model_name", type=str, default="resnet18")
 parser.add_argument("--down_scale", type=int, default=1)
-parser.add_argument("--epochs", type=int, default=150)
-parser.add_argument("--model_name", type=str, default="resnet50")
 parser.add_argument("--pretrained", action='store_true')
-parser.add_argument("--batch_size", type=int, default=32)
-parser.add_argument("--num_workers", type=int, default=4)
+parser.add_argument("--interpolate", action='store_true')
+parser.add_argument("--batch_size", type=int, default=128)
+parser.add_argument("--num_workers", type=int, default=8)
 parser.add_argument("--multi_gpu", action='store_true')
-parser.add_argument("--dataset", type=str, default="Birds")
 args = parser.parse_args()
 
 print(args)
@@ -44,33 +44,12 @@ print("Using device ...", device)
 
 down_scale = args.down_scale
 
-if args.dataset == "birds":
-    train_loader, test_loader = datasets.ILSVRC_Birds(args)
-    num_classes = 18
-elif args.dataset == "mosquitoes":
-    train_loader, test_loader = datasets.MosquitoDL(args)
-    num_classes = 6
-    
+train_loader, test_loader = datasets.CIFAR10(args)
+num_classes = 10
 
 def get_model(model, pretrained=False, num_classes = 18):
-    if model == 'resnet50':
-        if down_scale == 1:
-            net = models.resnet50(pretrained=pretrained)
-        else:
-            net = lrResnet.resnet50_LR(scale=down_scale, pretrained=pretrained)
-        net.fc = nn.Linear(in_features=2048, out_features=num_classes)
-    elif model == 'resnet34':
-        if down_scale == 1:
-            net = models.resnet34(pretrained=pretrained)
-        else:
-            net = lrResnet.resnet34_LR(scale=down_scale, pretrained=pretrained)
-        net.fc = nn.Linear(in_features=512, out_features=num_classes)
-        
-    elif model == 'resnet18':
-        if down_scale == 1:
-            net = models.resnet18(pretrained=pretrained)
-        else:
-            net = lrResnet.resnet18_LR(scale=down_scale, pretrained=pretrained)
+    if model == 'resnet18':
+        net = lrResnet.resnet18_CIFAR(scale=down_scale, pretrained=pretrained)
         net.fc = nn.Linear(in_features=512, out_features=num_classes)
     return net
 
@@ -83,8 +62,8 @@ if args.multi_gpu == True:
 
 def train(net, train_loader):
     criterion = nn.CrossEntropyLoss()
-    optimizer = optim.Adam(net.parameters(),lr=1e-4, weight_decay=4e-5)
-    scheduler = optim.lr_scheduler.StepLR(optimizer, 50, gamma=0.1)
+    optimizer = optim.Adam(net.parameters(),lr=1e-2, weight_decay=4e-5)
+    scheduler = optim.lr_scheduler.StepLR(optimizer, 100, gamma=0.1)
     
     train_avg_loss = 0
     n_count = 0
@@ -175,7 +154,7 @@ def train_and_eval(net, epochs, train_loader, test_loader, save_name='default.pt
         
 epochs = args.epochs
 
-accuracy, net_t = train_and_eval(net_t, epochs, train_loader, test_loader, save_name=f"./models/{args.dataset}/best_{model_name}_x{down_scale}_{args.pretrained}.pth")
+accuracy, net_t = train_and_eval(net_t, epochs, train_loader, test_loader, save_name=f"./models/CIFAR10/best_{model_name}_x{down_scale}_{args.pretrained}.pth")
 
 print(f"Done with accuracy : {accuracy*100:.2f}%")
 
