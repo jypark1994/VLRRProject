@@ -1,0 +1,52 @@
+Namespace(batch_size=64, dataset='mosquitoes', down_scale=2, epochs=150, model_name='resnet34', multi_gpu=False, num_workers=8, pretrained=True)
+Using device ... cuda
+─── Start Training & Evalutation ───
+┌── Epoch (0/149)
+├── Training Loss : 0.0101
+├── Training accuracy : 77.08%
+│
+└── Testing accuracy : 70.41%
+  └──> Saving the best model to "./models/mosquitoes/best_resnet34_x2_True.pth"
+Epoch time ─ 0[h] 0[m] 11[s]
+Estimated time ─ 0[h] 28[m] 3[s]
+
+
+┌── Epoch (1/149)
+├── Training Loss : 0.0032
+├── Training accuracy : 92.82%
+│
+└── Testing accuracy : 90.47%
+  └──> Saving the best model to "./models/mosquitoes/best_resnet34_x2_True.pth"
+Epoch time ─ 0[h] 0[m] 11[s]
+Estimated time ─ 0[h] 27[m] 48[s]
+
+
+┌── Epoch (2/149)
+├── Training Loss : 0.0022
+├── Training accuracy : 94.97%
+│
+└── Testing accuracy : 89.86%
+Epoch time ─ 0[h] 0[m] 11[s]
+Estimated time ─ 0[h] 27[m] 11[s]
+
+
+┌── Epoch (3/149)
+├── Training Loss : 0.0021
+├── Training accuracy : 95.23%
+│
+└── Testing accuracy : 90.27%
+Epoch time ─ 0[h] 0[m] 11[s]
+Estimated time ─ 0[h] 28[m] 3[s]
+
+
+┌── Epoch (4/149)
+├── Training Loss : 0.0017
+├── Training accuracy : 96.71%
+│
+└── Testing accuracy : 93.61%
+  └──> Saving the best model to "./models/mosquitoes/best_resnet34_x2_True.pth"
+Epoch time ─ 0[h] 0[m] 11[s]
+Estimated time ─ 0[h] 28[m] 37[s]
+
+
+┌── Epoch (5/149)

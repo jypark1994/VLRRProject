@@ -1,0 +1,14 @@
+Namespace(down_scale=1, epochs=150, model_name='resnet18', pretrained=True)
+Using device ... cuda
+─── Start Training & Evalutation ───
+┌── Epoch (0/149)
+├── Training Loss : 0.0290
+├── Training accuracy : 84.03%
+│
+└── Testing accuracy : 78.51%
+  └──> Saving the best model to "./models/interpolated/best_resnet18_x1_True.pth"
+Epoch time ─ 0[h] 0[m] 12[s]
+Estimated time ─ 0[h] 31[m] 38[s]
+
+
+┌── Epoch (1/149)
