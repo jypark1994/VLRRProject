@@ -57,6 +57,8 @@ class MultiscaleDataset(Dataset):
         #----------------------------------------------
         
         return LR, HR, label
+
+# Modified Line test for git
     
 def get_train_loader(root='/mnt/sda2/MosquitoDL/TrainVal/', LR_scale=2, HR_size=[224,224], batch_size=128, num_workers=8):
     transform = transforms.Compose([
