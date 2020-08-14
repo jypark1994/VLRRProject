@@ -1,0 +1,5 @@
+Original
+- 모델 자체가 작은 이미지를 분류하도록 개조된 형태
+
+Interpolated
+- 모델은 고정 (224x224x3), 작은 이미지를 Interpolate 하여 확대 (Bicubic)

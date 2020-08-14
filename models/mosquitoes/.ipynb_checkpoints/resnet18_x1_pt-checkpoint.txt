@@ -1,0 +1,4 @@
+Namespace(batch_size=64, dataset='mosquitoes', down_scale=1, epochs=150, model_name='resnet18', multi_gpu=False, num_workers=8, pretrained=True)
+Using device ... cuda
+─── Start Training & Evalutation ───
+┌── Epoch (0/149)

@@ -1,0 +1,4 @@
+Namespace(down_scale=2, epochs=150, model_name='resnet18', pretrained=True)
+Using device ... cuda
+─── Start Training & Evalutation ───
+┌── Epoch (0/149)

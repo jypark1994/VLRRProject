@@ -1,0 +1,24 @@
+Namespace(batch_size=256, down_scale=1, epochs=300, interpolate=True, model_name='resnet18', multi_gpu=True, num_workers=8, pretrained=True)
+Using device ... cuda
+─── Start Training & Evalutation ───
+┌── Epoch (0/299)
+├── Training Loss : 0.0084
+├── Training accuracy : 20.45%
+│
+└── Testing accuracy : 35.84%
+  └──> Saving the best model to "./models/CIFAR10/best_resnet18_x1_True.pth"
+Epoch time ─ 0[h] 0[m] 12[s]
+Estimated time ─ 1[h] 3[m] 48[s]
+
+
+┌── Epoch (1/299)
+├── Training Loss : 0.0068
+├── Training accuracy : 34.74%
+│
+└── Testing accuracy : 39.64%
+  └──> Saving the best model to "./models/CIFAR10/best_resnet18_x1_True.pth"
+Epoch time ─ 0[h] 0[m] 10[s]
+Estimated time ─ 0[h] 52[m] 31[s]
+
+
+┌── Epoch (2/299)
