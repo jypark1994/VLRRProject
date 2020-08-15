@@ -82,8 +82,8 @@ def get_test_loader(root='/data/ILSVRC_Birds/val/', LR_scale=2, HR_size=[224,224
     return test_dataloader
 
 LR_scale = 4
-train_loader = get_train_loader(LR_scale=LR_scale, batch_size=64, num_workers=8)
-test_loader = get_test_loader(LR_scale=LR_scale, batch_size=64, num_workers=8)
+train_loader = get_train_loader(LR_scale=LR_scale, batch_size=32, num_workers=8)
+test_loader = get_test_loader(LR_scale=LR_scale, batch_size=32, num_workers=8)
 
 
 # %%
@@ -179,9 +179,6 @@ class HookWrapper(nn.Module):
         self.features = []
         return tmp
 
-target_layers = ['conv1']
-
-
 # %%
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
 
@@ -203,6 +200,8 @@ net_s = net_s.to(device)
 
 print(f"Distillate teacher's HR(x1) knowledge ({teacher_dict['acc']*100:.2f}%) to the student.")
 # print(f"Using pretrained student's LR(x2) knowledge ({student_dict['acc']*100:.2f}%) to the student.")
+
+target_layers = ['conv1','layer1','layer2','layer3','layer4']
 
 hook_net_t = HookWrapper(net_t, target_layers)
 hook_net_s = HookWrapper(net_s, target_layers)
@@ -237,7 +236,7 @@ class KD_loss():
 
 
 def distillate(teacher, student, train_loader):
-    params = {'alpha':0.9, 'T':20, 'beta':0.3}
+    params = {'alpha':0.9, 'T':4, 'beta':0.1}
 
     # According to 'Low-resolution visual recognition via deep feature distillation(DFD)',
     # They use MSE Loss for distillation loss instead of NLL loss.
@@ -246,7 +245,7 @@ def distillate(teacher, student, train_loader):
     AT_criterion = nn.MSELoss()
     
     # DFD uses SGD with momentum 0.9, weight deacy 5e-4.
-    optimizer = optim.SGD(student.parameters(),lr=1e-2, momentum=0.9, weight_decay=5e-4)
+    optimizer = optim.Adam(student.parameters(),lr=1e-3, weight_decay=5e-4)
     
     scheduler = optim.lr_scheduler.StepLR(optimizer, 50, gamma=0.1)
 
@@ -270,16 +269,19 @@ def distillate(teacher, student, train_loader):
 
         # Feature map extraction from both teacher and student networks.
         # Current target : Conv1
-        feature_t = teacher.module.get_features()[0]
-        feature_s = student.module.get_features()[0]
+        feature_t = teacher.module.get_features()
+        feature_s = student.module.get_features()
 
         # Since the input size of the maps are different in teacher/student,
         # we downsample teacher's feature beforehand calculate attention loss.
         # The kernel size can be varied according to the LR scale.
+        at_loss = 0
 
-        feature_t = nn.AvgPool2d(kernel_size=4)(feature_t)
+        for f_t, f_s in zip(feature_t, feature_s):
+            f_t = nn.AdaptiveAvgPool2d(f_s.shape[2:])(f_t)
+            at_loss += AT_criterion(f_t, f_s)
         
-        loss = criterion(pred_s, pred_t, label) + params['beta']*AT_criterion(feature_t, feature_s)
+        loss = criterion(pred_s, pred_t, label) + params['beta']*at_loss
     
         train_avg_loss += loss
 
