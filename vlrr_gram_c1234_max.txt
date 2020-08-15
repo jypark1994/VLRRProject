@@ -1,0 +1,1420 @@
+Teacher: resnet18, Student: resnet18
+Distillate teacher's HR(x1) knowledge (92.67%) to the student.
+─── Start Training & Evalutation ───
+┌ Epoch (0/299)
+loss = 2.5992
+├── Training Loss : 0.1816
+├── Training accuracy : 20.07%
+│ Testing ...
+└── Testing accuracy : 26.56%
+  └──> Saving the best model to "./models/distillate/Tresnet18_Sresnet18_x4.pth"
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 4[h] 21[m] 10[s]
+
+
+┌ Epoch (1/299)
+loss = 2.3458
+├── Training Loss : 0.1561
+├── Training accuracy : 30.41%
+│ Testing ...
+└── Testing accuracy : 38.33%
+  └──> Saving the best model to "./models/distillate/Tresnet18_Sresnet18_x4.pth"
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 4[h] 20[m] 39[s]
+
+
+┌ Epoch (2/299)
+loss = 2.3615
+├── Training Loss : 0.1438
+├── Training accuracy : 37.21%
+│ Testing ...
+└── Testing accuracy : 41.22%
+  └──> Saving the best model to "./models/distillate/Tresnet18_Sresnet18_x4.pth"
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 4[h] 20[m] 45[s]
+
+
+┌ Epoch (3/299)
+loss = 2.8089
+├── Training Loss : 0.1349
+├── Training accuracy : 42.43%
+│ Testing ...
+└── Testing accuracy : 47.00%
+  └──> Saving the best model to "./models/distillate/Tresnet18_Sresnet18_x4.pth"
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 4[h] 20[m] 56[s]
+
+
+┌ Epoch (4/299)
+loss = 2.0046
+├── Training Loss : 0.1288
+├── Training accuracy : 45.36%
+│ Testing ...
+└── Testing accuracy : 47.56%
+  └──> Saving the best model to "./models/distillate/Tresnet18_Sresnet18_x4.pth"
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 4[h] 20[m] 12[s]
+
+
+┌ Epoch (5/299)
+loss = 1.5840
+├── Training Loss : 0.1231
+├── Training accuracy : 48.18%
+│ Testing ...
+└── Testing accuracy : 49.22%
+  └──> Saving the best model to "./models/distillate/Tresnet18_Sresnet18_x4.pth"
+Epoch time ─ 0[h] 0[m] 53[s]
+Estimated time ─ 4[h] 20[m] 5[s]
+
+
+┌ Epoch (6/299)
+loss = 1.4735
+├── Training Loss : 0.1187
+├── Training accuracy : 50.55%
+│ Testing ...
+└── Testing accuracy : 56.00%
+  └──> Saving the best model to "./models/distillate/Tresnet18_Sresnet18_x4.pth"
+Epoch time ─ 0[h] 0[m] 53[s]
+Estimated time ─ 4[h] 18[m] 49[s]
+
+
+┌ Epoch (7/299)
+loss = 1.7503
+├── Training Loss : 0.1144
+├── Training accuracy : 52.67%
+│ Testing ...
+└── Testing accuracy : 58.44%
+  └──> Saving the best model to "./models/distillate/Tresnet18_Sresnet18_x4.pth"
+Epoch time ─ 0[h] 0[m] 53[s]
+Estimated time ─ 4[h] 18[m] 7[s]
+
+
+┌ Epoch (8/299)
+loss = 2.2424
+├── Training Loss : 0.1107
+├── Training accuracy : 54.79%
+│ Testing ...
+└── Testing accuracy : 61.22%
+  └──> Saving the best model to "./models/distillate/Tresnet18_Sresnet18_x4.pth"
+Epoch time ─ 0[h] 0[m] 53[s]
+Estimated time ─ 4[h] 17[m] 22[s]
+
+
+┌ Epoch (9/299)
+loss = 1.5205
+├── Training Loss : 0.1075
+├── Training accuracy : 56.35%
+│ Testing ...
+└── Testing accuracy : 62.44%
+  └──> Saving the best model to "./models/distillate/Tresnet18_Sresnet18_x4.pth"
+Epoch time ─ 0[h] 0[m] 53[s]
+Estimated time ─ 4[h] 16[m] 34[s]
+
+
+┌ Epoch (10/299)
+loss = 1.9740
+├── Training Loss : 0.1044
+├── Training accuracy : 57.94%
+│ Testing ...
+└── Testing accuracy : 64.11%
+  └──> Saving the best model to "./models/distillate/Tresnet18_Sresnet18_x4.pth"
+Epoch time ─ 0[h] 0[m] 53[s]
+Estimated time ─ 4[h] 15[m] 34[s]
+
+
+┌ Epoch (11/299)
+loss = 1.8906
+├── Training Loss : 0.1017
+├── Training accuracy : 59.17%
+│ Testing ...
+└── Testing accuracy : 63.33%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 4[h] 11[m] 43[s]
+
+
+┌ Epoch (12/299)
+loss = 1.6074
+├── Training Loss : 0.0993
+├── Training accuracy : 60.25%
+│ Testing ...
+└── Testing accuracy : 67.78%
+  └──> Saving the best model to "./models/distillate/Tresnet18_Sresnet18_x4.pth"
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 4[h] 13[m] 29[s]
+
+
+┌ Epoch (13/299)
+loss = 1.2228
+├── Training Loss : 0.0969
+├── Training accuracy : 61.14%
+│ Testing ...
+└── Testing accuracy : 66.56%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 4[h] 9[m] 36[s]
+
+
+┌ Epoch (14/299)
+loss = 1.5070
+├── Training Loss : 0.0946
+├── Training accuracy : 62.35%
+│ Testing ...
+└── Testing accuracy : 70.33%
+  └──> Saving the best model to "./models/distillate/Tresnet18_Sresnet18_x4.pth"
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 4[h] 11[m] 28[s]
+
+
+┌ Epoch (15/299)
+loss = 1.4240
+├── Training Loss : 0.0926
+├── Training accuracy : 63.51%
+│ Testing ...
+└── Testing accuracy : 66.44%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 4[h] 7[m] 31[s]
+
+
+┌ Epoch (16/299)
+loss = 1.8114
+├── Training Loss : 0.0909
+├── Training accuracy : 64.21%
+│ Testing ...
+└── Testing accuracy : 69.56%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 4[h] 6[m] 55[s]
+
+
+┌ Epoch (17/299)
+loss = 1.1463
+├── Training Loss : 0.0891
+├── Training accuracy : 64.79%
+│ Testing ...
+└── Testing accuracy : 68.78%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 4[h] 6[m] 17[s]
+
+
+┌ Epoch (18/299)
+loss = 1.6743
+├── Training Loss : 0.0878
+├── Training accuracy : 65.66%
+│ Testing ...
+└── Testing accuracy : 73.67%
+  └──> Saving the best model to "./models/distillate/Tresnet18_Sresnet18_x4.pth"
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 4[h] 8[m] 2[s]
+
+
+┌ Epoch (19/299)
+loss = 1.0430
+├── Training Loss : 0.0856
+├── Training accuracy : 66.36%
+│ Testing ...
+└── Testing accuracy : 71.00%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 4[h] 4[m] 33[s]
+
+
+┌ Epoch (20/299)
+loss = 1.3221
+├── Training Loss : 0.0848
+├── Training accuracy : 67.12%
+│ Testing ...
+└── Testing accuracy : 73.67%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 4[h] 3[m] 21[s]
+
+
+┌ Epoch (21/299)
+loss = 2.1162
+├── Training Loss : 0.0841
+├── Training accuracy : 67.62%
+│ Testing ...
+└── Testing accuracy : 73.56%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 4[h] 2[m] 29[s]
+
+
+┌ Epoch (22/299)
+loss = 0.9803
+├── Training Loss : 0.0824
+├── Training accuracy : 68.15%
+│ Testing ...
+└── Testing accuracy : 73.11%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 4[h] 1[m] 41[s]
+
+
+┌ Epoch (23/299)
+loss = 1.1522
+├── Training Loss : 0.0816
+├── Training accuracy : 68.41%
+│ Testing ...
+└── Testing accuracy : 72.89%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 4[h] 1[m] 30[s]
+
+
+┌ Epoch (24/299)
+loss = 0.8990
+├── Training Loss : 0.0801
+├── Training accuracy : 69.29%
+│ Testing ...
+└── Testing accuracy : 73.56%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 4[h] 0[m] 8[s]
+
+
+┌ Epoch (25/299)
+loss = 1.9277
+├── Training Loss : 0.0792
+├── Training accuracy : 69.64%
+│ Testing ...
+└── Testing accuracy : 72.00%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 3[h] 59[m] 6[s]
+
+
+┌ Epoch (26/299)
+loss = 1.0367
+├── Training Loss : 0.0779
+├── Training accuracy : 70.65%
+│ Testing ...
+└── Testing accuracy : 76.11%
+  └──> Saving the best model to "./models/distillate/Tresnet18_Sresnet18_x4.pth"
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 4[h] 0[m] 58[s]
+
+
+┌ Epoch (27/299)
+loss = 1.6030
+├── Training Loss : 0.0773
+├── Training accuracy : 70.46%
+│ Testing ...
+└── Testing accuracy : 75.44%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 3[h] 57[m] 26[s]
+
+
+┌ Epoch (28/299)
+loss = 1.3417
+├── Training Loss : 0.0759
+├── Training accuracy : 71.11%
+│ Testing ...
+└── Testing accuracy : 76.11%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 3[h] 56[m] 40[s]
+
+
+┌ Epoch (29/299)
+loss = 1.1251
+├── Training Loss : 0.0749
+├── Training accuracy : 71.33%
+│ Testing ...
+└── Testing accuracy : 75.00%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 3[h] 55[m] 44[s]
+
+
+┌ Epoch (30/299)
+loss = 1.0890
+├── Training Loss : 0.0745
+├── Training accuracy : 71.92%
+│ Testing ...
+└── Testing accuracy : 76.56%
+  └──> Saving the best model to "./models/distillate/Tresnet18_Sresnet18_x4.pth"
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 3[h] 57[m] 32[s]
+
+
+┌ Epoch (31/299)
+loss = 1.4507
+├── Training Loss : 0.0738
+├── Training accuracy : 72.03%
+│ Testing ...
+└── Testing accuracy : 74.00%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 3[h] 54[m] 1[s]
+
+
+┌ Epoch (32/299)
+loss = 1.1983
+├── Training Loss : 0.0721
+├── Training accuracy : 72.95%
+│ Testing ...
+└── Testing accuracy : 78.00%
+  └──> Saving the best model to "./models/distillate/Tresnet18_Sresnet18_x4.pth"
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 3[h] 55[m] 50[s]
+
+
+┌ Epoch (33/299)
+loss = 1.3448
+├── Training Loss : 0.0714
+├── Training accuracy : 73.29%
+│ Testing ...
+└── Testing accuracy : 76.44%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 3[h] 52[m] 27[s]
+
+
+┌ Epoch (34/299)
+loss = 1.2423
+├── Training Loss : 0.0713
+├── Training accuracy : 73.26%
+│ Testing ...
+└── Testing accuracy : 76.67%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 3[h] 51[m] 27[s]
+
+
+┌ Epoch (35/299)
+loss = 0.8381
+├── Training Loss : 0.0711
+├── Training accuracy : 73.79%
+│ Testing ...
+└── Testing accuracy : 75.67%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 3[h] 50[m] 35[s]
+
+
+┌ Epoch (36/299)
+loss = 0.9019
+├── Training Loss : 0.0698
+├── Training accuracy : 74.06%
+│ Testing ...
+└── Testing accuracy : 78.33%
+  └──> Saving the best model to "./models/distillate/Tresnet18_Sresnet18_x4.pth"
+Epoch time ─ 0[h] 0[m] 53[s]
+Estimated time ─ 3[h] 52[m] 30[s]
+
+
+┌ Epoch (37/299)
+loss = 1.5156
+├── Training Loss : 0.0696
+├── Training accuracy : 73.97%
+│ Testing ...
+└── Testing accuracy : 78.78%
+  └──> Saving the best model to "./models/distillate/Tresnet18_Sresnet18_x4.pth"
+Epoch time ─ 0[h] 0[m] 53[s]
+Estimated time ─ 3[h] 51[m] 32[s]
+
+
+┌ Epoch (38/299)
+loss = 2.5875
+├── Training Loss : 0.0692
+├── Training accuracy : 74.25%
+│ Testing ...
+└── Testing accuracy : 79.11%
+  └──> Saving the best model to "./models/distillate/Tresnet18_Sresnet18_x4.pth"
+Epoch time ─ 0[h] 0[m] 53[s]
+Estimated time ─ 3[h] 50[m] 46[s]
+
+
+┌ Epoch (39/299)
+loss = 1.4530
+├── Training Loss : 0.0681
+├── Training accuracy : 74.69%
+│ Testing ...
+└── Testing accuracy : 76.44%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 3[h] 47[m] 10[s]
+
+
+┌ Epoch (40/299)
+loss = 1.4512
+├── Training Loss : 0.0675
+├── Training accuracy : 74.65%
+│ Testing ...
+└── Testing accuracy : 78.89%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 3[h] 46[m] 30[s]
+
+
+┌ Epoch (41/299)
+loss = 1.0617
+├── Training Loss : 0.0674
+├── Training accuracy : 75.12%
+│ Testing ...
+└── Testing accuracy : 78.00%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 3[h] 45[m] 25[s]
+
+
+┌ Epoch (42/299)
+loss = 1.2930
+├── Training Loss : 0.0664
+├── Training accuracy : 75.45%
+│ Testing ...
+└── Testing accuracy : 78.67%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 3[h] 44[m] 39[s]
+
+
+┌ Epoch (43/299)
+loss = 0.7967
+├── Training Loss : 0.0653
+├── Training accuracy : 76.24%
+│ Testing ...
+└── Testing accuracy : 78.44%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 3[h] 43[m] 54[s]
+
+
+┌ Epoch (44/299)
+loss = 0.9656
+├── Training Loss : 0.0652
+├── Training accuracy : 76.12%
+│ Testing ...
+└── Testing accuracy : 77.89%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 3[h] 43[m] 11[s]
+
+
+┌ Epoch (45/299)
+loss = 1.5934
+├── Training Loss : 0.0655
+├── Training accuracy : 76.18%
+│ Testing ...
+└── Testing accuracy : 77.56%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 3[h] 42[m] 4[s]
+
+
+┌ Epoch (46/299)
+loss = 0.8484
+├── Training Loss : 0.0642
+├── Training accuracy : 76.70%
+│ Testing ...
+└── Testing accuracy : 79.00%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 3[h] 41[m] 21[s]
+
+
+┌ Epoch (47/299)
+loss = 1.7585
+├── Training Loss : 0.0632
+├── Training accuracy : 77.12%
+│ Testing ...
+└── Testing accuracy : 78.78%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 3[h] 40[m] 42[s]
+
+
+┌ Epoch (48/299)
+loss = 0.5581
+├── Training Loss : 0.0632
+├── Training accuracy : 77.13%
+│ Testing ...
+└── Testing accuracy : 77.56%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 3[h] 39[m] 32[s]
+
+
+┌ Epoch (49/299)
+loss = 1.4069
+├── Training Loss : 0.0631
+├── Training accuracy : 77.21%
+│ Testing ...
+└── Testing accuracy : 80.11%
+  └──> Saving the best model to "./models/distillate/Tresnet18_Sresnet18_x4.pth"
+Epoch time ─ 0[h] 0[m] 53[s]
+Estimated time ─ 3[h] 41[m] 15[s]
+
+
+┌ Epoch (50/299)
+loss = 0.6737
+├── Training Loss : 0.0634
+├── Training accuracy : 76.97%
+│ Testing ...
+└── Testing accuracy : 79.00%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 3[h] 38[m] 0[s]
+
+
+┌ Epoch (51/299)
+loss = 0.5999
+├── Training Loss : 0.0621
+├── Training accuracy : 77.63%
+│ Testing ...
+└── Testing accuracy : 80.11%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 3[h] 37[m] 32[s]
+
+
+┌ Epoch (52/299)
+loss = 1.0903
+├── Training Loss : 0.0619
+├── Training accuracy : 77.75%
+│ Testing ...
+└── Testing accuracy : 79.00%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 3[h] 36[m] 2[s]
+
+
+┌ Epoch (53/299)
+loss = 0.9234
+├── Training Loss : 0.0619
+├── Training accuracy : 77.56%
+│ Testing ...
+└── Testing accuracy : 79.44%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 3[h] 35[m] 24[s]
+
+
+┌ Epoch (54/299)
+loss = 1.3328
+├── Training Loss : 0.0615
+├── Training accuracy : 77.80%
+│ Testing ...
+└── Testing accuracy : 80.33%
+  └──> Saving the best model to "./models/distillate/Tresnet18_Sresnet18_x4.pth"
+Epoch time ─ 0[h] 0[m] 53[s]
+Estimated time ─ 3[h] 36[m] 48[s]
+
+
+┌ Epoch (55/299)
+loss = 1.3829
+├── Training Loss : 0.0600
+├── Training accuracy : 78.53%
+│ Testing ...
+└── Testing accuracy : 81.33%
+  └──> Saving the best model to "./models/distillate/Tresnet18_Sresnet18_x4.pth"
+Epoch time ─ 0[h] 0[m] 53[s]
+Estimated time ─ 3[h] 36[m] 18[s]
+
+
+┌ Epoch (56/299)
+loss = 1.0848
+├── Training Loss : 0.0595
+├── Training accuracy : 78.91%
+│ Testing ...
+└── Testing accuracy : 81.22%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 3[h] 32[m] 52[s]
+
+
+┌ Epoch (57/299)
+loss = 0.8063
+├── Training Loss : 0.0602
+├── Training accuracy : 78.49%
+│ Testing ...
+└── Testing accuracy : 80.11%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 3[h] 32[m] 2[s]
+
+
+┌ Epoch (58/299)
+loss = 0.8813
+├── Training Loss : 0.0595
+├── Training accuracy : 78.81%
+│ Testing ...
+└── Testing accuracy : 79.89%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 3[h] 31[m] 1[s]
+
+
+┌ Epoch (59/299)
+loss = 1.0969
+├── Training Loss : 0.0596
+├── Training accuracy : 78.77%
+│ Testing ...
+└── Testing accuracy : 79.11%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 3[h] 30[m] 10[s]
+
+
+┌ Epoch (60/299)
+loss = 1.0170
+├── Training Loss : 0.0586
+├── Training accuracy : 79.16%
+│ Testing ...
+└── Testing accuracy : 82.56%
+  └──> Saving the best model to "./models/distillate/Tresnet18_Sresnet18_x4.pth"
+Epoch time ─ 0[h] 0[m] 53[s]
+Estimated time ─ 3[h] 31[m] 31[s]
+
+
+┌ Epoch (61/299)
+loss = 0.9427
+├── Training Loss : 0.0578
+├── Training accuracy : 79.47%
+│ Testing ...
+└── Testing accuracy : 80.22%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 3[h] 28[m] 13[s]
+
+
+┌ Epoch (62/299)
+loss = 0.4771
+├── Training Loss : 0.0584
+├── Training accuracy : 79.26%
+│ Testing ...
+└── Testing accuracy : 80.89%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 3[h] 27[m] 34[s]
+
+
+┌ Epoch (63/299)
+loss = 0.6762
+├── Training Loss : 0.0580
+├── Training accuracy : 79.26%
+│ Testing ...
+└── Testing accuracy : 81.44%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 3[h] 26[m] 38[s]
+
+
+┌ Epoch (64/299)
+loss = 0.9643
+├── Training Loss : 0.0575
+├── Training accuracy : 79.90%
+│ Testing ...
+└── Testing accuracy : 80.44%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 3[h] 25[m] 41[s]
+
+
+┌ Epoch (65/299)
+loss = 0.6857
+├── Training Loss : 0.0578
+├── Training accuracy : 79.78%
+│ Testing ...
+└── Testing accuracy : 80.67%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 3[h] 24[m] 52[s]
+
+
+┌ Epoch (66/299)
+loss = 0.7471
+├── Training Loss : 0.0567
+├── Training accuracy : 80.00%
+│ Testing ...
+└── Testing accuracy : 79.89%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 3[h] 24[m] 4[s]
+
+
+┌ Epoch (67/299)
+loss = 1.0397
+├── Training Loss : 0.0572
+├── Training accuracy : 79.79%
+│ Testing ...
+└── Testing accuracy : 78.78%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 3[h] 23[m] 12[s]
+
+
+┌ Epoch (68/299)
+loss = 0.6472
+├── Training Loss : 0.0566
+├── Training accuracy : 80.01%
+│ Testing ...
+└── Testing accuracy : 80.56%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 3[h] 22[m] 5[s]
+
+
+┌ Epoch (69/299)
+loss = 0.9572
+├── Training Loss : 0.0557
+├── Training accuracy : 80.48%
+│ Testing ...
+└── Testing accuracy : 80.22%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 3[h] 21[m] 29[s]
+
+
+┌ Epoch (70/299)
+loss = 0.4297
+├── Training Loss : 0.0560
+├── Training accuracy : 80.35%
+│ Testing ...
+└── Testing accuracy : 79.00%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 3[h] 20[m] 36[s]
+
+
+┌ Epoch (71/299)
+loss = 0.5464
+├── Training Loss : 0.0566
+├── Training accuracy : 80.01%
+│ Testing ...
+└── Testing accuracy : 81.56%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 3[h] 19[m] 46[s]
+
+
+┌ Epoch (72/299)
+loss = 1.1604
+├── Training Loss : 0.0556
+├── Training accuracy : 80.56%
+│ Testing ...
+└── Testing accuracy : 80.67%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 3[h] 19[m] 7[s]
+
+
+┌ Epoch (73/299)
+loss = 0.5197
+├── Training Loss : 0.0554
+├── Training accuracy : 80.67%
+│ Testing ...
+└── Testing accuracy : 79.89%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 3[h] 18[m] 5[s]
+
+
+┌ Epoch (74/299)
+loss = 0.9617
+├── Training Loss : 0.0548
+├── Training accuracy : 81.03%
+│ Testing ...
+└── Testing accuracy : 82.11%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 3[h] 17[m] 7[s]
+
+
+┌ Epoch (75/299)
+loss = 1.1062
+├── Training Loss : 0.0552
+├── Training accuracy : 80.63%
+│ Testing ...
+└── Testing accuracy : 80.11%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 3[h] 16[m] 10[s]
+
+
+┌ Epoch (76/299)
+loss = 1.2230
+├── Training Loss : 0.0550
+├── Training accuracy : 80.73%
+│ Testing ...
+└── Testing accuracy : 81.44%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 3[h] 15[m] 26[s]
+
+
+┌ Epoch (77/299)
+loss = 0.9149
+├── Training Loss : 0.0544
+├── Training accuracy : 81.10%
+│ Testing ...
+└── Testing accuracy : 81.33%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 3[h] 14[m] 38[s]
+
+
+┌ Epoch (78/299)
+loss = 0.6177
+├── Training Loss : 0.0548
+├── Training accuracy : 80.85%
+│ Testing ...
+└── Testing accuracy : 83.11%
+  └──> Saving the best model to "./models/distillate/Tresnet18_Sresnet18_x4.pth"
+Epoch time ─ 0[h] 0[m] 53[s]
+Estimated time ─ 3[h] 15[m] 56[s]
+
+
+┌ Epoch (79/299)
+loss = 1.6089
+├── Training Loss : 0.0536
+├── Training accuracy : 81.65%
+│ Testing ...
+└── Testing accuracy : 81.11%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 3[h] 12[m] 53[s]
+
+
+┌ Epoch (80/299)
+loss = 1.8182
+├── Training Loss : 0.0532
+├── Training accuracy : 81.79%
+│ Testing ...
+└── Testing accuracy : 81.00%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 3[h] 11[m] 58[s]
+
+
+┌ Epoch (81/299)
+loss = 1.2848
+├── Training Loss : 0.0544
+├── Training accuracy : 80.95%
+│ Testing ...
+└── Testing accuracy : 82.89%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 3[h] 11[m] 7[s]
+
+
+┌ Epoch (82/299)
+loss = 0.8645
+├── Training Loss : 0.0537
+├── Training accuracy : 81.52%
+│ Testing ...
+└── Testing accuracy : 80.11%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 3[h] 10[m] 16[s]
+
+
+┌ Epoch (83/299)
+loss = 0.4522
+├── Training Loss : 0.0536
+├── Training accuracy : 81.59%
+│ Testing ...
+└── Testing accuracy : 80.89%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 3[h] 9[m] 28[s]
+
+
+┌ Epoch (84/299)
+loss = 0.9680
+├── Training Loss : 0.0524
+├── Training accuracy : 82.06%
+│ Testing ...
+└── Testing accuracy : 79.00%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 3[h] 8[m] 37[s]
+
+
+┌ Epoch (85/299)
+loss = 0.5458
+├── Training Loss : 0.0526
+├── Training accuracy : 81.78%
+│ Testing ...
+└── Testing accuracy : 80.89%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 3[h] 7[m] 43[s]
+
+
+┌ Epoch (86/299)
+loss = 2.2618
+├── Training Loss : 0.0531
+├── Training accuracy : 81.73%
+│ Testing ...
+└── Testing accuracy : 81.44%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 3[h] 6[m] 43[s]
+
+
+┌ Epoch (87/299)
+loss = 0.6970
+├── Training Loss : 0.0529
+├── Training accuracy : 81.75%
+│ Testing ...
+└── Testing accuracy : 80.00%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 3[h] 5[m] 54[s]
+
+
+┌ Epoch (88/299)
+loss = 1.0303
+├── Training Loss : 0.0515
+├── Training accuracy : 82.53%
+│ Testing ...
+└── Testing accuracy : 80.78%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 3[h] 4[m] 53[s]
+
+
+┌ Epoch (89/299)
+loss = 0.6271
+├── Training Loss : 0.0519
+├── Training accuracy : 82.31%
+│ Testing ...
+└── Testing accuracy : 81.22%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 3[h] 3[m] 55[s]
+
+
+┌ Epoch (90/299)
+loss = 1.5558
+├── Training Loss : 0.0513
+├── Training accuracy : 82.83%
+│ Testing ...
+└── Testing accuracy : 80.44%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 3[h] 3[m] 21[s]
+
+
+┌ Epoch (91/299)
+loss = 0.9719
+├── Training Loss : 0.0516
+├── Training accuracy : 82.63%
+│ Testing ...
+└── Testing accuracy : 78.33%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 3[h] 2[m] 16[s]
+
+
+┌ Epoch (92/299)
+loss = 0.4842
+├── Training Loss : 0.0510
+├── Training accuracy : 82.71%
+│ Testing ...
+└── Testing accuracy : 80.89%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 3[h] 1[m] 25[s]
+
+
+┌ Epoch (93/299)
+loss = 1.6578
+├── Training Loss : 0.0517
+├── Training accuracy : 82.29%
+│ Testing ...
+└── Testing accuracy : 81.78%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 3[h] 0[m] 30[s]
+
+
+┌ Epoch (94/299)
+loss = 1.2177
+├── Training Loss : 0.0512
+├── Training accuracy : 82.91%
+│ Testing ...
+└── Testing accuracy : 81.56%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 2[h] 59[m] 45[s]
+
+
+┌ Epoch (95/299)
+loss = 0.5675
+├── Training Loss : 0.0506
+├── Training accuracy : 83.07%
+│ Testing ...
+└── Testing accuracy : 81.22%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 2[h] 58[m] 38[s]
+
+
+┌ Epoch (96/299)
+loss = 0.5079
+├── Training Loss : 0.0509
+├── Training accuracy : 82.71%
+│ Testing ...
+└── Testing accuracy : 80.44%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 2[h] 57[m] 57[s]
+
+
+┌ Epoch (97/299)
+loss = 0.7013
+├── Training Loss : 0.0503
+├── Training accuracy : 83.22%
+│ Testing ...
+└── Testing accuracy : 81.00%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 2[h] 57[m] 9[s]
+
+
+┌ Epoch (98/299)
+loss = 0.8752
+├── Training Loss : 0.0499
+├── Training accuracy : 83.26%
+│ Testing ...
+└── Testing accuracy : 80.89%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 2[h] 56[m] 7[s]
+
+
+┌ Epoch (99/299)
+loss = 1.1300
+├── Training Loss : 0.0510
+├── Training accuracy : 82.78%
+│ Testing ...
+└── Testing accuracy : 81.33%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 2[h] 55[m] 27[s]
+
+
+┌ Epoch (100/299)
+loss = 1.1099
+├── Training Loss : 0.0503
+├── Training accuracy : 83.06%
+│ Testing ...
+└── Testing accuracy : 81.67%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 2[h] 54[m] 34[s]
+
+
+┌ Epoch (101/299)
+loss = 0.9815
+├── Training Loss : 0.0499
+├── Training accuracy : 83.01%
+│ Testing ...
+└── Testing accuracy : 82.89%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 2[h] 53[m] 27[s]
+
+
+┌ Epoch (102/299)
+loss = 0.7963
+├── Training Loss : 0.0496
+├── Training accuracy : 83.32%
+│ Testing ...
+└── Testing accuracy : 81.00%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 2[h] 52[m] 50[s]
+
+
+┌ Epoch (103/299)
+loss = 0.9221
+├── Training Loss : 0.0491
+├── Training accuracy : 83.61%
+│ Testing ...
+└── Testing accuracy : 81.44%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 2[h] 51[m] 49[s]
+
+
+┌ Epoch (104/299)
+loss = 0.6631
+├── Training Loss : 0.0497
+├── Training accuracy : 83.31%
+│ Testing ...
+└── Testing accuracy : 81.00%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 2[h] 50[m] 53[s]
+
+
+┌ Epoch (105/299)
+loss = 1.1960
+├── Training Loss : 0.0493
+├── Training accuracy : 83.58%
+│ Testing ...
+└── Testing accuracy : 81.33%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 2[h] 50[m] 2[s]
+
+
+┌ Epoch (106/299)
+loss = 0.5431
+├── Training Loss : 0.0491
+├── Training accuracy : 83.69%
+│ Testing ...
+└── Testing accuracy : 80.56%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 2[h] 49[m] 19[s]
+
+
+┌ Epoch (107/299)
+loss = 0.9477
+├── Training Loss : 0.0494
+├── Training accuracy : 83.27%
+│ Testing ...
+└── Testing accuracy : 81.00%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 2[h] 48[m] 21[s]
+
+
+┌ Epoch (108/299)
+loss = 0.6744
+├── Training Loss : 0.0490
+├── Training accuracy : 83.73%
+│ Testing ...
+└── Testing accuracy : 78.78%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 2[h] 47[m] 30[s]
+
+
+┌ Epoch (109/299)
+loss = 0.7405
+├── Training Loss : 0.0500
+├── Training accuracy : 82.82%
+│ Testing ...
+└── Testing accuracy : 81.22%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 2[h] 46[m] 30[s]
+
+
+┌ Epoch (110/299)
+loss = 0.7314
+├── Training Loss : 0.0481
+├── Training accuracy : 83.98%
+│ Testing ...
+└── Testing accuracy : 82.56%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 2[h] 45[m] 47[s]
+
+
+┌ Epoch (111/299)
+loss = 0.6531
+├── Training Loss : 0.0486
+├── Training accuracy : 83.82%
+│ Testing ...
+└── Testing accuracy : 82.56%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 2[h] 44[m] 48[s]
+
+
+┌ Epoch (112/299)
+loss = 0.9926
+├── Training Loss : 0.0480
+├── Training accuracy : 84.15%
+│ Testing ...
+└── Testing accuracy : 81.56%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 2[h] 44[m] 10[s]
+
+
+┌ Epoch (113/299)
+loss = 0.9477
+├── Training Loss : 0.0476
+├── Training accuracy : 84.39%
+│ Testing ...
+└── Testing accuracy : 80.67%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 2[h] 42[m] 56[s]
+
+
+┌ Epoch (114/299)
+loss = 1.2691
+├── Training Loss : 0.0485
+├── Training accuracy : 83.99%
+│ Testing ...
+└── Testing accuracy : 81.00%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 2[h] 42[m] 11[s]
+
+
+┌ Epoch (115/299)
+loss = 0.8099
+├── Training Loss : 0.0488
+├── Training accuracy : 83.48%
+│ Testing ...
+└── Testing accuracy : 82.00%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 2[h] 41[m] 47[s]
+
+
+┌ Epoch (116/299)
+loss = 1.1988
+├── Training Loss : 0.0481
+├── Training accuracy : 84.13%
+│ Testing ...
+└── Testing accuracy : 82.11%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 2[h] 40[m] 30[s]
+
+
+┌ Epoch (117/299)
+loss = 0.6405
+├── Training Loss : 0.0482
+├── Training accuracy : 83.79%
+│ Testing ...
+└── Testing accuracy : 80.56%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 2[h] 39[m] 35[s]
+
+
+┌ Epoch (118/299)
+loss = 0.5118
+├── Training Loss : 0.0483
+├── Training accuracy : 83.82%
+│ Testing ...
+└── Testing accuracy : 82.33%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 2[h] 38[m] 53[s]
+
+
+┌ Epoch (119/299)
+loss = 1.4119
+├── Training Loss : 0.0479
+├── Training accuracy : 83.95%
+│ Testing ...
+└── Testing accuracy : 82.11%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 2[h] 37[m] 57[s]
+
+
+┌ Epoch (120/299)
+loss = 1.0732
+├── Training Loss : 0.0478
+├── Training accuracy : 84.08%
+│ Testing ...
+└── Testing accuracy : 81.78%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 2[h] 37[m] 3[s]
+
+
+┌ Epoch (121/299)
+loss = 0.8601
+├── Training Loss : 0.0479
+├── Training accuracy : 84.20%
+│ Testing ...
+└── Testing accuracy : 81.44%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 2[h] 36[m] 6[s]
+
+
+┌ Epoch (122/299)
+loss = 0.6368
+├── Training Loss : 0.0472
+├── Training accuracy : 84.14%
+│ Testing ...
+└── Testing accuracy : 82.11%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 2[h] 35[m] 15[s]
+
+
+┌ Epoch (123/299)
+loss = 1.1034
+├── Training Loss : 0.0470
+├── Training accuracy : 84.61%
+│ Testing ...
+└── Testing accuracy : 81.67%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 2[h] 34[m] 18[s]
+
+
+┌ Epoch (124/299)
+loss = 0.8491
+├── Training Loss : 0.0467
+├── Training accuracy : 84.63%
+│ Testing ...
+└── Testing accuracy : 81.44%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 2[h] 33[m] 23[s]
+
+
+┌ Epoch (125/299)
+loss = 0.9204
+├── Training Loss : 0.0472
+├── Training accuracy : 84.44%
+│ Testing ...
+└── Testing accuracy : 80.67%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 2[h] 32[m] 38[s]
+
+
+┌ Epoch (126/299)
+loss = 0.7826
+├── Training Loss : 0.0469
+├── Training accuracy : 84.42%
+│ Testing ...
+└── Testing accuracy : 81.67%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 2[h] 31[m] 41[s]
+
+
+┌ Epoch (127/299)
+loss = 0.6366
+├── Training Loss : 0.0470
+├── Training accuracy : 84.32%
+│ Testing ...
+└── Testing accuracy : 80.11%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 2[h] 30[m] 38[s]
+
+
+┌ Epoch (128/299)
+loss = 1.0774
+├── Training Loss : 0.0474
+├── Training accuracy : 84.47%
+│ Testing ...
+└── Testing accuracy : 81.11%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 2[h] 30[m] 2[s]
+
+
+┌ Epoch (129/299)
+loss = 0.8243
+├── Training Loss : 0.0463
+├── Training accuracy : 85.02%
+│ Testing ...
+└── Testing accuracy : 82.11%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 2[h] 29[m] 2[s]
+
+
+┌ Epoch (130/299)
+loss = 0.6455
+├── Training Loss : 0.0477
+├── Training accuracy : 84.37%
+│ Testing ...
+└── Testing accuracy : 80.11%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 2[h] 28[m] 14[s]
+
+
+┌ Epoch (131/299)
+loss = 0.6259
+├── Training Loss : 0.0466
+├── Training accuracy : 84.56%
+│ Testing ...
+└── Testing accuracy : 82.44%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 2[h] 27[m] 21[s]
+
+
+┌ Epoch (132/299)
+loss = 0.9990
+├── Training Loss : 0.0465
+├── Training accuracy : 84.56%
+│ Testing ...
+└── Testing accuracy : 82.89%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 2[h] 26[m] 28[s]
+
+
+┌ Epoch (133/299)
+loss = 1.5688
+├── Training Loss : 0.0465
+├── Training accuracy : 84.78%
+│ Testing ...
+└── Testing accuracy : 81.89%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 2[h] 25[m] 25[s]
+
+
+┌ Epoch (134/299)
+loss = 1.1873
+├── Training Loss : 0.0456
+├── Training accuracy : 85.26%
+│ Testing ...
+└── Testing accuracy : 82.44%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 2[h] 24[m] 44[s]
+
+
+┌ Epoch (135/299)
+loss = 1.8043
+├── Training Loss : 0.0459
+├── Training accuracy : 85.02%
+│ Testing ...
+└── Testing accuracy : 79.78%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 2[h] 23[m] 56[s]
+
+
+┌ Epoch (136/299)
+loss = 0.7941
+├── Training Loss : 0.0459
+├── Training accuracy : 85.16%
+│ Testing ...
+└── Testing accuracy : 83.22%
+  └──> Saving the best model to "./models/distillate/Tresnet18_Sresnet18_x4.pth"
+Epoch time ─ 0[h] 0[m] 53[s]
+Estimated time ─ 2[h] 24[m] 45[s]
+
+
+┌ Epoch (137/299)
+loss = 0.4694
+├── Training Loss : 0.0456
+├── Training accuracy : 85.29%
+│ Testing ...
+└── Testing accuracy : 82.33%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 2[h] 22[m] 19[s]
+
+
+┌ Epoch (138/299)
+loss = 0.7822
+├── Training Loss : 0.0460
+├── Training accuracy : 85.33%
+│ Testing ...
+└── Testing accuracy : 80.78%
+Epoch time ─ 0[h] 0[m] 52[s]
+Estimated time ─ 2[h] 21[m] 16[s]
+
+
+┌ Epoch (139/299)

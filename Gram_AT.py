@@ -20,9 +20,20 @@ plt.rcParams['figure.figsize'] = (30,30)
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--n_gpu", type=str, default="0")
+parser.add_argument("--LR_scale", type=int, default=2)
+parser.add_argument("--batch_size", type=int, default=16)
+parser.add_argument("--num_workers", type=int, default=8)
+parser.add_argument("--use_grammian", action='store_true')
+parser.add_argument("--alpha", type=float, default=0.9)
+parser.add_argument("--temperature", type=float, default=4)
+parser.add_argument("--beta", type=float, default=0.1)
+args = parser.parse_args()
 
-os.environ['CUDA_VISIBLE_DEVICES'] = "0,1,2,3"
+params = {'alpha':args.alpha, 'T':args.temperature, 'beta':args.beta}
 
+os.environ['CUDA_VISIBLE_DEVICES'] = args.n_gpu
+
+LR_scale = args.LR_scale
 
 # %%
 class MultiscaleDataset(Dataset):
@@ -85,9 +96,8 @@ def get_test_loader(root='/data/ILSVRC_Birds/val/', LR_scale=2, HR_size=[224,224
     
     return test_dataloader
 
-LR_scale = 4
-train_loader = get_train_loader(LR_scale=LR_scale, batch_size=16, num_workers=8)
-test_loader = get_test_loader(LR_scale=LR_scale, batch_size=16, num_workers=8)
+train_loader = get_train_loader(LR_scale=LR_scale, batch_size=args.batch_size, num_workers=args.num_workers)
+test_loader = get_test_loader(LR_scale=LR_scale, batch_size=args.batch_size, num_workers=args.num_workers)
 
 
 # %%
@@ -231,7 +241,7 @@ hook_net_s = nn.DataParallel(hook_net_s)
 # %%
 # Calculate attention loss between gram matricies if use_grammian==True.
 # - If false, use feature map MSE distance.
-use_grammian = False
+use_grammian = args.use_grammian
 
 # %% [markdown]
 # # New loss function between LR and HR representation
@@ -269,7 +279,6 @@ def GramMatrix(input):
     return G.div(a * b * c * d)
 
 def distillate(teacher, student, train_loader):
-    params = {'alpha':0.9, 'T':4, 'beta':0.1}
 
     # According to 'Low-resolution visual recognition via deep feature distillation(DFD)',
     # They use MSE Loss for distillation loss instead of NLL loss.
@@ -279,7 +288,7 @@ def distillate(teacher, student, train_loader):
     
     optimizer = optim.SGD(student.parameters(),lr=1e-2, momentum=0.9, weight_decay=4e-5)
     
-    scheduler = optim.lr_scheduler.StepLR(optimizer, 50, gamma=0.1)
+    scheduler = optim.lr_scheduler.StepLR(optimizer, 100, gamma=0.1)
 
     attention_loss = 0
     

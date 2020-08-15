@@ -1,0 +1,4 @@
+Teacher: resnet18, Student: resnet18
+Distillate teacher's HR(x1) knowledge (92.67%) to the student.
+─── Start Training & Evalutation ───
+┌ Epoch (0/299)
