@@ -200,8 +200,10 @@ net_t.load_state_dict(teacher_dict['net'])
 
 net_s = get_model(student_name, LR_scale, pretrained=False, num_classes=18)
 net_s = net_s.to(device)
-# student_dict = torch.load(f"./models/birds/best_resnet18_x{down_scale}_True.pth")
+student_dict = torch.load(f"./models/birds/best_resnet18_x{LR_scale}_True.pth")
+print(student_dict)
 
+exit()
 print(f"Distillate teacher's HR(x1) knowledge ({teacher_dict['acc']*100:.2f}%) to the student.")
 # print(f"Using pretrained student's LR(x2) knowledge ({student_dict['acc']*100:.2f}%) to the student.")
 
@@ -310,9 +312,10 @@ def distillate(teacher, student, train_loader):
         at_loss = 0
 
         for f_t, f_s in zip(feature_t, feature_s):
-            f_t = nn.AdaptiveMaxPool2d(f_s.shape[2:])(f_t)
             if use_grammian == True:
                 f_t, f_s = GramMatrix(f_t), GramMatrix(f_s)
+            else: # Not required when use grammian. (Distance between CxC matrices)
+                f_t = nn.AdaptiveMaxPool2d(f_s.shape[2:])(f_t)
             at_loss += AT_criterion(f_t, f_s)
         
         loss = criterion(pred_s, pred_t, label) + params['beta']*at_loss

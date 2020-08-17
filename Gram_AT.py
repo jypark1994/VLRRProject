@@ -27,6 +27,7 @@ parser.add_argument("--use_grammian", action='store_true')
 parser.add_argument("--alpha", type=float, default=0.9)
 parser.add_argument("--temperature", type=float, default=4)
 parser.add_argument("--beta", type=float, default=0.1)
+parser.add_argument("--pooling", type=str, default="max")
 args = parser.parse_args()
 
 params = {'alpha':args.alpha, 'T':args.temperature, 'beta':args.beta}
@@ -210,11 +211,13 @@ net_t.load_state_dict(teacher_dict['net'])
 
 net_s = get_model(student_name, LR_scale, pretrained=False, num_classes=18)
 net_s = net_s.to(device)
-# student_dict = torch.load(f"./models/birds/best_resnet18_x{down_scale}_True.pth")
+student_dict = torch.load(f"./models/birds/best_resnet18_x{LR_scale}_True.pth")
+net_s.load_state_dict(student_dict['net'])
+
 
 print(f"Distillate teacher's HR(x1) knowledge ({teacher_dict['acc']*100:.2f}%) to the student.")
-# print(f"Using pretrained student's LR(x2) knowledge ({student_dict['acc']*100:.2f}%) to the student.")
-
+print(f"Using pretrained student's LR(x{LR_scale}) knowledge ({student_dict['acc']*100:.2f}%) to the student.")
+del student_dict
 
 # %%
 # Set target layers to distillate attention.
@@ -309,7 +312,6 @@ def distillate(teacher, student, train_loader):
         pred_s = student(batch_lr)
 
         # Feature map extraction from both teacher and student networks.
-        # Current target : Conv1
         feature_t = teacher.module.get_features()
         feature_s = student.module.get_features()
 
@@ -318,11 +320,16 @@ def distillate(teacher, student, train_loader):
         # The kernel size can be varied according to the LR scale.
         at_loss = 0
 
-        for f_t, f_s in zip(feature_t, feature_s):
-            f_t = nn.AdaptiveMaxPool2d(f_s.shape[2:])(f_t)
+        for f_t, f_s in zip(feature_t, feature_s): # Iterate feature maps of teacher and student in the same stage
             if use_grammian == True:
                 f_t, f_s = GramMatrix(f_t), GramMatrix(f_s)
-            at_loss += AT_criterion(f_t, f_s)
+
+            else: # Not required when use grammian. (Distance between CxC matrices)
+                if args.pooling == "max": # Fit teacher's feature size to student's ones
+                    f_t = nn.AdaptiveMaxPool2d(f_s.shape[2:])(f_t)
+                else:
+                    f_t = nn.AdaptiveAvgPool2d(f_s.shape[2:])(f_t)
+            at_loss += AT_criterion(f_t, f_s) # Accumulate loss for each stage
         
         loss = criterion(pred_s, pred_t, label) + params['beta']*at_loss
     

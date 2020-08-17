@@ -1,0 +1,16 @@
+Teacher: resnet18, Student: resnet18
+Distillate teacher's HR(x1) knowledge (92.67%) to the student.
+Using pretrained student's LR(x2) knowledge (87.22%) to the student.
+─── Start Training & Evalutation ───
+┌ Epoch (0/299)
+loss = 1.1767
+├── Training Loss : 0.0506
+├── Training accuracy : 63.17%
+│ Testing ...
+└── Testing accuracy : 65.89%
+  └──> Saving the best model to "./models/distillate/Tresnet18_Sresnet18_x4.pth"
+Epoch time ─ 0[h] 0[m] 46[s]
+Estimated time ─ 3[h] 51[m] 17[s]
+
+
+┌ Epoch (1/299)
