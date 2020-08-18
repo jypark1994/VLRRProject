@@ -28,6 +28,7 @@ parser.add_argument("--alpha", type=float, default=0.9)
 parser.add_argument("--temperature", type=float, default=4)
 parser.add_argument("--beta", type=float, default=0.1)
 parser.add_argument("--pooling", type=str, default="max")
+parser.add_argument("--light", action='store_true')
 args = parser.parse_args()
 
 params = {'alpha':args.alpha, 'T':args.temperature, 'beta':args.beta}
@@ -156,7 +157,10 @@ def get_model(model, down_scale=2, pretrained=False, num_classes = 18):
         if down_scale == 1:
             net = models.resnet18(pretrained=pretrained)
         else:
-            net = lrResnet.resnet18_LR(scale=down_scale, pretrained=pretrained)
+            if args.light:
+                net = lrResnet.resnet18_Light(scale=down_scale)
+            else:
+                net = lrResnet.resnet18_LR(scale=down_scale, pretrained=pretrained)
         net.fc = nn.Linear(in_features=512, out_features=num_classes)
     return net
 
@@ -211,13 +215,18 @@ net_t.load_state_dict(teacher_dict['net'])
 
 net_s = get_model(student_name, LR_scale, pretrained=False, num_classes=18)
 net_s = net_s.to(device)
-student_dict = torch.load(f"./models/birds/best_resnet18_x{LR_scale}_True.pth")
-net_s.load_state_dict(student_dict['net'])
-
 
 print(f"Distillate teacher's HR(x1) knowledge ({teacher_dict['acc']*100:.2f}%) to the student.")
-print(f"Using pretrained student's LR(x{LR_scale}) knowledge ({student_dict['acc']*100:.2f}%) to the student.")
-del student_dict
+
+if args.light == False:
+    print("Using LRResNet18")
+    print("- Load pretrained weight")
+    student_dict = torch.load(f"./models/birds/best_resnet18_x{LR_scale}_True.pth")
+    net_s.load_state_dict(student_dict['net'])
+    print(f"Using pretrained student's LR(x{LR_scale}) knowledge ({student_dict['acc']*100:.2f}%) to the student.")
+    del student_dict
+else:
+    print("Using Lighter ResNet18")
 
 # %%
 # Set target layers to distillate attention.

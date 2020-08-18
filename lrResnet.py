@@ -233,6 +233,21 @@ def resnet18_CIFAR(pretrained=False, progress=True):
         
     return model
 
+
+def resnet18_Light(scale, pretrained=False, progress=True):
+    if scale == 2:
+        model = _resnet(BasicBlock, [1,1,1,1], pool=False, block_stride=[2,2,2,2])
+    elif scale == 4:
+        model = _resnet(BasicBlock, [1,1,1,1], pool=False, block_stride=[2,2,2,1])
+    elif scale == 8:
+        model = _resnet(BasicBlock, [1,1,1,1], pool=False, block_stride=[2,2,1,1])
+    elif scale == 16:
+        model = _resnet(BasicBlock, [1,1,1,1], pool=False, block_stride=[2,1,1,1])
+    else:
+        assert "Scale not supported !"
+        
+    return model
+
 def resnet18_LR(scale, pretrained=False, progress=True):
     if scale == 2:
         model = _resnet(BasicBlock, [2,2,2,2], pool=False, block_stride=[2,2,2,2])
