@@ -240,7 +240,7 @@ else:
 #    - Train using 'conv1' + 'layer1~4' shown accuracy around 83% (Updating)
 
 # target_layers = ['conv1','layer1','layer2','layer3','layer4']
-target_layers = ['conv1','layer1','layer2','layer3','layer4']
+target_layers = ['layer3','layer4']
 hook_net_t = HookWrapper(net_t, target_layers)
 hook_net_s = HookWrapper(net_s, target_layers)
 
@@ -264,7 +264,12 @@ use_grammian = args.use_grammian
 #         - 2x  : 112 -> 112 -> 56  -> 28  -> 14  -> 7   -> GAP
 #         - 4x  : 56  -> 56  -> 28  -> 14  -> 7   -> 7   -> GAP
 #         - 8x  : 28  -> 28  -> 14  -> 14  -> 7   -> 7   -> GAP
+def at(x):
+    return F.normalize(x.pow(2).mean(1).view(x.size(0), -1))
 
+
+def at_criterion(x, y):
+    return (at(x) - at(y)).pow(2).mean()
 # %%
 class KD_loss():
     def __init__(self, params):
@@ -295,12 +300,11 @@ def distillate(teacher, student, train_loader):
     # According to 'Low-resolution visual recognition via deep feature distillation(DFD)',
     # They use MSE Loss for distillation loss instead of NLL loss.
 
-    criterion = KD_loss(params)
-    AT_criterion = nn.MSELoss()
+    criterion = KD_loss(params)\
     
     optimizer = optim.SGD(student.parameters(),lr=1e-2, momentum=0.9, weight_decay=4e-5)
     
-    scheduler = optim.lr_scheduler.StepLR(optimizer, 100, gamma=0.1)
+    scheduler = optim.lr_scheduler.StepLR(optimizer, 50, gamma=0.1)
 
     attention_loss = 0
     
@@ -338,7 +342,7 @@ def distillate(teacher, student, train_loader):
                     f_t = nn.AdaptiveMaxPool2d(f_s.shape[2:])(f_t)
                 else:
                     f_t = nn.AdaptiveAvgPool2d(f_s.shape[2:])(f_t)
-            at_loss += AT_criterion(f_t, f_s) # Accumulate loss for each stage
+            at_loss += at_criterion(f_t, f_s) # Accumulate loss for each stage
         
         loss = criterion(pred_s, pred_t, label) + params['beta']*at_loss
     

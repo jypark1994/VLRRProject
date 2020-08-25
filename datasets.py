@@ -85,8 +85,8 @@ def CIFAR10(args):
         Args:
             image in, image out, nothing is done
         """
-    def __call__(self, image):       
-        return image
+        def __call__(self, image):       
+            return image
 
     transforms_train = transforms.Compose([
         transforms.RandomCrop(32, padding=4),
