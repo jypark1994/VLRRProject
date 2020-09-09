@@ -1,0 +1,66 @@
+Namespace(cuda='1', down_scale=1, epochs=300, learning_rate=0.0001, model_name='resnet34', pretrained=True)
+Using device ... cuda
+Files already downloaded and verified
+Files already downloaded and verified
+─── Start Training & Evalutation ───
+┌── Epoch (0/299)
+├── Training Loss : 0.0738
+├── Training accuracy : 10.19%
+│
+└── Testing accuracy : 31.69%
+  └──> Saving the best model to "./models/original/best_resnet34_x1_True.pth"
+Epoch time ─ 0[h] 0[m] 27[s]
+Estimated time ─ 2[h] 14[m] 55[s]
+
+
+┌── Epoch (1/299)
+├── Training Loss : 0.0529
+├── Training accuracy : 33.85%
+│
+└── Testing accuracy : 51.10%
+  └──> Saving the best model to "./models/original/best_resnet34_x1_True.pth"
+Epoch time ─ 0[h] 0[m] 27[s]
+Estimated time ─ 2[h] 14[m] 43[s]
+
+
+┌── Epoch (2/299)
+├── Training Loss : 0.0406
+├── Training accuracy : 47.13%
+│
+└── Testing accuracy : 59.73%
+  └──> Saving the best model to "./models/original/best_resnet34_x1_True.pth"
+Epoch time ─ 0[h] 0[m] 27[s]
+Estimated time ─ 2[h] 14[m] 41[s]
+
+
+┌── Epoch (3/299)
+├── Training Loss : 0.0330
+├── Training accuracy : 55.92%
+│
+└── Testing accuracy : 63.84%
+  └──> Saving the best model to "./models/original/best_resnet34_x1_True.pth"
+Epoch time ─ 0[h] 0[m] 27[s]
+Estimated time ─ 2[h] 15[m] 4[s]
+
+
+┌── Epoch (4/299)
+├── Training Loss : 0.0281
+├── Training accuracy : 60.64%
+│
+└── Testing accuracy : 66.36%
+  └──> Saving the best model to "./models/original/best_resnet34_x1_True.pth"
+Epoch time ─ 0[h] 0[m] 27[s]
+Estimated time ─ 2[h] 13[m] 26[s]
+
+
+┌── Epoch (5/299)
+├── Training Loss : 0.0245
+├── Training accuracy : 65.52%
+│
+└── Testing accuracy : 70.04%
+  └──> Saving the best model to "./models/original/best_resnet34_x1_True.pth"
+Epoch time ─ 0[h] 0[m] 27[s]
+Estimated time ─ 2[h] 13[m] 53[s]
+
+
+┌── Epoch (6/299)
