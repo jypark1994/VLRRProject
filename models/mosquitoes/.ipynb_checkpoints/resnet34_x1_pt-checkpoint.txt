@@ -1,7 +1,0 @@
-Namespace(batch_size=64, dataset='mosquitoes', down_scale=1, epochs=150, model_name='resnet34', multi_gpu=False, num_workers=8, pretrained=True)
-Using device ... cuda
-─── Start Training & Evalutation ───
-┌── Epoch (0/149)
-├── Training Loss : 0.0084
-├── Training accuracy : 81.78%
-│

@@ -1,0 +1,50 @@
+Make new experiment folder
+Teacher: resnet34, Student: resnet34
+Distillate teacher's HR(x1) knowledge (92.80%) to the student.
+Use the same pre-trained weight with teacher.
+─── Start Training & Evalutation ───
+┌ Epoch (0/299)
+Soft loss = 0.0566, Hard loss = 1.1999, Total loss = 1.2564
+├── Training Loss : 0.0235
+├── Training accuracy : 41.43%
+│ Testing ...
+└── Testing accuracy : 48.44%
+  └──> Saving the best model to "./experiments/RESNET34_A09_T2_LR1E-2_BS64/Tresnet34_Sresnet34_x4.pth"
+Epoch time ─ 0[h] 1[m] 31[s]
+Estimated time ─ 7[h] 35[m] 32[s]
+
+
+┌ Epoch (1/299)
+Soft loss = 0.0549, Hard loss = 1.0059, Total loss = 1.0608
+├── Training Loss : 0.0187
+├── Training accuracy : 54.95%
+│ Testing ...
+└── Testing accuracy : 56.80%
+  └──> Saving the best model to "./experiments/RESNET34_A09_T2_LR1E-2_BS64/Tresnet34_Sresnet34_x4.pth"
+Epoch time ─ 0[h] 1[m] 33[s]
+Estimated time ─ 7[h] 45[m] 53[s]
+
+
+┌ Epoch (2/299)
+Soft loss = 0.0664, Hard loss = 0.9873, Total loss = 1.0537
+├── Training Loss : 0.0163
+├── Training accuracy : 61.71%
+│ Testing ...
+└── Testing accuracy : 59.63%
+  └──> Saving the best model to "./experiments/RESNET34_A09_T2_LR1E-2_BS64/Tresnet34_Sresnet34_x4.pth"
+Epoch time ─ 0[h] 1[m] 34[s]
+Estimated time ─ 7[h] 46[m] 35[s]
+
+
+┌ Epoch (3/299)
+Soft loss = 0.0569, Hard loss = 1.2443, Total loss = 1.3013
+├── Training Loss : 0.0149
+├── Training accuracy : 65.38%
+│ Testing ...
+└── Testing accuracy : 66.51%
+  └──> Saving the best model to "./experiments/RESNET34_A09_T2_LR1E-2_BS64/Tresnet34_Sresnet34_x4.pth"
+Epoch time ─ 0[h] 1[m] 34[s]
+Estimated time ─ 7[h] 46[m] 0[s]
+
+
+┌ Epoch (4/299)
