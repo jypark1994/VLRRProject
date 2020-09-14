@@ -1,0 +1,839 @@
+Delete last experiment results
+Files already downloaded and verified
+Files already downloaded and verified
+Teacher: resnet34, Student: resnet34
+Distillate teacher's HR(x1) knowledge (79.74%) to the student.
+Use the same pre-trained weight with teacher.
+─── Start Training & Evalutation ───
+┌ Epoch (0/299)
+Soft loss = 0.0020, Hard loss = 0.3294, Total loss = 0.3314
+├── Training Loss : 0.0028
+├── Training accuracy : 71.81%
+│ Testing ...
+└── Testing accuracy : 62.20%
+  └──> Saving the best model to "./experiments/CUB200_A03_T2_B128_L1E-5/Tresnet34_Sresnet34_x4.pth"
+Epoch time ─ 0[h] 0[m] 24[s]
+Estimated time ─ 2[h] 1[m] 53[s]
+
+
+┌ Epoch (1/299)
+Soft loss = 0.0020, Hard loss = 0.3856, Total loss = 0.3876
+├── Training Loss : 0.0028
+├── Training accuracy : 72.36%
+│ Testing ...
+└── Testing accuracy : 62.51%
+  └──> Saving the best model to "./experiments/CUB200_A03_T2_B128_L1E-5/Tresnet34_Sresnet34_x4.pth"
+Epoch time ─ 0[h] 0[m] 20[s]
+Estimated time ─ 1[h] 41[m] 39[s]
+
+
+┌ Epoch (2/299)
+Soft loss = 0.0019, Hard loss = 0.3384, Total loss = 0.3403
+├── Training Loss : 0.0028
+├── Training accuracy : 72.46%
+│ Testing ...
+└── Testing accuracy : 62.37%
+Epoch time ─ 0[h] 0[m] 20[s]
+Estimated time ─ 1[h] 41[m] 6[s]
+
+
+┌ Epoch (3/299)
+Soft loss = 0.0021, Hard loss = 0.3232, Total loss = 0.3253
+├── Training Loss : 0.0028
+├── Training accuracy : 73.46%
+│ Testing ...
+└── Testing accuracy : 62.69%
+  └──> Saving the best model to "./experiments/CUB200_A03_T2_B128_L1E-5/Tresnet34_Sresnet34_x4.pth"
+Epoch time ─ 0[h] 0[m] 20[s]
+Estimated time ─ 1[h] 42[m] 1[s]
+
+
+┌ Epoch (4/299)
+Soft loss = 0.0020, Hard loss = 0.3597, Total loss = 0.3618
+├── Training Loss : 0.0028
+├── Training accuracy : 72.22%
+│ Testing ...
+└── Testing accuracy : 62.82%
+  └──> Saving the best model to "./experiments/CUB200_A03_T2_B128_L1E-5/Tresnet34_Sresnet34_x4.pth"
+Epoch time ─ 0[h] 0[m] 20[s]
+Estimated time ─ 1[h] 42[m] 19[s]
+
+
+┌ Epoch (5/299)
+Soft loss = 0.0017, Hard loss = 0.4123, Total loss = 0.4140
+├── Training Loss : 0.0028
+├── Training accuracy : 72.64%
+│ Testing ...
+└── Testing accuracy : 62.88%
+  └──> Saving the best model to "./experiments/CUB200_A03_T2_B128_L1E-5/Tresnet34_Sresnet34_x4.pth"
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 43[m] 42[s]
+
+
+┌ Epoch (6/299)
+Soft loss = 0.0019, Hard loss = 0.3736, Total loss = 0.3754
+├── Training Loss : 0.0027
+├── Training accuracy : 74.17%
+│ Testing ...
+└── Testing accuracy : 63.20%
+  └──> Saving the best model to "./experiments/CUB200_A03_T2_B128_L1E-5/Tresnet34_Sresnet34_x4.pth"
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 44[m] 17[s]
+
+
+┌ Epoch (7/299)
+Soft loss = 0.0019, Hard loss = 0.3392, Total loss = 0.3411
+├── Training Loss : 0.0026
+├── Training accuracy : 74.64%
+│ Testing ...
+└── Testing accuracy : 63.32%
+  └──> Saving the best model to "./experiments/CUB200_A03_T2_B128_L1E-5/Tresnet34_Sresnet34_x4.pth"
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 43[m] 26[s]
+
+
+┌ Epoch (8/299)
+Soft loss = 0.0018, Hard loss = 0.3456, Total loss = 0.3474
+├── Training Loss : 0.0027
+├── Training accuracy : 73.69%
+│ Testing ...
+└── Testing accuracy : 63.24%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 42[m] 53[s]
+
+
+┌ Epoch (9/299)
+Soft loss = 0.0018, Hard loss = 0.3519, Total loss = 0.3537
+├── Training Loss : 0.0026
+├── Training accuracy : 74.34%
+│ Testing ...
+└── Testing accuracy : 63.38%
+  └──> Saving the best model to "./experiments/CUB200_A03_T2_B128_L1E-5/Tresnet34_Sresnet34_x4.pth"
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 43[m] 4[s]
+
+
+┌ Epoch (10/299)
+Soft loss = 0.0020, Hard loss = 0.2659, Total loss = 0.2679
+├── Training Loss : 0.0026
+├── Training accuracy : 74.47%
+│ Testing ...
+└── Testing accuracy : 64.08%
+  └──> Saving the best model to "./experiments/CUB200_A03_T2_B128_L1E-5/Tresnet34_Sresnet34_x4.pth"
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 42[m] 51[s]
+
+
+┌ Epoch (11/299)
+Soft loss = 0.0018, Hard loss = 0.2729, Total loss = 0.2747
+├── Training Loss : 0.0026
+├── Training accuracy : 74.46%
+│ Testing ...
+└── Testing accuracy : 64.15%
+  └──> Saving the best model to "./experiments/CUB200_A03_T2_B128_L1E-5/Tresnet34_Sresnet34_x4.pth"
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 42[m] 46[s]
+
+
+┌ Epoch (12/299)
+Soft loss = 0.0016, Hard loss = 0.3151, Total loss = 0.3167
+├── Training Loss : 0.0027
+├── Training accuracy : 73.61%
+│ Testing ...
+└── Testing accuracy : 64.05%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 41[m] 32[s]
+
+
+┌ Epoch (13/299)
+Soft loss = 0.0020, Hard loss = 0.3837, Total loss = 0.3856
+├── Training Loss : 0.0026
+├── Training accuracy : 74.52%
+│ Testing ...
+└── Testing accuracy : 63.96%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 41[m] 8[s]
+
+
+┌ Epoch (14/299)
+Soft loss = 0.0019, Hard loss = 0.2852, Total loss = 0.2871
+├── Training Loss : 0.0026
+├── Training accuracy : 74.79%
+│ Testing ...
+└── Testing accuracy : 64.19%
+  └──> Saving the best model to "./experiments/CUB200_A03_T2_B128_L1E-5/Tresnet34_Sresnet34_x4.pth"
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 40[m] 57[s]
+
+
+┌ Epoch (15/299)
+Soft loss = 0.0014, Hard loss = 0.2625, Total loss = 0.2639
+├── Training Loss : 0.0026
+├── Training accuracy : 74.66%
+│ Testing ...
+└── Testing accuracy : 64.22%
+  └──> Saving the best model to "./experiments/CUB200_A03_T2_B128_L1E-5/Tresnet34_Sresnet34_x4.pth"
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 40[m] 31[s]
+
+
+┌ Epoch (16/299)
+Soft loss = 0.0019, Hard loss = 0.4209, Total loss = 0.4227
+├── Training Loss : 0.0026
+├── Training accuracy : 74.52%
+│ Testing ...
+└── Testing accuracy : 64.64%
+  └──> Saving the best model to "./experiments/CUB200_A03_T2_B128_L1E-5/Tresnet34_Sresnet34_x4.pth"
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 40[m] 29[s]
+
+
+┌ Epoch (17/299)
+Soft loss = 0.0018, Hard loss = 0.3390, Total loss = 0.3408
+├── Training Loss : 0.0026
+├── Training accuracy : 74.67%
+│ Testing ...
+└── Testing accuracy : 64.00%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 39[m] 43[s]
+
+
+┌ Epoch (18/299)
+Soft loss = 0.0021, Hard loss = 0.4310, Total loss = 0.4331
+├── Training Loss : 0.0026
+├── Training accuracy : 75.28%
+│ Testing ...
+└── Testing accuracy : 64.58%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 39[m] 0[s]
+
+
+┌ Epoch (19/299)
+Soft loss = 0.0016, Hard loss = 0.2997, Total loss = 0.3013
+├── Training Loss : 0.0025
+├── Training accuracy : 75.66%
+│ Testing ...
+└── Testing accuracy : 65.19%
+  └──> Saving the best model to "./experiments/CUB200_A03_T2_B128_L1E-5/Tresnet34_Sresnet34_x4.pth"
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 39[m] 31[s]
+
+
+┌ Epoch (20/299)
+Soft loss = 0.0019, Hard loss = 0.3780, Total loss = 0.3798
+├── Training Loss : 0.0026
+├── Training accuracy : 74.92%
+│ Testing ...
+└── Testing accuracy : 65.33%
+  └──> Saving the best model to "./experiments/CUB200_A03_T2_B128_L1E-5/Tresnet34_Sresnet34_x4.pth"
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 39[m] 3[s]
+
+
+┌ Epoch (21/299)
+Soft loss = 0.0016, Hard loss = 0.2843, Total loss = 0.2858
+├── Training Loss : 0.0025
+├── Training accuracy : 75.68%
+│ Testing ...
+└── Testing accuracy : 64.81%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 38[m] 39[s]
+
+
+┌ Epoch (22/299)
+Soft loss = 0.0016, Hard loss = 0.3580, Total loss = 0.3596
+├── Training Loss : 0.0025
+├── Training accuracy : 76.13%
+│ Testing ...
+└── Testing accuracy : 65.03%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 37[m] 33[s]
+
+
+┌ Epoch (23/299)
+Soft loss = 0.0016, Hard loss = 0.4235, Total loss = 0.4251
+├── Training Loss : 0.0025
+├── Training accuracy : 76.44%
+│ Testing ...
+└── Testing accuracy : 65.45%
+  └──> Saving the best model to "./experiments/CUB200_A03_T2_B128_L1E-5/Tresnet34_Sresnet34_x4.pth"
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 38[m] 0[s]
+
+
+┌ Epoch (24/299)
+Soft loss = 0.0015, Hard loss = 0.3659, Total loss = 0.3674
+├── Training Loss : 0.0025
+├── Training accuracy : 76.21%
+│ Testing ...
+└── Testing accuracy : 65.43%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 37[m] 20[s]
+
+
+┌ Epoch (25/299)
+Soft loss = 0.0016, Hard loss = 0.3387, Total loss = 0.3403
+├── Training Loss : 0.0024
+├── Training accuracy : 76.68%
+│ Testing ...
+└── Testing accuracy : 65.29%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 36[m] 27[s]
+
+
+┌ Epoch (26/299)
+Soft loss = 0.0015, Hard loss = 0.2638, Total loss = 0.2654
+├── Training Loss : 0.0024
+├── Training accuracy : 76.49%
+│ Testing ...
+└── Testing accuracy : 65.60%
+  └──> Saving the best model to "./experiments/CUB200_A03_T2_B128_L1E-5/Tresnet34_Sresnet34_x4.pth"
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 37[m] 6[s]
+
+
+┌ Epoch (27/299)
+Soft loss = 0.0016, Hard loss = 0.3308, Total loss = 0.3324
+├── Training Loss : 0.0025
+├── Training accuracy : 75.84%
+│ Testing ...
+└── Testing accuracy : 65.50%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 35[m] 42[s]
+
+
+┌ Epoch (28/299)
+Soft loss = 0.0015, Hard loss = 0.2847, Total loss = 0.2862
+├── Training Loss : 0.0024
+├── Training accuracy : 77.09%
+│ Testing ...
+└── Testing accuracy : 65.79%
+  └──> Saving the best model to "./experiments/CUB200_A03_T2_B128_L1E-5/Tresnet34_Sresnet34_x4.pth"
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 36[m] 31[s]
+
+
+┌ Epoch (29/299)
+Soft loss = 0.0016, Hard loss = 0.3253, Total loss = 0.3268
+├── Training Loss : 0.0024
+├── Training accuracy : 76.93%
+│ Testing ...
+└── Testing accuracy : 65.79%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 35[m] 20[s]
+
+
+┌ Epoch (30/299)
+Soft loss = 0.0016, Hard loss = 0.3284, Total loss = 0.3300
+├── Training Loss : 0.0024
+├── Training accuracy : 76.53%
+│ Testing ...
+└── Testing accuracy : 66.29%
+  └──> Saving the best model to "./experiments/CUB200_A03_T2_B128_L1E-5/Tresnet34_Sresnet34_x4.pth"
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 35[m] 41[s]
+
+
+┌ Epoch (31/299)
+Soft loss = 0.0017, Hard loss = 0.3110, Total loss = 0.3127
+├── Training Loss : 0.0024
+├── Training accuracy : 76.81%
+│ Testing ...
+└── Testing accuracy : 65.93%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 34[m] 50[s]
+
+
+┌ Epoch (32/299)
+Soft loss = 0.0017, Hard loss = 0.3510, Total loss = 0.3526
+├── Training Loss : 0.0024
+├── Training accuracy : 76.83%
+│ Testing ...
+└── Testing accuracy : 66.15%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 33[m] 58[s]
+
+
+┌ Epoch (33/299)
+Soft loss = 0.0014, Hard loss = 0.3059, Total loss = 0.3073
+├── Training Loss : 0.0024
+├── Training accuracy : 76.81%
+│ Testing ...
+└── Testing accuracy : 66.26%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 34[m] 32[s]
+
+
+┌ Epoch (34/299)
+Soft loss = 0.0017, Hard loss = 0.4032, Total loss = 0.4049
+├── Training Loss : 0.0023
+├── Training accuracy : 77.48%
+│ Testing ...
+└── Testing accuracy : 66.24%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 33[m] 48[s]
+
+
+┌ Epoch (35/299)
+Soft loss = 0.0019, Hard loss = 0.3298, Total loss = 0.3316
+├── Training Loss : 0.0024
+├── Training accuracy : 76.74%
+│ Testing ...
+└── Testing accuracy : 66.03%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 33[m] 40[s]
+
+
+┌ Epoch (36/299)
+Soft loss = 0.0012, Hard loss = 0.2285, Total loss = 0.2297
+├── Training Loss : 0.0023
+├── Training accuracy : 76.93%
+│ Testing ...
+└── Testing accuracy : 66.41%
+  └──> Saving the best model to "./experiments/CUB200_A03_T2_B128_L1E-5/Tresnet34_Sresnet34_x4.pth"
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 33[m] 25[s]
+
+
+┌ Epoch (37/299)
+Soft loss = 0.0014, Hard loss = 0.3455, Total loss = 0.3468
+├── Training Loss : 0.0024
+├── Training accuracy : 77.18%
+│ Testing ...
+└── Testing accuracy : 66.26%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 32[m] 40[s]
+
+
+┌ Epoch (38/299)
+Soft loss = 0.0013, Hard loss = 0.2798, Total loss = 0.2811
+├── Training Loss : 0.0023
+├── Training accuracy : 77.33%
+│ Testing ...
+└── Testing accuracy : 66.40%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 32[m] 41[s]
+
+
+┌ Epoch (39/299)
+Soft loss = 0.0014, Hard loss = 0.2389, Total loss = 0.2403
+├── Training Loss : 0.0023
+├── Training accuracy : 77.33%
+│ Testing ...
+└── Testing accuracy : 66.74%
+  └──> Saving the best model to "./experiments/CUB200_A03_T2_B128_L1E-5/Tresnet34_Sresnet34_x4.pth"
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 32[m] 28[s]
+
+
+┌ Epoch (40/299)
+Soft loss = 0.0014, Hard loss = 0.2952, Total loss = 0.2967
+├── Training Loss : 0.0023
+├── Training accuracy : 77.46%
+│ Testing ...
+└── Testing accuracy : 66.41%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 31[m] 17[s]
+
+
+┌ Epoch (41/299)
+Soft loss = 0.0014, Hard loss = 0.3295, Total loss = 0.3310
+├── Training Loss : 0.0023
+├── Training accuracy : 77.89%
+│ Testing ...
+└── Testing accuracy : 66.90%
+  └──> Saving the best model to "./experiments/CUB200_A03_T2_B128_L1E-5/Tresnet34_Sresnet34_x4.pth"
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 31[m] 30[s]
+
+
+┌ Epoch (42/299)
+Soft loss = 0.0017, Hard loss = 0.2993, Total loss = 0.3009
+├── Training Loss : 0.0022
+├── Training accuracy : 78.45%
+│ Testing ...
+└── Testing accuracy : 66.83%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 31[m] 9[s]
+
+
+┌ Epoch (43/299)
+Soft loss = 0.0012, Hard loss = 0.2858, Total loss = 0.2871
+├── Training Loss : 0.0023
+├── Training accuracy : 77.43%
+│ Testing ...
+└── Testing accuracy : 67.05%
+  └──> Saving the best model to "./experiments/CUB200_A03_T2_B128_L1E-5/Tresnet34_Sresnet34_x4.pth"
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 30[m] 52[s]
+
+
+┌ Epoch (44/299)
+Soft loss = 0.0017, Hard loss = 0.2922, Total loss = 0.2940
+├── Training Loss : 0.0022
+├── Training accuracy : 78.35%
+│ Testing ...
+└── Testing accuracy : 66.83%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 30[m] 10[s]
+
+
+┌ Epoch (45/299)
+Soft loss = 0.0015, Hard loss = 0.2861, Total loss = 0.2876
+├── Training Loss : 0.0023
+├── Training accuracy : 77.26%
+│ Testing ...
+└── Testing accuracy : 66.91%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 30[m] 17[s]
+
+
+┌ Epoch (46/299)
+Soft loss = 0.0017, Hard loss = 0.2780, Total loss = 0.2796
+├── Training Loss : 0.0023
+├── Training accuracy : 77.86%
+│ Testing ...
+└── Testing accuracy : 67.03%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 29[m] 4[s]
+
+
+┌ Epoch (47/299)
+Soft loss = 0.0012, Hard loss = 0.2142, Total loss = 0.2154
+├── Training Loss : 0.0023
+├── Training accuracy : 78.03%
+│ Testing ...
+└── Testing accuracy : 67.02%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 28[m] 44[s]
+
+
+┌ Epoch (48/299)
+Soft loss = 0.0015, Hard loss = 0.2892, Total loss = 0.2907
+├── Training Loss : 0.0023
+├── Training accuracy : 78.29%
+│ Testing ...
+└── Testing accuracy : 66.90%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 28[m] 58[s]
+
+
+┌ Epoch (49/299)
+Soft loss = 0.0017, Hard loss = 0.2998, Total loss = 0.3015
+├── Training Loss : 0.0023
+├── Training accuracy : 77.61%
+│ Testing ...
+└── Testing accuracy : 66.98%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 28[m] 16[s]
+
+
+┌ Epoch (50/299)
+Soft loss = 0.0017, Hard loss = 0.3356, Total loss = 0.3373
+├── Training Loss : 0.0022
+├── Training accuracy : 78.33%
+│ Testing ...
+└── Testing accuracy : 67.52%
+  └──> Saving the best model to "./experiments/CUB200_A03_T2_B128_L1E-5/Tresnet34_Sresnet34_x4.pth"
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 28[m] 11[s]
+
+
+┌ Epoch (51/299)
+Soft loss = 0.0015, Hard loss = 0.3522, Total loss = 0.3537
+├── Training Loss : 0.0023
+├── Training accuracy : 76.91%
+│ Testing ...
+└── Testing accuracy : 67.16%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 27[m] 26[s]
+
+
+┌ Epoch (52/299)
+Soft loss = 0.0014, Hard loss = 0.3077, Total loss = 0.3091
+├── Training Loss : 0.0023
+├── Training accuracy : 78.28%
+│ Testing ...
+└── Testing accuracy : 67.64%
+  └──> Saving the best model to "./experiments/CUB200_A03_T2_B128_L1E-5/Tresnet34_Sresnet34_x4.pth"
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 27[m] 23[s]
+
+
+┌ Epoch (53/299)
+Soft loss = 0.0015, Hard loss = 0.2641, Total loss = 0.2656
+├── Training Loss : 0.0022
+├── Training accuracy : 77.89%
+│ Testing ...
+└── Testing accuracy : 67.57%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 27[m] 1[s]
+
+
+┌ Epoch (54/299)
+Soft loss = 0.0015, Hard loss = 0.2811, Total loss = 0.2825
+├── Training Loss : 0.0023
+├── Training accuracy : 77.86%
+│ Testing ...
+└── Testing accuracy : 67.86%
+  └──> Saving the best model to "./experiments/CUB200_A03_T2_B128_L1E-5/Tresnet34_Sresnet34_x4.pth"
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 27[m] 15[s]
+
+
+┌ Epoch (55/299)
+Soft loss = 0.0016, Hard loss = 0.3269, Total loss = 0.3285
+├── Training Loss : 0.0022
+├── Training accuracy : 79.13%
+│ Testing ...
+└── Testing accuracy : 67.45%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 26[m] 16[s]
+
+
+┌ Epoch (56/299)
+Soft loss = 0.0015, Hard loss = 0.2371, Total loss = 0.2386
+├── Training Loss : 0.0023
+├── Training accuracy : 78.21%
+│ Testing ...
+└── Testing accuracy : 67.85%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 26[m] 14[s]
+
+
+┌ Epoch (57/299)
+Soft loss = 0.0014, Hard loss = 0.3255, Total loss = 0.3269
+├── Training Loss : 0.0023
+├── Training accuracy : 78.08%
+│ Testing ...
+└── Testing accuracy : 67.67%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 25[m] 39[s]
+
+
+┌ Epoch (58/299)
+Soft loss = 0.0014, Hard loss = 0.2796, Total loss = 0.2810
+├── Training Loss : 0.0023
+├── Training accuracy : 77.89%
+│ Testing ...
+└── Testing accuracy : 67.66%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 25[m] 7[s]
+
+
+┌ Epoch (59/299)
+Soft loss = 0.0015, Hard loss = 0.3210, Total loss = 0.3225
+├── Training Loss : 0.0022
+├── Training accuracy : 78.16%
+│ Testing ...
+└── Testing accuracy : 68.04%
+  └──> Saving the best model to "./experiments/CUB200_A03_T2_B128_L1E-5/Tresnet34_Sresnet34_x4.pth"
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 25[m] 19[s]
+
+
+┌ Epoch (60/299)
+Soft loss = 0.0012, Hard loss = 0.2361, Total loss = 0.2373
+├── Training Loss : 0.0022
+├── Training accuracy : 78.85%
+│ Testing ...
+└── Testing accuracy : 67.95%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 24[m] 26[s]
+
+
+┌ Epoch (61/299)
+Soft loss = 0.0017, Hard loss = 0.2334, Total loss = 0.2351
+├── Training Loss : 0.0022
+├── Training accuracy : 78.45%
+│ Testing ...
+└── Testing accuracy : 67.60%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 24[m] 6[s]
+
+
+┌ Epoch (62/299)
+Soft loss = 0.0013, Hard loss = 0.2342, Total loss = 0.2355
+├── Training Loss : 0.0021
+├── Training accuracy : 78.78%
+│ Testing ...
+└── Testing accuracy : 67.73%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 24[m] 1[s]
+
+
+┌ Epoch (63/299)
+Soft loss = 0.0013, Hard loss = 0.2699, Total loss = 0.2712
+├── Training Loss : 0.0022
+├── Training accuracy : 78.45%
+│ Testing ...
+└── Testing accuracy : 67.86%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 23[m] 10[s]
+
+
+┌ Epoch (64/299)
+Soft loss = 0.0012, Hard loss = 0.2185, Total loss = 0.2197
+├── Training Loss : 0.0022
+├── Training accuracy : 78.95%
+│ Testing ...
+└── Testing accuracy : 67.93%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 22[m] 51[s]
+
+
+┌ Epoch (65/299)
+Soft loss = 0.0015, Hard loss = 0.2689, Total loss = 0.2704
+├── Training Loss : 0.0023
+├── Training accuracy : 78.53%
+│ Testing ...
+└── Testing accuracy : 68.04%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 22[m] 30[s]
+
+
+┌ Epoch (66/299)
+Soft loss = 0.0014, Hard loss = 0.2470, Total loss = 0.2483
+├── Training Loss : 0.0022
+├── Training accuracy : 78.18%
+│ Testing ...
+└── Testing accuracy : 67.83%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 22[m] 26[s]
+
+
+┌ Epoch (67/299)
+Soft loss = 0.0012, Hard loss = 0.3880, Total loss = 0.3892
+├── Training Loss : 0.0022
+├── Training accuracy : 79.38%
+│ Testing ...
+└── Testing accuracy : 68.42%
+  └──> Saving the best model to "./experiments/CUB200_A03_T2_B128_L1E-5/Tresnet34_Sresnet34_x4.pth"
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 22[m] 2[s]
+
+
+┌ Epoch (68/299)
+Soft loss = 0.0015, Hard loss = 0.3340, Total loss = 0.3355
+├── Training Loss : 0.0022
+├── Training accuracy : 79.26%
+│ Testing ...
+└── Testing accuracy : 68.23%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 21[m] 47[s]
+
+
+┌ Epoch (69/299)
+Soft loss = 0.0017, Hard loss = 0.4060, Total loss = 0.4077
+├── Training Loss : 0.0022
+├── Training accuracy : 78.33%
+│ Testing ...
+└── Testing accuracy : 68.54%
+  └──> Saving the best model to "./experiments/CUB200_A03_T2_B128_L1E-5/Tresnet34_Sresnet34_x4.pth"
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 21[m] 39[s]
+
+
+┌ Epoch (70/299)
+Soft loss = 0.0014, Hard loss = 0.3145, Total loss = 0.3159
+├── Training Loss : 0.0022
+├── Training accuracy : 79.28%
+│ Testing ...
+└── Testing accuracy : 68.00%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 21[m] 15[s]
+
+
+┌ Epoch (71/299)
+Soft loss = 0.0015, Hard loss = 0.2009, Total loss = 0.2023
+├── Training Loss : 0.0021
+├── Training accuracy : 79.85%
+│ Testing ...
+└── Testing accuracy : 68.24%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 20[m] 38[s]
+
+
+┌ Epoch (72/299)
+Soft loss = 0.0016, Hard loss = 0.3778, Total loss = 0.3794
+├── Training Loss : 0.0022
+├── Training accuracy : 78.75%
+│ Testing ...
+└── Testing accuracy : 68.29%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 20[m] 13[s]
+
+
+┌ Epoch (73/299)
+Soft loss = 0.0013, Hard loss = 0.2290, Total loss = 0.2303
+├── Training Loss : 0.0020
+├── Training accuracy : 80.50%
+│ Testing ...
+└── Testing accuracy : 68.47%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 19[m] 40[s]
+
+
+┌ Epoch (74/299)
+Soft loss = 0.0015, Hard loss = 0.2527, Total loss = 0.2543
+├── Training Loss : 0.0022
+├── Training accuracy : 79.60%
+│ Testing ...
+└── Testing accuracy : 68.26%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 19[m] 59[s]
+
+
+┌ Epoch (75/299)
+Soft loss = 0.0014, Hard loss = 0.3377, Total loss = 0.3391
+├── Training Loss : 0.0022
+├── Training accuracy : 79.60%
+│ Testing ...
+└── Testing accuracy : 68.78%
+  └──> Saving the best model to "./experiments/CUB200_A03_T2_B128_L1E-5/Tresnet34_Sresnet34_x4.pth"
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 19[m] 24[s]
+
+
+┌ Epoch (76/299)
+Soft loss = 0.0013, Hard loss = 0.2274, Total loss = 0.2286
+├── Training Loss : 0.0021
+├── Training accuracy : 80.28%
+│ Testing ...
+└── Testing accuracy : 68.67%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 19[m] 24[s]
+
+
+┌ Epoch (77/299)
+Soft loss = 0.0014, Hard loss = 0.2810, Total loss = 0.2824
+├── Training Loss : 0.0022
+├── Training accuracy : 79.13%
+│ Testing ...
+└── Testing accuracy : 68.64%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 18[m] 27[s]
+
+
+┌ Epoch (78/299)
+Soft loss = 0.0017, Hard loss = 0.3359, Total loss = 0.3376
+├── Training Loss : 0.0021
+├── Training accuracy : 79.43%
+│ Testing ...
+└── Testing accuracy : 68.85%
+  └──> Saving the best model to "./experiments/CUB200_A03_T2_B128_L1E-5/Tresnet34_Sresnet34_x4.pth"
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 18[m] 48[s]
+
+
+┌ Epoch (79/299)
+Soft loss = 0.0010, Hard loss = 0.3124, Total loss = 0.3134
+├── Training Loss : 0.0022
+├── Training accuracy : 79.40%
+│ Testing ...
+└── Testing accuracy : 68.40%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 17[m] 48[s]
+
+
+┌ Epoch (80/299)
