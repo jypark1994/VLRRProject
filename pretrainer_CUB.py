@@ -34,6 +34,7 @@ parser.add_argument('--learning_rate', type=float, default=1e-3)
 parser.add_argument("--model_name", type=str, default="resnet34")
 parser.add_argument("--pretrained", action='store_true')
 parser.add_argument("--batch_size", type=int, default=128)
+parser.add_argument("--n_optim_step", type=int, default=100)
 parser.add_argument("--cuda", type=str, default='0')
 
 
@@ -79,6 +80,7 @@ def get_model(model, pretrained=False, num_classes=200):
 
 model_name = args.model_name
 net_t = get_model(model_name, pretrained=args.pretrained, num_classes=200)
+net_t = nn.DataParallel(net_t)
 net_t = net_t.to(device)
 
 
@@ -86,7 +88,7 @@ def train(net, train_loader, cur_epoch):
     criterion = nn.CrossEntropyLoss()
     optimizer = optim.Adam(
         net.parameters(), lr=args.learning_rate, weight_decay=4e-5)
-    scheduler = optim.lr_scheduler.StepLR(optimizer, 50, gamma=0.1)
+    scheduler = optim.lr_scheduler.StepLR(optimizer, args.n_optim_step, gamma=0.1)
 
     train_avg_loss = 0
     n_count = 0
@@ -173,7 +175,7 @@ def train_and_eval(net, epochs, train_loader, test_loader, save_name='default.pt
             print(f"  └──> Saving the best model to \"{save_name}\"")
             best_accuracy = test_acc
             writer.add_text("BestAcc", f"{best_accuracy*100:.2f}% @ epoch {i}")
-            best_model = net.state_dict()
+            best_model = net.module.state_dict()
             model_dict = {'acc': best_accuracy, 'net': best_model}
             torch.save(model_dict, save_name)
 
@@ -194,7 +196,6 @@ def train_and_eval(net, epochs, train_loader, test_loader, save_name='default.pt
 
 epochs = args.epochs
 
-os.makedirs(f"./models/CUB200/{args.expr_name}")
 accuracy, net_t = train_and_eval(net_t, epochs, train_loader, test_loader,
                                  save_name=f"{expr_path}/best_{model_name}_x{down_scale}_{args.pretrained}.pth")
 

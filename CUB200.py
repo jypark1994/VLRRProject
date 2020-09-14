@@ -195,7 +195,7 @@ class CUB2011_Multiscale(Dataset):
             HR = self.transform_norm(HR)
             LR = self.transform_norm(LR)
 
-        return HR, LR, target
+        return LR, HR, target
 
 transforms_train = transforms.Compose([
     transforms.Resize(256),
