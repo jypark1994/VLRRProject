@@ -1,0 +1,21 @@
+Delete last experiment results
+Teacher: resnet34, Student: resnet34
+Wrapper mode : ResNet-CIFAR
+Load state dict with accuracy : 92.80%
+- Weight dir : ./pretrained/CIFAR10/CIFAR10_ResNet34_HR.pth
+Wrapper mode : ResNet-CIFAR
+Load state dict with accuracy : 92.80%
+- Weight dir : ./pretrained/CIFAR10/CIFAR10_ResNet34_HR.pth
+─── Start Training & Evalutation ───
+┌ Epoch (0/299)
+Soft loss = 0.1772, Hard loss = 0.6917, Att loss = 0.2901, Total loss = 1.1590
+├── Training Loss : 0.0148
+├── Training accuracy : 31.79%
+│ Testing ...
+└── Testing accuracy : 43.24%
+  └──> Saving the best model to "./experiments/cifar10/ATT_CIFAR_A05_B1_T5_B128_L1E-4/Tresnet34_Sresnet34_x4.pth"
+Epoch time ─ 0[h] 1[m] 31[s]
+Estimated time ─ 7[h] 34[m] 18[s]
+
+
+┌ Epoch (1/299)

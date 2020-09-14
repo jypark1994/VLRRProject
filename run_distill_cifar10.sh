@@ -1,0 +1,2 @@
+python3 CIFAR_DIST_REFACTOR.py --batch_size 256 --alpha 0.9 --temperature 5 \
+        --expr_name "RESNET34_A09_T5_LR1E-2_BS256" --gpus "0,1,2,3" --teacher_weight "./pretrained/CIFAR10/ResNet34_HR.pth" > RESNET34_A09_T5_LR1E-2_BS64.txt;

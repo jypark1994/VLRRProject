@@ -130,10 +130,10 @@ teacher_name = 'resnet34'
 student_name = 'resnet34'
 print(f"Teacher: {teacher_name}, Student: {student_name}")
 
-net_t = get_model(teacher_name, args.n_classes, data_name, args.teacher_weight)
+net_t = get_model(teacher_name, args.num_classes, data_name, args.teacher_weight)
 net_t = net_t.to(device)
 
-net_s = get_model(student_name, args.n_classes, data_name, args.teacher_weight)
+net_s = get_model(student_name, args.num_classes, data_name, args.teacher_weight)
 net_s = net_s.to(device)
 
 net_t = nn.DataParallel(net_t)
@@ -152,13 +152,25 @@ class KD_loss():
 
 
 class Attention_loss():
-    def __init__(self, criterion):
+    '''
+        Acquiring attention loss between two feature maps.
+
+        [Usage]
+            criterion : Distance metric (e.g. MSE, MAE ...)
+            target_idx : Target layers (e.g. target_idx = -1 for the last layer 'resnet.layer4')
+            - 'Out of Bound' warning !
+    '''
+    def __init__(self, criterion, target_idx=-1):
         self.criterion = criterion
+        self.target_idx = target_idx
 
     def __call__(self, student_features, teacher_features):
         loss = 0
         len_features = len(student_features)
-        for f_t, f_s in zip(student_features, teacher_features):
+
+        zipped_features = zip(student_features[:self.target_idx], teacher_features[:self.target_idx])
+
+        for f_t, f_s in zipped_features:
             loss += self.criterion(f_t, f_s)
         return loss / len_features
 
@@ -249,7 +261,7 @@ def evaluate(net, test_loader, cur_epoch, eval_target='LR'):
         data_len = len(test_loader)
         batch, label = data[target].to(device), data[2].to(device)
 
-        pred = net(batch)
+        _, pred = net(batch)
 
         batch_correct = torch.sum(torch.argmax(pred, dim=1) == label).item()
         batch_count = label.shape[0]

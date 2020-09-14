@@ -34,8 +34,8 @@ class ResNetWrapper(nn.Module):
 
     def _load_pretrained_weight(self, w_p):
         state_dict = torch.load(w_p)
-        print("Load state dict with accuracy : {state_dict['acc']*100:.2f}%")
-        print("- Weight dir : {w_p}")
+        print(f"Load state dict with accuracy : {state_dict['acc']*100:.2f}%")
+        print(f"- Weight dir : {w_p}")
         self.net.load_state_dict(state_dict['net'])
 
     def _forward_cifar(self, x):
@@ -47,7 +47,7 @@ class ResNetWrapper(nn.Module):
         f = F.avg_pool2d(L4, 4)
         f = f.view(f.size(0), -1)
         out = self.net.linear(f)
-        return (C1, L1, L2, L3, L4), out
+        return L4, out
 
     def _forward_imagenet(self, x):
         C1 = self.net.relu(self.net.bn1(self.net.conv1(x)))
@@ -59,7 +59,7 @@ class ResNetWrapper(nn.Module):
         f = self.net.avgpool(L4)
         f = torch.flatten(f, 1)
         out = self.net.fc(f)
-        return (C1, L1, L2, L3, L4), out
+        return L4, out
 
     def forward(self, x):
         return self._forward(x)

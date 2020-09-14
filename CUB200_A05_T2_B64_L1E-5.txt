@@ -1,8 +1,0 @@
-Make new experiment folder
-Files already downloaded and verified
-Files already downloaded and verified
-Teacher: resnet34, Student: resnet34
-Distillate teacher's HR(x1) knowledge (79.74%) to the student.
-Use the same pre-trained weight with teacher.
-─── Start Training & Evalutation ───
-┌ Epoch (0/299)
