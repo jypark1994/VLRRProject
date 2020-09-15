@@ -23,6 +23,7 @@ parser.add_argument("--alpha", type=float, default=0.5)
 parser.add_argument("--beta", type=float, default=1)
 parser.add_argument("--temperature", type=float, default=10)
 parser.add_argument("--learning_rate", type=float, default=1e-2)
+parser.add_argument("--weight_decay", type=float, default=4e-5)
 parser.add_argument("--LR_scale", type=int, default=4)
 parser.add_argument("--batch_size", type=int, default=512)
 parser.add_argument("--show_batch", action="store_true", default=False)
@@ -184,7 +185,7 @@ def distillate(teacher, student, train_loader, cur_epoch):
 
     # DFD uses SGD with momentum 0.9, weight deacy 5e-4.
     optimizer = optim.SGD(student.parameters(
-    ), lr=args.learning_rate, momentum=0.9, weight_decay=4e-5)
+    ), lr=args.learning_rate, momentum=0.9, weight_decay=args.weight_decay)
 
     scheduler = optim.lr_scheduler.StepLR(optimizer, 100, gamma=0.1)
 
