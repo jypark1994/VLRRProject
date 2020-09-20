@@ -2,7 +2,26 @@ import torch
 import torch.nn.functional as F
 from torch import nn
 from torchvision import models
-import models_cifar
+from model_cifar.resnet_cifar import resnet32
+# class EnhanceNet(nn.Module):
+#     def __init__(self, in_planes, hidden_planes, out_planes):
+#         super(EnhanceNet, self).__init__()
+#         self.conv3x3 = nn.Conv2d(in_planes,hidden_planes,kernel_size=3, stride=1, padding=1, groups=in_planes)
+#         self.conv5x5 = nn.Conv2d(in_planes,hidden_planes,kernel_size=5, stride=1, padding=1, groups=in_planes)
+#         self.conv7x7 = nn.Conv2d(in_planes,hidden_planes,kernel_size=7, stride=1, padding=1, groups=in_planes)
+#         self.conv1x1 = nn.Conv2d(hidden_planes*3, out_planes, kernel_size=1, stride=1, padding=0)
+
+
+#     def forward(self, x):
+#         f_33 = self.conv3x3(x)
+#         f_55 = self.conv5x5(x)
+#         f_77 = self.conv7x7(x)
+
+#         f_cat = torch.cat((f_33, f_55, f_77), dim=1)
+#         f_fuse = self.conv1x1(f_cat) 
+
+#         return f_fuse
+
 
 class ResNetWrapper(nn.Module):
     '''
@@ -43,11 +62,10 @@ class ResNetWrapper(nn.Module):
         L1 = self.net.layer1(C1)
         L2 = self.net.layer2(L1)
         L3 = self.net.layer3(L2)
-        L4 = self.net.layer4(L3)
-        f = F.avg_pool2d(L4, 4)
+        f = F.avg_pool2d(L3, L3.size()[3])
         f = f.view(f.size(0), -1)
         out = self.net.linear(f)
-        return L4, out
+        return L3, out
 
     def _forward_imagenet(self, x):
         C1 = self.net.relu(self.net.bn1(self.net.conv1(x)))

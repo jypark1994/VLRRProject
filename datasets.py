@@ -89,8 +89,8 @@ def CIFAR10(args):
             return image
 
     transforms_train = transforms.Compose([
-        transforms.RandomCrop(32, padding=4),
         transforms.RandomHorizontalFlip(),
+        transforms.RandomCrop(32, 4),
         transforms.Resize(32//args.down_scale),
         transforms.Resize(32) if args.interpolate else NoneTransform(),
         transforms.ToTensor(),
@@ -104,10 +104,10 @@ def CIFAR10(args):
         transforms.Normalize((0.4914, 0.4822, 0.4465), (0.2023, 0.1994, 0.2010)),
     ])
 
-    train_dataset = datasets.ImageFolder("~/datasets/CIFAR10_RAW/train", transform=transforms_train)
+    train_dataset = datasets.ImageFolder("~/dataset/CIFAR10_RAW/train", transform=transforms_train)
     train_loader = utils.data.DataLoader(train_dataset, batch_size=args.batch_size, shuffle=True, num_workers=args.num_workers)
 
-    test_dataset = datasets.ImageFolder("~/datasets/CIFAR10_RAW/test", transform=transforms_test)
+    test_dataset = datasets.ImageFolder("~/dataset/CIFAR10_RAW/test", transform=transforms_test)
     test_loader = utils.data.DataLoader(test_dataset, batch_size=args.batch_size, shuffle=True, num_workers=args.num_workers)
         
     return train_loader, test_loader

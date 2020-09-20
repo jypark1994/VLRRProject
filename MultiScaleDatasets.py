@@ -58,7 +58,7 @@ class MultiscaleDataset(Dataset):
 
         return LR, HR, label
 
-def get_train_loader(root, LR_scale=4, HR_size=[32, 32], batch_size=128, num_workers=8, keep_size=False):
+def get_CIFAR10_train_loader(root, LR_scale=4, HR_size=[32, 32], batch_size=128, num_workers=8, keep_size=False):
     transform = transforms.Compose([
         transforms.RandomCrop(32, padding=4),
         transforms.RandomHorizontalFlip(),
@@ -72,7 +72,7 @@ def get_train_loader(root, LR_scale=4, HR_size=[32, 32], batch_size=128, num_wor
     return train_dataloader
 
 
-def get_test_loader(root, LR_scale=4, HR_size=[32, 32], batch_size=128, num_workers=8, keep_size=False):
+def get_CIFAR10_test_loader(root, LR_scale=4, HR_size=[32, 32], batch_size=128, num_workers=8, keep_size=False):
     data_path = os.path.join(root, 'CIFAR10_RAW/test')
     test_dataset = MultiscaleDataset(
         data_path, transform=None, LR_scale=LR_scale, HR_size=HR_size, keep_size=keep_size)
@@ -82,8 +82,8 @@ def get_test_loader(root, LR_scale=4, HR_size=[32, 32], batch_size=128, num_work
     return test_dataloader
 
 def MultiScaleCIFAR10(root, LR_scale, batch_size):
-    train_loader = get_train_loader(root=root, LR_scale=LR_scale,
+    train_loader = get_CIFAR10_train_loader(root=root, LR_scale=LR_scale,
                                     batch_size=batch_size, num_workers=8, keep_size=True)
-    test_loader = get_test_loader(root=root, LR_scale=LR_scale,
+    test_loader = get_CIFAR10_test_loader(root=root, LR_scale=LR_scale,
                                 batch_size=batch_size, num_workers=8, keep_size=True)
     return train_loader, test_loader

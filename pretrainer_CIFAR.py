@@ -14,7 +14,7 @@ import torch.nn.functional as F
 from torch import nn, optim, utils
 from torchvision import models, transforms
 
-import lrResnet
+from model_cifar.resnet_cifar import resnet32
 import datasets
 
 import PIL.Image as Image
@@ -27,7 +27,7 @@ import argparse
 import time
 
 parser = argparse.ArgumentParser()
-parser.add_argument("--epochs", type=int, default=300)
+parser.add_argument("--epochs", type=int, default=200)
 parser.add_argument("--model_name", type=str, default="resnet18")
 parser.add_argument("--down_scale", type=int, default=1)
 parser.add_argument("--pretrained", action='store_true')
@@ -35,6 +35,7 @@ parser.add_argument("--interpolate", action='store_true')
 parser.add_argument("--batch_size", type=int, default=128)
 parser.add_argument("--num_workers", type=int, default=8)
 parser.add_argument("--multi_gpu", action='store_true')
+parser.add_argument("--root", type=str, default='~/dataset')
 args = parser.parse_args()
 
 print(args)
@@ -47,23 +48,25 @@ down_scale = args.down_scale
 train_loader, test_loader = datasets.CIFAR10(args)
 num_classes = 10
 
-def get_model(model, pretrained=False, num_classes = 18):
-    if model == 'resnet18':
-        net = lrResnet.resnet18_CIFAR(pretrained=pretrained)
-        net.fc = nn.Linear(in_features=512, out_features=num_classes)
+def get_model(model, pretrained=False, num_classes = 10):
+    if model == 'resnet32':
+        net = resnet32()
+        # net.fc = nn.Linear(in_features=512, out_features=num_classes)
     return net
 
 model_name = args.model_name
-net_t = get_model(model_name, pretrained=args.pretrained, num_classes=num_classes)
-net_t = net_t.to(device)
+net = get_model(model_name, pretrained=args.pretrained, num_classes=num_classes)
+net = net.to(device)
 
 if args.multi_gpu == True:
-    net_t = nn.DataParallel(net_t)
+    net = nn.DataParallel(net)
 
-def train(net, train_loader):
+optimizer = optim.SGD(net.parameters(),momentum=0.9,lr=0.1, weight_decay=1e-4)
+scheduler = optim.lr_scheduler.MultiStepLR(optimizer,milestones=[100,150])
+
+def train(train_loader):
     criterion = nn.CrossEntropyLoss()
-    optimizer = optim.Adam(net.parameters(),lr=1e-2, weight_decay=4e-5)
-    scheduler = optim.lr_scheduler.StepLR(optimizer, 100, gamma=0.1)
+    
     
     train_avg_loss = 0
     n_count = 0
@@ -86,13 +89,15 @@ def train(net, train_loader):
 
         loss.backward()
         optimizer.step()
+    
+    scheduler.step()
 
     train_accuracy = n_corrects/n_count
     train_avg_loss /= n_count
 
     return train_accuracy, train_avg_loss, net
 
-def evaluate(net ,test_loader):
+def evaluate(test_loader):
     net.eval()
     
     n_count = 0
@@ -112,7 +117,7 @@ def evaluate(net ,test_loader):
     
     return test_accuracy, net
 
-def train_and_eval(net, epochs, train_loader, test_loader, save_name='default.pth'):
+def train_and_eval(epochs, train_loader, test_loader, save_name='default.pth'):
     print("─── Start Training & Evalutation ───")
     
     best_accuracy = 0
@@ -123,11 +128,11 @@ def train_and_eval(net, epochs, train_loader, test_loader, save_name='default.pt
         
         print(f"┌── Epoch ({i}/{epochs-1})")
         
-        train_acc, loss, net = train(net, train_loader)
+        train_acc, loss, net = train(train_loader)
         print(f"├── Training Loss : {loss:.4f}")
         print(f'├── Training accuracy : {train_acc*100:.2f}%')
         print("│")
-        test_acc, net = evaluate(net, test_loader)
+        test_acc, net = evaluate(test_loader)
         print(f'└── Testing accuracy : {test_acc*100:.2f}%')
         
         if test_acc > best_accuracy:
@@ -154,7 +159,7 @@ def train_and_eval(net, epochs, train_loader, test_loader, save_name='default.pt
         
 epochs = args.epochs
 
-accuracy, net_t = train_and_eval(net_t, epochs, train_loader, test_loader, save_name=f"./models/CIFAR10/best_{model_name}_x{down_scale}_{args.pretrained}.pth")
+accuracy, net = train_and_eval(epochs, train_loader, test_loader, save_name=f"./models/CIFAR10/best_{model_name}_x{down_scale}_{args.pretrained}.pth")
 
 print(f"Done with accuracy : {accuracy*100:.2f}%")
 

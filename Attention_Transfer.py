@@ -1,15 +1,16 @@
-import torch
-import torch.nn.functional as F
-from ResNetWrapper import ResNetWrapper
-from torch import nn, optim
-from torchvision.utils import make_grid
-
+import argparse
 import os
 import shutil
 import time
-import argparse
-from tensorboardX import SummaryWriter
+
 import matplotlib.pyplot as plt
+import torch
+import torch.nn.functional as F
+from tensorboardX import SummaryWriter
+from torch import nn, optim
+from torchvision.utils import make_grid
+
+from ResNetWrapper import ResNetWrapper
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--expr_name", type=str, default="Default")
@@ -29,6 +30,11 @@ parser.add_argument("--batch_size", type=int, default=512)
 parser.add_argument("--show_batch", action="store_true", default=False)
 parser.add_argument("--img_type", type=str, default="cub200")
 parser.add_argument("--num_classes", type=int, default=200)
+parser.add_argument("--attention_metric", type=str, default="sum")
+parser.add_argument("--target_idx", type=int, default=-1)
+parser.add_argument("--kd_loss", type=str, default='KL')
+parser.add_argument("--arch_teacher", type=str, default='resnet34')
+parser.add_argument("--arch_student", type=str, default='resnet34')
 args = parser.parse_args()
 
 # Init training environment.
@@ -103,11 +109,11 @@ if args.show_batch:
 
 def get_model(model, n_classes, data_name, pretrained_dir):
     if data_name == 'cifar10':  # 32x32x3 input
-        import models_cifar
-        if model == 'resnet50':
-            net = models_cifar.resnet.ResNet50()
-        elif model == 'resnet34':
-            net = models_cifar.resnet.ResNet34()
+        import model_cifar.resnet_cifar as resnet_cifar
+        if model == 'resnet56':
+            net = resnet_cifar.resnet56()
+        elif model == 'resnet32':
+            net = resnet_cifar.resnet32()
 
         net = ResNetWrapper(net, 10, mode='cifar',
                             pretrained_weight=pretrained_dir)
@@ -127,19 +133,25 @@ def get_model(model, n_classes, data_name, pretrained_dir):
 
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
 
-teacher_name = 'resnet34'
-student_name = 'resnet34'
+teacher_name = args.arch_teacher
+student_name = args.arch_student
 print(f"Teacher: {teacher_name}, Student: {student_name}")
 
-net_t = get_model(teacher_name, args.num_classes, data_name, args.teacher_weight)
+net_t = get_model(teacher_name, args.num_classes,
+                  data_name, args.teacher_weight)
 net_t = net_t.to(device)
 
-net_s = get_model(student_name, args.num_classes, data_name, args.teacher_weight)
+net_s = get_model(student_name, args.num_classes,
+                  data_name, args.teacher_weight)
 net_s = net_s.to(device)
 
 net_t = nn.DataParallel(net_t)
 net_s = nn.DataParallel(net_s)
 
+optimizer = optim.SGD(net_s.parameters(
+), lr=args.learning_rate, momentum=0.9, weight_decay=args.weight_decay)
+
+scheduler = optim.lr_scheduler.MultiStepLR(optimizer, [100,200], gamma=0.1)
 
 class KD_loss():
     def __init__(self, params):
@@ -160,19 +172,35 @@ class Attention_loss():
             criterion : Distance metric (e.g. MSE, MAE ...)
             target_idx : Target layers (e.g. target_idx = -1 for the last layer 'resnet.layer4')
             - 'Out of Bound' warning !
+            metric : Attention measuring metric. (Default: Channel-wise Sum of Absolute Values)
     '''
-    def __init__(self, criterion, target_idx=-1):
+
+    def __init__(self, criterion, target_idx=-1, metric='sum'):
         self.criterion = criterion
         self.target_idx = target_idx
+        self.metric = metric
 
     def __call__(self, student_features, teacher_features):
         loss = 0
         len_features = len(student_features)
 
-        zipped_features = zip(student_features[:self.target_idx], teacher_features[:self.target_idx])
+        zipped_features = zip(
+            student_features[:self.target_idx], teacher_features[:self.target_idx])
 
         for f_t, f_s in zipped_features:
-            loss += self.criterion(f_t, f_s)
+            if self.metric == 'sum':  # From Zagoruyko's paper
+                # Channel-wise absolute sum
+                f_att_t = torch.abs(f_t).sum(dim=1)
+                f_att_s = torch.abs(f_s).sum(dim=1)
+            elif self.metric == 'max':  # From Zagoruyko's paper
+                # Channel-wise absolute max
+                f_att_t = torch.abs(f_t).mean(dim=1)
+                f_att_s = torch.abs(f_s).mean(dim=1)
+            else:
+                f_att_t = f_t
+                f_att_s = f_s
+
+            loss += self.criterion(f_att_t, f_att_s)
         return loss / len_features
 
 
@@ -180,24 +208,28 @@ def distillate(teacher, student, train_loader, cur_epoch):
     params = {'alpha': args.alpha, 'beta': args.beta, 'T': args.temperature}
 
     criterion_CEL = nn.CrossEntropyLoss()
-    criterion_KLD = KD_loss(params)
-    criterion_ATT = Attention_loss(nn.MSELoss())
+    if args.kd_loss == 'KL':
+        criterion_KLD = KD_loss(params)
+    elif args.kd_loss == 'MSE':
+        criterion_KLD = nn.MSELoss()
+    criterion_ATT = Attention_loss(
+        nn.MSELoss(), args.target_idx, args.attention_metric)
 
-    # DFD uses SGD with momentum 0.9, weight deacy 5e-4.
-    optimizer = optim.SGD(student.parameters(
-    ), lr=args.learning_rate, momentum=0.9, weight_decay=args.weight_decay)
-
-    scheduler = optim.lr_scheduler.StepLR(optimizer, 100, gamma=0.1)
+    # DFD uses SGD with momentum 0.9, weight deacy 5e-4
 
     train_avg_loss = 0
     n_count = 0
     n_corrects = 0
+    n_iter = 0
 
     teacher.eval()
     teacher.requires_grad = False
     student.train()
+    scheduler.step()
 
     for i, data in enumerate(train_loader):
+        n_iter += 1
+
         data_len = len(train_loader)
 
         batch_lr, batch_hr, label = data[0].to(
@@ -213,22 +245,23 @@ def distillate(teacher, student, train_loader, cur_epoch):
         att_loss = params['beta']*criterion_ATT(features_t, features_s)
 
         loss = soft_loss + data_loss + att_loss
+        
         train_avg_loss += loss
 
-        writer.add_scalar("loss/KD", soft_loss,
+        writer.add_scalar("loss/KD_step", soft_loss,
                           global_step=i+data_len*cur_epoch)
-        writer.add_scalar("loss/CE", data_loss,
+        writer.add_scalar("loss/CE_step", data_loss,
                           global_step=i+data_len*cur_epoch)
-        writer.add_scalar("loss/ATT", att_loss,
+        writer.add_scalar("loss/ATT_step", att_loss,
                           global_step=i+data_len*cur_epoch)
-        writer.add_scalar("loss/Total", loss,
+        writer.add_scalar("loss/Total_step", loss,
                           global_step=i+data_len*cur_epoch)
 
         batch_correct = torch.sum(torch.argmax(pred_s, dim=1) == label).item()
         batch_count = label.shape[0]
 
         batch_acc = batch_correct/batch_count*100
-        writer.add_scalar("acc/train", batch_acc,
+        writer.add_scalar("acc/train_batch", batch_acc,
                           global_step=i+data_len*cur_epoch)
 
         n_corrects += batch_correct
@@ -243,6 +276,9 @@ def distillate(teacher, student, train_loader, cur_epoch):
 
     train_accuracy = n_corrects/n_count
     train_avg_loss /= n_count
+    writer.add_scalar("acc/train_epoch", train_accuracy*100,
+                          global_step=cur_epoch)
+
 
     return train_accuracy, train_avg_loss, student
 
@@ -268,12 +304,13 @@ def evaluate(net, test_loader, cur_epoch, eval_target='LR'):
         batch_count = label.shape[0]
 
         batch_acc = batch_correct/batch_count*100
-        writer.add_scalar("acc/test", batch_acc, j+data_len*cur_epoch)
+        writer.add_scalar("acc/test_batch", batch_acc, j+data_len*cur_epoch)
 
         n_corrects += batch_correct
         n_count += batch_count
 
     test_accuracy = n_corrects/n_count
+    writer.add_scalar("acc/test_epoch", test_accuracy*100, cur_epoch)
 
     return test_accuracy, net
 
@@ -302,7 +339,7 @@ def train_and_eval(teacher, student, epochs, train_loader, test_loader, save_nam
             writer.add_text("BestAcc", f"{best_accuracy*100:.2f}% @ epoch {i}")
             best_model = student
             model_dict = {'acc': best_accuracy, 'net': best_model}
-            torch.save(model_dict, save_name)
+            # torch.save(model_dict, save_name)
 
         time_end = time.time()
 
