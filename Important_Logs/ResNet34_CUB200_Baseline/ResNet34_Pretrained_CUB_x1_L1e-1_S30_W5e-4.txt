@@ -1,0 +1,2723 @@
+Namespace(batch_size=128, cuda='2', down_scale=1, epochs=300, expr_name='ResNet34_Pretrained_CUB_x1_L1e-1_S30_W5e-4', learning_rate=0.1, model_name='resnet34', n_optim_step=30, pretrained=True, weight_decay=0.0005)
+Using device ... cuda
+Make new experiment folder
+Files already downloaded and verified
+Files already downloaded and verified
+Use pretrained model. (ImageNet)
+─── Start Training & Evalutation ───
+┌── Epoch (0/299)
+├── Training Loss : 0.0383
+├── Training accuracy : 5.47%
+│
+└── Testing accuracy : 8.47%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x1_L1e-1_S30_W5e-4/best_resnet34_x1_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 2[h] 23[m] 43[s]
+
+
+┌── Epoch (1/299)
+├── Training Loss : 0.0296
+├── Training accuracy : 15.27%
+│
+└── Testing accuracy : 11.05%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x1_L1e-1_S30_W5e-4/best_resnet34_x1_True.pth"
+Epoch time ─ 0[h] 0[m] 27[s]
+Estimated time ─ 2[h] 17[m] 14[s]
+
+
+┌── Epoch (2/299)
+├── Training Loss : 0.0263
+├── Training accuracy : 22.36%
+│
+└── Testing accuracy : 23.08%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x1_L1e-1_S30_W5e-4/best_resnet34_x1_True.pth"
+Epoch time ─ 0[h] 0[m] 27[s]
+Estimated time ─ 2[h] 15[m] 38[s]
+
+
+┌── Epoch (3/299)
+├── Training Loss : 0.0229
+├── Training accuracy : 29.36%
+│
+└── Testing accuracy : 17.64%
+Epoch time ─ 0[h] 0[m] 27[s]
+Estimated time ─ 2[h] 16[m] 33[s]
+
+
+┌── Epoch (4/299)
+├── Training Loss : 0.0210
+├── Training accuracy : 33.25%
+│
+└── Testing accuracy : 24.77%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x1_L1e-1_S30_W5e-4/best_resnet34_x1_True.pth"
+Epoch time ─ 0[h] 0[m] 27[s]
+Estimated time ─ 2[h] 13[m] 25[s]
+
+
+┌── Epoch (5/299)
+├── Training Loss : 0.0201
+├── Training accuracy : 36.74%
+│
+└── Testing accuracy : 28.58%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x1_L1e-1_S30_W5e-4/best_resnet34_x1_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 2[h] 18[m] 36[s]
+
+
+┌── Epoch (6/299)
+├── Training Loss : 0.0186
+├── Training accuracy : 40.01%
+│
+└── Testing accuracy : 32.78%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x1_L1e-1_S30_W5e-4/best_resnet34_x1_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 2[h] 20[m] 47[s]
+
+
+┌── Epoch (7/299)
+├── Training Loss : 0.0177
+├── Training accuracy : 42.53%
+│
+└── Testing accuracy : 40.42%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x1_L1e-1_S30_W5e-4/best_resnet34_x1_True.pth"
+Epoch time ─ 0[h] 0[m] 29[s]
+Estimated time ─ 2[h] 22[m] 32[s]
+
+
+┌── Epoch (8/299)
+├── Training Loss : 0.0167
+├── Training accuracy : 45.63%
+│
+└── Testing accuracy : 41.82%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x1_L1e-1_S30_W5e-4/best_resnet34_x1_True.pth"
+Epoch time ─ 0[h] 0[m] 29[s]
+Estimated time ─ 2[h] 21[m] 45[s]
+
+
+┌── Epoch (9/299)
+├── Training Loss : 0.0164
+├── Training accuracy : 46.95%
+│
+└── Testing accuracy : 40.75%
+Epoch time ─ 0[h] 0[m] 29[s]
+Estimated time ─ 2[h] 21[m] 18[s]
+
+
+┌── Epoch (10/299)
+├── Training Loss : 0.0157
+├── Training accuracy : 48.68%
+│
+└── Testing accuracy : 39.68%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 2[h] 15[m] 38[s]
+
+
+┌── Epoch (11/299)
+├── Training Loss : 0.0148
+├── Training accuracy : 51.37%
+│
+└── Testing accuracy : 43.67%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x1_L1e-1_S30_W5e-4/best_resnet34_x1_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 2[h] 15[m] 57[s]
+
+
+┌── Epoch (12/299)
+├── Training Loss : 0.0143
+├── Training accuracy : 53.32%
+│
+└── Testing accuracy : 37.94%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 2[h] 17[m] 49[s]
+
+
+┌── Epoch (13/299)
+├── Training Loss : 0.0143
+├── Training accuracy : 53.52%
+│
+└── Testing accuracy : 48.26%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x1_L1e-1_S30_W5e-4/best_resnet34_x1_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 2[h] 16[m] 54[s]
+
+
+┌── Epoch (14/299)
+├── Training Loss : 0.0133
+├── Training accuracy : 56.24%
+│
+└── Testing accuracy : 40.65%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 2[h] 15[m] 15[s]
+
+
+┌── Epoch (15/299)
+├── Training Loss : 0.0130
+├── Training accuracy : 56.92%
+│
+└── Testing accuracy : 50.62%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x1_L1e-1_S30_W5e-4/best_resnet34_x1_True.pth"
+Epoch time ─ 0[h] 0[m] 29[s]
+Estimated time ─ 2[h] 19[m] 6[s]
+
+
+┌── Epoch (16/299)
+├── Training Loss : 0.0128
+├── Training accuracy : 56.89%
+│
+└── Testing accuracy : 48.05%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 2[h] 15[m] 26[s]
+
+
+┌── Epoch (17/299)
+├── Training Loss : 0.0126
+├── Training accuracy : 57.27%
+│
+└── Testing accuracy : 44.13%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 2[h] 13[m] 23[s]
+
+
+┌── Epoch (18/299)
+├── Training Loss : 0.0120
+├── Training accuracy : 60.03%
+│
+└── Testing accuracy : 50.85%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x1_L1e-1_S30_W5e-4/best_resnet34_x1_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 2[h] 15[m] 30[s]
+
+
+┌── Epoch (19/299)
+├── Training Loss : 0.0116
+├── Training accuracy : 61.41%
+│
+└── Testing accuracy : 53.43%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x1_L1e-1_S30_W5e-4/best_resnet34_x1_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 2[h] 14[m] 21[s]
+
+
+┌── Epoch (20/299)
+├── Training Loss : 0.0118
+├── Training accuracy : 60.66%
+│
+└── Testing accuracy : 48.79%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 2[h] 13[m] 40[s]
+
+
+┌── Epoch (21/299)
+├── Training Loss : 0.0114
+├── Training accuracy : 61.76%
+│
+└── Testing accuracy : 49.78%
+Epoch time ─ 0[h] 0[m] 29[s]
+Estimated time ─ 2[h] 14[m] 42[s]
+
+
+┌── Epoch (22/299)
+├── Training Loss : 0.0109
+├── Training accuracy : 62.68%
+│
+└── Testing accuracy : 51.02%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 2[h] 10[m] 41[s]
+
+
+┌── Epoch (23/299)
+├── Training Loss : 0.0109
+├── Training accuracy : 64.45%
+│
+└── Testing accuracy : 50.10%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 2[h] 12[m] 27[s]
+
+
+┌── Epoch (24/299)
+├── Training Loss : 0.0109
+├── Training accuracy : 63.60%
+│
+└── Testing accuracy : 55.30%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x1_L1e-1_S30_W5e-4/best_resnet34_x1_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 2[h] 12[m] 53[s]
+
+
+┌── Epoch (25/299)
+├── Training Loss : 0.0105
+├── Training accuracy : 64.71%
+│
+└── Testing accuracy : 55.01%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 2[h] 12[m] 14[s]
+
+
+┌── Epoch (26/299)
+├── Training Loss : 0.0107
+├── Training accuracy : 64.28%
+│
+└── Testing accuracy : 53.05%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 2[h] 9[m] 11[s]
+
+
+┌── Epoch (27/299)
+├── Training Loss : 0.0104
+├── Training accuracy : 65.28%
+│
+└── Testing accuracy : 49.24%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 2[h] 7[m] 10[s]
+
+
+┌── Epoch (28/299)
+├── Training Loss : 0.0102
+├── Training accuracy : 66.80%
+│
+└── Testing accuracy : 51.28%
+Epoch time ─ 0[h] 0[m] 29[s]
+Estimated time ─ 2[h] 11[m] 16[s]
+
+
+┌── Epoch (29/299)
+├── Training Loss : 0.0099
+├── Training accuracy : 66.98%
+│
+└── Testing accuracy : 54.94%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 2[h] 10[m] 4[s]
+
+
+┌── Epoch (30/299)
+├── Training Loss : 0.0097
+├── Training accuracy : 67.40%
+│
+└── Testing accuracy : 46.60%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 2[h] 6[m] 24[s]
+
+
+┌── Epoch (31/299)
+├── Training Loss : 0.0102
+├── Training accuracy : 65.45%
+│
+└── Testing accuracy : 51.54%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 2[h] 7[m] 38[s]
+
+
+┌── Epoch (32/299)
+├── Training Loss : 0.0097
+├── Training accuracy : 68.34%
+│
+└── Testing accuracy : 49.97%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 2[h] 8[m] 29[s]
+
+
+┌── Epoch (33/299)
+├── Training Loss : 0.0096
+├── Training accuracy : 68.55%
+│
+└── Testing accuracy : 46.19%
+Epoch time ─ 0[h] 0[m] 29[s]
+Estimated time ─ 2[h] 8[m] 52[s]
+
+
+┌── Epoch (34/299)
+├── Training Loss : 0.0096
+├── Training accuracy : 68.00%
+│
+└── Testing accuracy : 52.45%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 2[h] 5[m] 52[s]
+
+
+┌── Epoch (35/299)
+├── Training Loss : 0.0094
+├── Training accuracy : 69.04%
+│
+└── Testing accuracy : 48.79%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 2[h] 6[m] 20[s]
+
+
+┌── Epoch (36/299)
+├── Training Loss : 0.0093
+├── Training accuracy : 69.00%
+│
+└── Testing accuracy : 55.28%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 2[h] 5[m] 22[s]
+
+
+┌── Epoch (37/299)
+├── Training Loss : 0.0090
+├── Training accuracy : 69.99%
+│
+└── Testing accuracy : 56.77%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x1_L1e-1_S30_W5e-4/best_resnet34_x1_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 2[h] 3[m] 30[s]
+
+
+┌── Epoch (38/299)
+├── Training Loss : 0.0093
+├── Training accuracy : 69.49%
+│
+└── Testing accuracy : 53.23%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 2[h] 4[m] 46[s]
+
+
+┌── Epoch (39/299)
+├── Training Loss : 0.0091
+├── Training accuracy : 70.20%
+│
+└── Testing accuracy : 51.85%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 2[h] 3[m] 53[s]
+
+
+┌── Epoch (40/299)
+├── Training Loss : 0.0095
+├── Training accuracy : 69.19%
+│
+└── Testing accuracy : 52.00%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 2[h] 4[m] 14[s]
+
+
+┌── Epoch (41/299)
+├── Training Loss : 0.0092
+├── Training accuracy : 69.57%
+│
+└── Testing accuracy : 50.47%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 2[h] 0[m] 38[s]
+
+
+┌── Epoch (42/299)
+├── Training Loss : 0.0094
+├── Training accuracy : 69.05%
+│
+└── Testing accuracy : 46.25%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 2[h] 3[m] 29[s]
+
+
+┌── Epoch (43/299)
+├── Training Loss : 0.0088
+├── Training accuracy : 70.79%
+│
+└── Testing accuracy : 49.91%
+Epoch time ─ 0[h] 0[m] 29[s]
+Estimated time ─ 2[h] 4[m] 13[s]
+
+
+┌── Epoch (44/299)
+├── Training Loss : 0.0089
+├── Training accuracy : 71.42%
+│
+└── Testing accuracy : 53.92%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 2[h] 2[m] 30[s]
+
+
+┌── Epoch (45/299)
+├── Training Loss : 0.0089
+├── Training accuracy : 70.64%
+│
+└── Testing accuracy : 47.76%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 2[h] 1[m] 28[s]
+
+
+┌── Epoch (46/299)
+├── Training Loss : 0.0086
+├── Training accuracy : 71.64%
+│
+└── Testing accuracy : 50.95%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 2[h] 1[m] 57[s]
+
+
+┌── Epoch (47/299)
+├── Training Loss : 0.0083
+├── Training accuracy : 72.21%
+│
+└── Testing accuracy : 55.97%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 59[m] 2[s]
+
+
+┌── Epoch (48/299)
+├── Training Loss : 0.0086
+├── Training accuracy : 71.96%
+│
+└── Testing accuracy : 48.72%
+Epoch time ─ 0[h] 0[m] 29[s]
+Estimated time ─ 2[h] 1[m] 34[s]
+
+
+┌── Epoch (49/299)
+├── Training Loss : 0.0089
+├── Training accuracy : 70.75%
+│
+└── Testing accuracy : 52.30%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 59[m] 21[s]
+
+
+┌── Epoch (50/299)
+├── Training Loss : 0.0081
+├── Training accuracy : 73.34%
+│
+└── Testing accuracy : 56.47%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 57[m] 28[s]
+
+
+┌── Epoch (51/299)
+├── Training Loss : 0.0083
+├── Training accuracy : 72.64%
+│
+└── Testing accuracy : 50.74%
+Epoch time ─ 0[h] 0[m] 29[s]
+Estimated time ─ 2[h] 0[m] 35[s]
+
+
+┌── Epoch (52/299)
+├── Training Loss : 0.0079
+├── Training accuracy : 73.94%
+│
+└── Testing accuracy : 48.86%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 57[m] 48[s]
+
+
+┌── Epoch (53/299)
+├── Training Loss : 0.0082
+├── Training accuracy : 72.81%
+│
+└── Testing accuracy : 52.23%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 57[m] 14[s]
+
+
+┌── Epoch (54/299)
+├── Training Loss : 0.0082
+├── Training accuracy : 73.71%
+│
+└── Testing accuracy : 55.49%
+Epoch time ─ 0[h] 0[m] 29[s]
+Estimated time ─ 1[h] 59[m] 1[s]
+
+
+┌── Epoch (55/299)
+├── Training Loss : 0.0081
+├── Training accuracy : 73.34%
+│
+└── Testing accuracy : 54.19%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 56[m] 35[s]
+
+
+┌── Epoch (56/299)
+├── Training Loss : 0.0080
+├── Training accuracy : 73.56%
+│
+└── Testing accuracy : 51.36%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 54[m] 5[s]
+
+
+┌── Epoch (57/299)
+├── Training Loss : 0.0081
+├── Training accuracy : 73.01%
+│
+└── Testing accuracy : 55.21%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 55[m] 31[s]
+
+
+┌── Epoch (58/299)
+├── Training Loss : 0.0084
+├── Training accuracy : 72.17%
+│
+└── Testing accuracy : 47.46%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 53[m] 58[s]
+
+
+┌── Epoch (59/299)
+├── Training Loss : 0.0083
+├── Training accuracy : 72.51%
+│
+└── Testing accuracy : 55.04%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 53[m] 18[s]
+
+
+┌── Epoch (60/299)
+├── Training Loss : 0.0081
+├── Training accuracy : 73.42%
+│
+└── Testing accuracy : 54.59%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 55[m] 3[s]
+
+
+┌── Epoch (61/299)
+├── Training Loss : 0.0075
+├── Training accuracy : 75.34%
+│
+└── Testing accuracy : 55.64%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 52[m] 19[s]
+
+
+┌── Epoch (62/299)
+├── Training Loss : 0.0080
+├── Training accuracy : 73.62%
+│
+└── Testing accuracy : 49.88%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 51[m] 46[s]
+
+
+┌── Epoch (63/299)
+├── Training Loss : 0.0081
+├── Training accuracy : 73.69%
+│
+└── Testing accuracy : 50.24%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 53[m] 47[s]
+
+
+┌── Epoch (64/299)
+├── Training Loss : 0.0078
+├── Training accuracy : 74.61%
+│
+└── Testing accuracy : 52.04%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 53[m] 0[s]
+
+
+┌── Epoch (65/299)
+├── Training Loss : 0.0078
+├── Training accuracy : 74.81%
+│
+└── Testing accuracy : 47.07%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 52[m] 28[s]
+
+
+┌── Epoch (66/299)
+├── Training Loss : 0.0079
+├── Training accuracy : 74.21%
+│
+└── Testing accuracy : 55.87%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 51[m] 31[s]
+
+
+┌── Epoch (67/299)
+├── Training Loss : 0.0078
+├── Training accuracy : 74.34%
+│
+└── Testing accuracy : 51.00%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 48[m] 53[s]
+
+
+┌── Epoch (68/299)
+├── Training Loss : 0.0078
+├── Training accuracy : 74.59%
+│
+└── Testing accuracy : 50.26%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 51[m] 19[s]
+
+
+┌── Epoch (69/299)
+├── Training Loss : 0.0078
+├── Training accuracy : 74.79%
+│
+└── Testing accuracy : 49.65%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 49[m] 17[s]
+
+
+┌── Epoch (70/299)
+├── Training Loss : 0.0079
+├── Training accuracy : 74.59%
+│
+└── Testing accuracy : 47.01%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 49[m] 9[s]
+
+
+┌── Epoch (71/299)
+├── Training Loss : 0.0073
+├── Training accuracy : 76.26%
+│
+└── Testing accuracy : 54.97%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 48[m] 36[s]
+
+
+┌── Epoch (72/299)
+├── Training Loss : 0.0072
+├── Training accuracy : 77.24%
+│
+└── Testing accuracy : 52.78%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 48[m] 23[s]
+
+
+┌── Epoch (73/299)
+├── Training Loss : 0.0078
+├── Training accuracy : 74.16%
+│
+└── Testing accuracy : 51.07%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 47[m] 8[s]
+
+
+┌── Epoch (74/299)
+├── Training Loss : 0.0078
+├── Training accuracy : 74.81%
+│
+└── Testing accuracy : 45.27%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 47[m] 50[s]
+
+
+┌── Epoch (75/299)
+├── Training Loss : 0.0077
+├── Training accuracy : 74.71%
+│
+└── Testing accuracy : 53.00%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 45[m] 50[s]
+
+
+┌── Epoch (76/299)
+├── Training Loss : 0.0078
+├── Training accuracy : 75.18%
+│
+└── Testing accuracy : 52.83%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 46[m] 13[s]
+
+
+┌── Epoch (77/299)
+├── Training Loss : 0.0077
+├── Training accuracy : 74.99%
+│
+└── Testing accuracy : 52.64%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 44[m] 26[s]
+
+
+┌── Epoch (78/299)
+├── Training Loss : 0.0076
+├── Training accuracy : 75.29%
+│
+└── Testing accuracy : 47.60%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 44[m] 57[s]
+
+
+┌── Epoch (79/299)
+├── Training Loss : 0.0074
+├── Training accuracy : 76.38%
+│
+└── Testing accuracy : 46.77%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 46[m] 6[s]
+
+
+┌── Epoch (80/299)
+├── Training Loss : 0.0070
+├── Training accuracy : 77.21%
+│
+└── Testing accuracy : 52.24%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 45[m] 30[s]
+
+
+┌── Epoch (81/299)
+├── Training Loss : 0.0073
+├── Training accuracy : 77.01%
+│
+└── Testing accuracy : 52.87%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 43[m] 24[s]
+
+
+┌── Epoch (82/299)
+├── Training Loss : 0.0070
+├── Training accuracy : 77.51%
+│
+└── Testing accuracy : 48.29%
+Epoch time ─ 0[h] 0[m] 29[s]
+Estimated time ─ 1[h] 45[m] 15[s]
+
+
+┌── Epoch (83/299)
+├── Training Loss : 0.0074
+├── Training accuracy : 76.14%
+│
+└── Testing accuracy : 51.83%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 42[m] 24[s]
+
+
+┌── Epoch (84/299)
+├── Training Loss : 0.0072
+├── Training accuracy : 76.56%
+│
+└── Testing accuracy : 50.95%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 43[m] 50[s]
+
+
+┌── Epoch (85/299)
+├── Training Loss : 0.0072
+├── Training accuracy : 77.09%
+│
+└── Testing accuracy : 54.30%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 41[m] 34[s]
+
+
+┌── Epoch (86/299)
+├── Training Loss : 0.0072
+├── Training accuracy : 77.54%
+│
+└── Testing accuracy : 51.05%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 40[m] 41[s]
+
+
+┌── Epoch (87/299)
+├── Training Loss : 0.0067
+├── Training accuracy : 78.48%
+│
+└── Testing accuracy : 52.69%
+Epoch time ─ 0[h] 0[m] 29[s]
+Estimated time ─ 1[h] 43[m] 58[s]
+
+
+┌── Epoch (88/299)
+├── Training Loss : 0.0075
+├── Training accuracy : 75.99%
+│
+└── Testing accuracy : 52.81%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 41[m] 22[s]
+
+
+┌── Epoch (89/299)
+├── Training Loss : 0.0070
+├── Training accuracy : 78.29%
+│
+└── Testing accuracy : 56.61%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 41[m] 25[s]
+
+
+┌── Epoch (90/299)
+├── Training Loss : 0.0070
+├── Training accuracy : 77.63%
+│
+└── Testing accuracy : 47.81%
+Epoch time ─ 0[h] 0[m] 29[s]
+Estimated time ─ 1[h] 41[m] 52[s]
+
+
+┌── Epoch (91/299)
+├── Training Loss : 0.0073
+├── Training accuracy : 76.21%
+│
+└── Testing accuracy : 52.52%
+Epoch time ─ 0[h] 0[m] 29[s]
+Estimated time ─ 1[h] 40[m] 57[s]
+
+
+┌── Epoch (92/299)
+├── Training Loss : 0.0070
+├── Training accuracy : 77.48%
+│
+└── Testing accuracy : 46.63%
+Epoch time ─ 0[h] 0[m] 29[s]
+Estimated time ─ 1[h] 40[m] 40[s]
+
+
+┌── Epoch (93/299)
+├── Training Loss : 0.0076
+├── Training accuracy : 75.61%
+│
+└── Testing accuracy : 46.46%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 38[m] 0[s]
+
+
+┌── Epoch (94/299)
+├── Training Loss : 0.0074
+├── Training accuracy : 75.81%
+│
+└── Testing accuracy : 48.43%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 38[m] 39[s]
+
+
+┌── Epoch (95/299)
+├── Training Loss : 0.0072
+├── Training accuracy : 76.76%
+│
+└── Testing accuracy : 51.24%
+Epoch time ─ 0[h] 0[m] 29[s]
+Estimated time ─ 1[h] 39[m] 6[s]
+
+
+┌── Epoch (96/299)
+├── Training Loss : 0.0072
+├── Training accuracy : 76.84%
+│
+└── Testing accuracy : 54.97%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 35[m] 0[s]
+
+
+┌── Epoch (97/299)
+├── Training Loss : 0.0069
+├── Training accuracy : 78.24%
+│
+└── Testing accuracy : 49.69%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 36[m] 58[s]
+
+
+┌── Epoch (98/299)
+├── Training Loss : 0.0067
+├── Training accuracy : 78.55%
+│
+└── Testing accuracy : 50.59%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 35[m] 25[s]
+
+
+┌── Epoch (99/299)
+├── Training Loss : 0.0070
+├── Training accuracy : 76.99%
+│
+└── Testing accuracy : 47.88%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 34[m] 19[s]
+
+
+┌── Epoch (100/299)
+├── Training Loss : 0.0072
+├── Training accuracy : 76.74%
+│
+└── Testing accuracy : 48.19%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 35[m] 49[s]
+
+
+┌── Epoch (101/299)
+├── Training Loss : 0.0071
+├── Training accuracy : 76.98%
+│
+└── Testing accuracy : 51.42%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 33[m] 9[s]
+
+
+┌── Epoch (102/299)
+├── Training Loss : 0.0073
+├── Training accuracy : 76.64%
+│
+└── Testing accuracy : 50.40%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 33[m] 52[s]
+
+
+┌── Epoch (103/299)
+├── Training Loss : 0.0069
+├── Training accuracy : 77.69%
+│
+└── Testing accuracy : 53.24%
+Epoch time ─ 0[h] 0[m] 27[s]
+Estimated time ─ 1[h] 31[m] 24[s]
+
+
+┌── Epoch (104/299)
+├── Training Loss : 0.0066
+├── Training accuracy : 78.41%
+│
+└── Testing accuracy : 44.62%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 31[m] 54[s]
+
+
+┌── Epoch (105/299)
+├── Training Loss : 0.0070
+├── Training accuracy : 77.86%
+│
+└── Testing accuracy : 48.98%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 31[m] 15[s]
+
+
+┌── Epoch (106/299)
+├── Training Loss : 0.0066
+├── Training accuracy : 78.61%
+│
+└── Testing accuracy : 50.90%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 30[m] 22[s]
+
+
+┌── Epoch (107/299)
+├── Training Loss : 0.0070
+├── Training accuracy : 77.36%
+│
+└── Testing accuracy : 49.67%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 29[m] 53[s]
+
+
+┌── Epoch (108/299)
+├── Training Loss : 0.0070
+├── Training accuracy : 77.24%
+│
+└── Testing accuracy : 49.53%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 30[m] 0[s]
+
+
+┌── Epoch (109/299)
+├── Training Loss : 0.0068
+├── Training accuracy : 78.18%
+│
+└── Testing accuracy : 52.26%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 29[m] 8[s]
+
+
+┌── Epoch (110/299)
+├── Training Loss : 0.0070
+├── Training accuracy : 78.08%
+│
+└── Testing accuracy : 51.50%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 28[m] 18[s]
+
+
+┌── Epoch (111/299)
+├── Training Loss : 0.0066
+├── Training accuracy : 79.15%
+│
+└── Testing accuracy : 51.48%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 28[m] 22[s]
+
+
+┌── Epoch (112/299)
+├── Training Loss : 0.0070
+├── Training accuracy : 77.63%
+│
+└── Testing accuracy : 48.96%
+Epoch time ─ 0[h] 0[m] 27[s]
+Estimated time ─ 1[h] 27[m] 13[s]
+
+
+┌── Epoch (113/299)
+├── Training Loss : 0.0067
+├── Training accuracy : 78.36%
+│
+└── Testing accuracy : 51.19%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 27[m] 19[s]
+
+
+┌── Epoch (114/299)
+├── Training Loss : 0.0072
+├── Training accuracy : 76.99%
+│
+└── Testing accuracy : 42.89%
+Epoch time ─ 0[h] 0[m] 27[s]
+Estimated time ─ 1[h] 25[m] 53[s]
+
+
+┌── Epoch (115/299)
+├── Training Loss : 0.0069
+├── Training accuracy : 78.03%
+│
+└── Testing accuracy : 54.25%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 25[m] 57[s]
+
+
+┌── Epoch (116/299)
+├── Training Loss : 0.0068
+├── Training accuracy : 78.03%
+│
+└── Testing accuracy : 54.38%
+Epoch time ─ 0[h] 0[m] 27[s]
+Estimated time ─ 1[h] 24[m] 22[s]
+
+
+┌── Epoch (117/299)
+├── Training Loss : 0.0069
+├── Training accuracy : 77.76%
+│
+└── Testing accuracy : 46.82%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 25[m] 15[s]
+
+
+┌── Epoch (118/299)
+├── Training Loss : 0.0069
+├── Training accuracy : 78.19%
+│
+└── Testing accuracy : 39.39%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 24[m] 51[s]
+
+
+┌── Epoch (119/299)
+├── Training Loss : 0.0066
+├── Training accuracy : 79.01%
+│
+└── Testing accuracy : 54.56%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 24[m] 15[s]
+
+
+┌── Epoch (120/299)
+├── Training Loss : 0.0069
+├── Training accuracy : 77.63%
+│
+└── Testing accuracy : 46.27%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 23[m] 34[s]
+
+
+┌── Epoch (121/299)
+├── Training Loss : 0.0070
+├── Training accuracy : 77.61%
+│
+└── Testing accuracy : 46.27%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 23[m] 27[s]
+
+
+┌── Epoch (122/299)
+├── Training Loss : 0.0068
+├── Training accuracy : 78.53%
+│
+└── Testing accuracy : 53.26%
+Epoch time ─ 0[h] 0[m] 27[s]
+Estimated time ─ 1[h] 21[m] 51[s]
+
+
+┌── Epoch (123/299)
+├── Training Loss : 0.0065
+├── Training accuracy : 79.33%
+│
+└── Testing accuracy : 50.86%
+Epoch time ─ 0[h] 0[m] 27[s]
+Estimated time ─ 1[h] 22[m] 2[s]
+
+
+┌── Epoch (124/299)
+├── Training Loss : 0.0072
+├── Training accuracy : 77.34%
+│
+└── Testing accuracy : 45.91%
+Epoch time ─ 0[h] 0[m] 27[s]
+Estimated time ─ 1[h] 21[m] 34[s]
+
+
+┌── Epoch (125/299)
+├── Training Loss : 0.0069
+├── Training accuracy : 77.74%
+│
+└── Testing accuracy : 50.78%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 21[m] 53[s]
+
+
+┌── Epoch (126/299)
+├── Training Loss : 0.0068
+├── Training accuracy : 78.11%
+│
+└── Testing accuracy : 48.81%
+Epoch time ─ 0[h] 0[m] 27[s]
+Estimated time ─ 1[h] 20[m] 18[s]
+
+
+┌── Epoch (127/299)
+├── Training Loss : 0.0066
+├── Training accuracy : 78.95%
+│
+└── Testing accuracy : 52.76%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 20[m] 21[s]
+
+
+┌── Epoch (128/299)
+├── Training Loss : 0.0066
+├── Training accuracy : 78.60%
+│
+└── Testing accuracy : 49.50%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 19[m] 59[s]
+
+
+┌── Epoch (129/299)
+├── Training Loss : 0.0067
+├── Training accuracy : 77.98%
+│
+└── Testing accuracy : 47.24%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 19[m] 31[s]
+
+
+┌── Epoch (130/299)
+├── Training Loss : 0.0067
+├── Training accuracy : 78.40%
+│
+└── Testing accuracy : 50.17%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 18[m] 53[s]
+
+
+┌── Epoch (131/299)
+├── Training Loss : 0.0063
+├── Training accuracy : 80.33%
+│
+└── Testing accuracy : 52.35%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 19[m] 11[s]
+
+
+┌── Epoch (132/299)
+├── Training Loss : 0.0065
+├── Training accuracy : 79.01%
+│
+└── Testing accuracy : 39.92%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 19[m] 14[s]
+
+
+┌── Epoch (133/299)
+├── Training Loss : 0.0067
+├── Training accuracy : 78.21%
+│
+└── Testing accuracy : 49.98%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 18[m] 19[s]
+
+
+┌── Epoch (134/299)
+├── Training Loss : 0.0067
+├── Training accuracy : 78.53%
+│
+└── Testing accuracy : 49.19%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 17[m] 17[s]
+
+
+┌── Epoch (135/299)
+├── Training Loss : 0.0065
+├── Training accuracy : 79.13%
+│
+└── Testing accuracy : 52.54%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 17[m] 38[s]
+
+
+┌── Epoch (136/299)
+├── Training Loss : 0.0062
+├── Training accuracy : 79.63%
+│
+└── Testing accuracy : 51.38%
+Epoch time ─ 0[h] 0[m] 29[s]
+Estimated time ─ 1[h] 18[m] 53[s]
+
+
+┌── Epoch (137/299)
+├── Training Loss : 0.0068
+├── Training accuracy : 78.70%
+│
+└── Testing accuracy : 43.65%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 17[m] 21[s]
+
+
+┌── Epoch (138/299)
+├── Training Loss : 0.0070
+├── Training accuracy : 77.61%
+│
+└── Testing accuracy : 45.22%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 17[m] 17[s]
+
+
+┌── Epoch (139/299)
+├── Training Loss : 0.0067
+├── Training accuracy : 78.65%
+│
+└── Testing accuracy : 48.22%
+Epoch time ─ 0[h] 0[m] 27[s]
+Estimated time ─ 1[h] 14[m] 21[s]
+
+
+┌── Epoch (140/299)
+├── Training Loss : 0.0067
+├── Training accuracy : 78.85%
+│
+└── Testing accuracy : 49.24%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 14[m] 53[s]
+
+
+┌── Epoch (141/299)
+├── Training Loss : 0.0063
+├── Training accuracy : 79.86%
+│
+└── Testing accuracy : 45.93%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 14[m] 54[s]
+
+
+┌── Epoch (142/299)
+├── Training Loss : 0.0069
+├── Training accuracy : 78.01%
+│
+└── Testing accuracy : 45.82%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 13[m] 27[s]
+
+
+┌── Epoch (143/299)
+├── Training Loss : 0.0066
+├── Training accuracy : 78.95%
+│
+└── Testing accuracy : 47.07%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 13[m] 18[s]
+
+
+┌── Epoch (144/299)
+├── Training Loss : 0.0069
+├── Training accuracy : 77.49%
+│
+└── Testing accuracy : 50.41%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 13[m] 14[s]
+
+
+┌── Epoch (145/299)
+├── Training Loss : 0.0066
+├── Training accuracy : 79.05%
+│
+└── Testing accuracy : 50.10%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 12[m] 35[s]
+
+
+┌── Epoch (146/299)
+├── Training Loss : 0.0067
+├── Training accuracy : 78.31%
+│
+└── Testing accuracy : 49.81%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 12[m] 0[s]
+
+
+┌── Epoch (147/299)
+├── Training Loss : 0.0067
+├── Training accuracy : 78.75%
+│
+└── Testing accuracy : 55.89%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 11[m] 52[s]
+
+
+┌── Epoch (148/299)
+├── Training Loss : 0.0062
+├── Training accuracy : 79.83%
+│
+└── Testing accuracy : 52.71%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 11[m] 7[s]
+
+
+┌── Epoch (149/299)
+├── Training Loss : 0.0059
+├── Training accuracy : 81.40%
+│
+└── Testing accuracy : 50.17%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 11[m] 31[s]
+
+
+┌── Epoch (150/299)
+├── Training Loss : 0.0065
+├── Training accuracy : 79.03%
+│
+└── Testing accuracy : 47.26%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 11[m] 1[s]
+
+
+┌── Epoch (151/299)
+├── Training Loss : 0.0067
+├── Training accuracy : 78.60%
+│
+└── Testing accuracy : 48.05%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 9[m] 28[s]
+
+
+┌── Epoch (152/299)
+├── Training Loss : 0.0065
+├── Training accuracy : 79.43%
+│
+└── Testing accuracy : 51.07%
+Epoch time ─ 0[h] 0[m] 27[s]
+Estimated time ─ 1[h] 8[m] 32[s]
+
+
+┌── Epoch (153/299)
+├── Training Loss : 0.0063
+├── Training accuracy : 79.63%
+│
+└── Testing accuracy : 54.54%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 9[m] 58[s]
+
+
+┌── Epoch (154/299)
+├── Training Loss : 0.0064
+├── Training accuracy : 79.45%
+│
+└── Testing accuracy : 49.02%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 9[m] 16[s]
+
+
+┌── Epoch (155/299)
+├── Training Loss : 0.0061
+├── Training accuracy : 80.63%
+│
+└── Testing accuracy : 50.54%
+Epoch time ─ 0[h] 0[m] 27[s]
+Estimated time ─ 1[h] 6[m] 53[s]
+
+
+┌── Epoch (156/299)
+├── Training Loss : 0.0066
+├── Training accuracy : 78.38%
+│
+└── Testing accuracy : 52.61%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 8[m] 39[s]
+
+
+┌── Epoch (157/299)
+├── Training Loss : 0.0067
+├── Training accuracy : 78.26%
+│
+└── Testing accuracy : 50.38%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 7[m] 30[s]
+
+
+┌── Epoch (158/299)
+├── Training Loss : 0.0065
+├── Training accuracy : 79.26%
+│
+└── Testing accuracy : 45.77%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 7[m] 58[s]
+
+
+┌── Epoch (159/299)
+├── Training Loss : 0.0067
+├── Training accuracy : 78.70%
+│
+└── Testing accuracy : 48.50%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 6[m] 40[s]
+
+
+┌── Epoch (160/299)
+├── Training Loss : 0.0066
+├── Training accuracy : 78.98%
+│
+└── Testing accuracy : 51.31%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 6[m] 5[s]
+
+
+┌── Epoch (161/299)
+├── Training Loss : 0.0064
+├── Training accuracy : 79.78%
+│
+└── Testing accuracy : 52.02%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 5[m] 1[s]
+
+
+┌── Epoch (162/299)
+├── Training Loss : 0.0065
+├── Training accuracy : 79.10%
+│
+└── Testing accuracy : 44.18%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 4[m] 12[s]
+
+
+┌── Epoch (163/299)
+├── Training Loss : 0.0063
+├── Training accuracy : 79.78%
+│
+└── Testing accuracy : 49.34%
+Epoch time ─ 0[h] 0[m] 27[s]
+Estimated time ─ 1[h] 3[m] 19[s]
+
+
+┌── Epoch (164/299)
+├── Training Loss : 0.0062
+├── Training accuracy : 79.65%
+│
+└── Testing accuracy : 50.95%
+Epoch time ─ 0[h] 0[m] 27[s]
+Estimated time ─ 1[h] 1[m] 41[s]
+
+
+┌── Epoch (165/299)
+├── Training Loss : 0.0064
+├── Training accuracy : 79.63%
+│
+└── Testing accuracy : 49.05%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 3[m] 3[s]
+
+
+┌── Epoch (166/299)
+├── Training Loss : 0.0068
+├── Training accuracy : 78.61%
+│
+└── Testing accuracy : 51.52%
+Epoch time ─ 0[h] 0[m] 27[s]
+Estimated time ─ 1[h] 0[m] 37[s]
+
+
+┌── Epoch (167/299)
+├── Training Loss : 0.0062
+├── Training accuracy : 80.70%
+│
+└── Testing accuracy : 48.24%
+Epoch time ─ 0[h] 0[m] 27[s]
+Estimated time ─ 1[h] 1[m] 9[s]
+
+
+┌── Epoch (168/299)
+├── Training Loss : 0.0065
+├── Training accuracy : 79.51%
+│
+└── Testing accuracy : 49.83%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 1[m] 17[s]
+
+
+┌── Epoch (169/299)
+├── Training Loss : 0.0064
+├── Training accuracy : 79.20%
+│
+└── Testing accuracy : 50.02%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 1[m] 39[s]
+
+
+┌── Epoch (170/299)
+├── Training Loss : 0.0062
+├── Training accuracy : 80.30%
+│
+└── Testing accuracy : 51.07%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 0[m] 33[s]
+
+
+┌── Epoch (171/299)
+├── Training Loss : 0.0061
+├── Training accuracy : 80.55%
+│
+└── Testing accuracy : 48.71%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 1[m] 20[s]
+
+
+┌── Epoch (172/299)
+├── Training Loss : 0.0058
+├── Training accuracy : 81.75%
+│
+└── Testing accuracy : 49.65%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 0[m] 6[s]
+
+
+┌── Epoch (173/299)
+├── Training Loss : 0.0060
+├── Training accuracy : 81.05%
+│
+└── Testing accuracy : 50.76%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 0[m] 51[s]
+
+
+┌── Epoch (174/299)
+├── Training Loss : 0.0058
+├── Training accuracy : 82.02%
+│
+└── Testing accuracy : 40.09%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 59[m] 27[s]
+
+
+┌── Epoch (175/299)
+├── Training Loss : 0.0065
+├── Training accuracy : 79.28%
+│
+└── Testing accuracy : 46.39%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 59[m] 26[s]
+
+
+┌── Epoch (176/299)
+├── Training Loss : 0.0064
+├── Training accuracy : 79.25%
+│
+└── Testing accuracy : 45.36%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 58[m] 40[s]
+
+
+┌── Epoch (177/299)
+├── Training Loss : 0.0063
+├── Training accuracy : 80.21%
+│
+└── Testing accuracy : 50.98%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 57[m] 58[s]
+
+
+┌── Epoch (178/299)
+├── Training Loss : 0.0064
+├── Training accuracy : 79.60%
+│
+└── Testing accuracy : 45.56%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 57[m] 56[s]
+
+
+┌── Epoch (179/299)
+├── Training Loss : 0.0063
+├── Training accuracy : 79.53%
+│
+└── Testing accuracy : 47.01%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 56[m] 44[s]
+
+
+┌── Epoch (180/299)
+├── Training Loss : 0.0061
+├── Training accuracy : 80.11%
+│
+└── Testing accuracy : 46.60%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 57[m] 21[s]
+
+
+┌── Epoch (181/299)
+├── Training Loss : 0.0061
+├── Training accuracy : 81.05%
+│
+└── Testing accuracy : 46.39%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 56[m] 13[s]
+
+
+┌── Epoch (182/299)
+├── Training Loss : 0.0065
+├── Training accuracy : 79.40%
+│
+└── Testing accuracy : 48.57%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 55[m] 29[s]
+
+
+┌── Epoch (183/299)
+├── Training Loss : 0.0063
+├── Training accuracy : 79.93%
+│
+└── Testing accuracy : 42.56%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 55[m] 18[s]
+
+
+┌── Epoch (184/299)
+├── Training Loss : 0.0064
+├── Training accuracy : 79.31%
+│
+└── Testing accuracy : 45.13%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 54[m] 58[s]
+
+
+┌── Epoch (185/299)
+├── Training Loss : 0.0061
+├── Training accuracy : 81.10%
+│
+└── Testing accuracy : 49.71%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 54[m] 36[s]
+
+
+┌── Epoch (186/299)
+├── Training Loss : 0.0066
+├── Training accuracy : 79.03%
+│
+└── Testing accuracy : 48.21%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 53[m] 34[s]
+
+
+┌── Epoch (187/299)
+├── Training Loss : 0.0059
+├── Training accuracy : 81.38%
+│
+└── Testing accuracy : 50.36%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 54[m] 1[s]
+
+
+┌── Epoch (188/299)
+├── Training Loss : 0.0060
+├── Training accuracy : 80.71%
+│
+└── Testing accuracy : 48.88%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 52[m] 24[s]
+
+
+┌── Epoch (189/299)
+├── Training Loss : 0.0064
+├── Training accuracy : 80.00%
+│
+└── Testing accuracy : 53.18%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 52[m] 0[s]
+
+
+┌── Epoch (190/299)
+├── Training Loss : 0.0063
+├── Training accuracy : 80.36%
+│
+└── Testing accuracy : 47.86%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 52[m] 4[s]
+
+
+┌── Epoch (191/299)
+├── Training Loss : 0.0060
+├── Training accuracy : 81.01%
+│
+└── Testing accuracy : 50.83%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 51[m] 53[s]
+
+
+┌── Epoch (192/299)
+├── Training Loss : 0.0065
+├── Training accuracy : 78.83%
+│
+└── Testing accuracy : 43.99%
+Epoch time ─ 0[h] 0[m] 29[s]
+Estimated time ─ 0[h] 52[m] 43[s]
+
+
+┌── Epoch (193/299)
+├── Training Loss : 0.0065
+├── Training accuracy : 79.18%
+│
+└── Testing accuracy : 51.59%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 51[m] 12[s]
+
+
+┌── Epoch (194/299)
+├── Training Loss : 0.0064
+├── Training accuracy : 79.31%
+│
+└── Testing accuracy : 50.07%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 50[m] 23[s]
+
+
+┌── Epoch (195/299)
+├── Training Loss : 0.0059
+├── Training accuracy : 81.65%
+│
+└── Testing accuracy : 45.88%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 50[m] 3[s]
+
+
+┌── Epoch (196/299)
+├── Training Loss : 0.0062
+├── Training accuracy : 80.51%
+│
+└── Testing accuracy : 50.54%
+Epoch time ─ 0[h] 0[m] 29[s]
+Estimated time ─ 0[h] 50[m] 2[s]
+
+
+┌── Epoch (197/299)
+├── Training Loss : 0.0059
+├── Training accuracy : 80.75%
+│
+└── Testing accuracy : 48.27%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 48[m] 53[s]
+
+
+┌── Epoch (198/299)
+├── Training Loss : 0.0060
+├── Training accuracy : 80.88%
+│
+└── Testing accuracy : 53.57%
+Epoch time ─ 0[h] 0[m] 29[s]
+Estimated time ─ 0[h] 49[m] 52[s]
+
+
+┌── Epoch (199/299)
+├── Training Loss : 0.0064
+├── Training accuracy : 79.96%
+│
+└── Testing accuracy : 49.65%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 47[m] 56[s]
+
+
+┌── Epoch (200/299)
+├── Training Loss : 0.0059
+├── Training accuracy : 81.20%
+│
+└── Testing accuracy : 54.14%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 46[m] 54[s]
+
+
+┌── Epoch (201/299)
+├── Training Loss : 0.0060
+├── Training accuracy : 80.60%
+│
+└── Testing accuracy : 51.31%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 47[m] 18[s]
+
+
+┌── Epoch (202/299)
+├── Training Loss : 0.0060
+├── Training accuracy : 81.23%
+│
+└── Testing accuracy : 51.00%
+Epoch time ─ 0[h] 0[m] 29[s]
+Estimated time ─ 0[h] 47[m] 23[s]
+
+
+┌── Epoch (203/299)
+├── Training Loss : 0.0060
+├── Training accuracy : 81.36%
+│
+└── Testing accuracy : 51.47%
+Epoch time ─ 0[h] 0[m] 29[s]
+Estimated time ─ 0[h] 47[m] 4[s]
+
+
+┌── Epoch (204/299)
+├── Training Loss : 0.0060
+├── Training accuracy : 80.96%
+│
+└── Testing accuracy : 46.96%
+Epoch time ─ 0[h] 0[m] 29[s]
+Estimated time ─ 0[h] 46[m] 25[s]
+
+
+┌── Epoch (205/299)
+├── Training Loss : 0.0061
+├── Training accuracy : 80.65%
+│
+└── Testing accuracy : 49.86%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 44[m] 28[s]
+
+
+┌── Epoch (206/299)
+├── Training Loss : 0.0060
+├── Training accuracy : 81.08%
+│
+└── Testing accuracy : 48.62%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 44[m] 34[s]
+
+
+┌── Epoch (207/299)
+├── Training Loss : 0.0063
+├── Training accuracy : 79.88%
+│
+└── Testing accuracy : 50.50%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 44[m] 27[s]
+
+
+┌── Epoch (208/299)
+├── Training Loss : 0.0058
+├── Training accuracy : 82.02%
+│
+└── Testing accuracy : 49.88%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 42[m] 56[s]
+
+
+┌── Epoch (209/299)
+├── Training Loss : 0.0060
+├── Training accuracy : 80.53%
+│
+└── Testing accuracy : 47.31%
+Epoch time ─ 0[h] 0[m] 27[s]
+Estimated time ─ 0[h] 41[m] 45[s]
+
+
+┌── Epoch (210/299)
+├── Training Loss : 0.0065
+├── Training accuracy : 80.08%
+│
+└── Testing accuracy : 43.84%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 42[m] 14[s]
+
+
+┌── Epoch (211/299)
+├── Training Loss : 0.0063
+├── Training accuracy : 79.63%
+│
+└── Testing accuracy : 46.55%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 41[m] 12[s]
+
+
+┌── Epoch (212/299)
+├── Training Loss : 0.0063
+├── Training accuracy : 79.85%
+│
+└── Testing accuracy : 50.57%
+Epoch time ─ 0[h] 0[m] 27[s]
+Estimated time ─ 0[h] 40[m] 35[s]
+
+
+┌── Epoch (213/299)
+├── Training Loss : 0.0064
+├── Training accuracy : 79.61%
+│
+└── Testing accuracy : 47.05%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 41[m] 26[s]
+
+
+┌── Epoch (214/299)
+├── Training Loss : 0.0057
+├── Training accuracy : 81.70%
+│
+└── Testing accuracy : 49.10%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 40[m] 44[s]
+
+
+┌── Epoch (215/299)
+├── Training Loss : 0.0060
+├── Training accuracy : 81.21%
+│
+└── Testing accuracy : 47.91%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 39[m] 58[s]
+
+
+┌── Epoch (216/299)
+├── Training Loss : 0.0063
+├── Training accuracy : 79.63%
+│
+└── Testing accuracy : 51.97%
+Epoch time ─ 0[h] 0[m] 27[s]
+Estimated time ─ 0[h] 38[m] 33[s]
+
+
+┌── Epoch (217/299)
+├── Training Loss : 0.0063
+├── Training accuracy : 79.85%
+│
+└── Testing accuracy : 44.17%
+Epoch time ─ 0[h] 0[m] 27[s]
+Estimated time ─ 0[h] 37[m] 40[s]
+
+
+┌── Epoch (218/299)
+├── Training Loss : 0.0061
+├── Training accuracy : 80.63%
+│
+└── Testing accuracy : 45.51%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 38[m] 7[s]
+
+
+┌── Epoch (219/299)
+├── Training Loss : 0.0058
+├── Training accuracy : 81.88%
+│
+└── Testing accuracy : 51.57%
+Epoch time ─ 0[h] 0[m] 29[s]
+Estimated time ─ 0[h] 38[m] 49[s]
+
+
+┌── Epoch (220/299)
+├── Training Loss : 0.0060
+├── Training accuracy : 81.05%
+│
+└── Testing accuracy : 47.26%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 37[m] 57[s]
+
+
+┌── Epoch (221/299)
+├── Training Loss : 0.0063
+├── Training accuracy : 79.86%
+│
+└── Testing accuracy : 49.65%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 36[m] 51[s]
+
+
+┌── Epoch (222/299)
+├── Training Loss : 0.0059
+├── Training accuracy : 81.66%
+│
+└── Testing accuracy : 48.12%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 36[m] 51[s]
+
+
+┌── Epoch (223/299)
+├── Training Loss : 0.0058
+├── Training accuracy : 81.30%
+│
+└── Testing accuracy : 48.90%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 36[m] 20[s]
+
+
+┌── Epoch (224/299)
+├── Training Loss : 0.0059
+├── Training accuracy : 81.45%
+│
+└── Testing accuracy : 48.41%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 35[m] 29[s]
+
+
+┌── Epoch (225/299)
+├── Training Loss : 0.0060
+├── Training accuracy : 81.31%
+│
+└── Testing accuracy : 51.61%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 34[m] 53[s]
+
+
+┌── Epoch (226/299)
+├── Training Loss : 0.0057
+├── Training accuracy : 82.25%
+│
+└── Testing accuracy : 53.18%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 35[m] 14[s]
+
+
+┌── Epoch (227/299)
+├── Training Loss : 0.0056
+├── Training accuracy : 82.80%
+│
+└── Testing accuracy : 49.98%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 34[m] 7[s]
+
+
+┌── Epoch (228/299)
+├── Training Loss : 0.0060
+├── Training accuracy : 81.33%
+│
+└── Testing accuracy : 47.00%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 33[m] 39[s]
+
+
+┌── Epoch (229/299)
+├── Training Loss : 0.0060
+├── Training accuracy : 80.81%
+│
+└── Testing accuracy : 50.10%
+Epoch time ─ 0[h] 0[m] 29[s]
+Estimated time ─ 0[h] 33[m] 51[s]
+
+
+┌── Epoch (230/299)
+├── Training Loss : 0.0060
+├── Training accuracy : 81.45%
+│
+└── Testing accuracy : 47.48%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 33[m] 3[s]
+
+
+┌── Epoch (231/299)
+├── Training Loss : 0.0059
+├── Training accuracy : 81.18%
+│
+└── Testing accuracy : 43.27%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 32[m] 20[s]
+
+
+┌── Epoch (232/299)
+├── Training Loss : 0.0058
+├── Training accuracy : 81.70%
+│
+└── Testing accuracy : 50.45%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 32[m] 2[s]
+
+
+┌── Epoch (233/299)
+├── Training Loss : 0.0062
+├── Training accuracy : 80.26%
+│
+└── Testing accuracy : 49.33%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 31[m] 34[s]
+
+
+┌── Epoch (234/299)
+├── Training Loss : 0.0060
+├── Training accuracy : 81.35%
+│
+└── Testing accuracy : 49.21%
+Epoch time ─ 0[h] 0[m] 29[s]
+Estimated time ─ 0[h] 31[m] 45[s]
+
+
+┌── Epoch (235/299)
+├── Training Loss : 0.0057
+├── Training accuracy : 81.78%
+│
+└── Testing accuracy : 50.29%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 30[m] 40[s]
+
+
+┌── Epoch (236/299)
+├── Training Loss : 0.0065
+├── Training accuracy : 79.21%
+│
+└── Testing accuracy : 45.77%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 30[m] 19[s]
+
+
+┌── Epoch (237/299)
+├── Training Loss : 0.0061
+├── Training accuracy : 81.21%
+│
+└── Testing accuracy : 43.49%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 29[m] 40[s]
+
+
+┌── Epoch (238/299)
+├── Training Loss : 0.0061
+├── Training accuracy : 80.91%
+│
+└── Testing accuracy : 44.82%
+Epoch time ─ 0[h] 0[m] 29[s]
+Estimated time ─ 0[h] 29[m] 38[s]
+
+
+┌── Epoch (239/299)
+├── Training Loss : 0.0061
+├── Training accuracy : 81.01%
+│
+└── Testing accuracy : 51.95%
+Epoch time ─ 0[h] 0[m] 29[s]
+Estimated time ─ 0[h] 29[m] 3[s]
+
+
+┌── Epoch (240/299)
+├── Training Loss : 0.0062
+├── Training accuracy : 80.60%
+│
+└── Testing accuracy : 49.88%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 28[m] 29[s]
+
+
+┌── Epoch (241/299)
+├── Training Loss : 0.0062
+├── Training accuracy : 80.73%
+│
+└── Testing accuracy : 46.13%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 27[m] 50[s]
+
+
+┌── Epoch (242/299)
+├── Training Loss : 0.0062
+├── Training accuracy : 80.13%
+│
+└── Testing accuracy : 48.29%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 27[m] 7[s]
+
+
+┌── Epoch (243/299)
+├── Training Loss : 0.0059
+├── Training accuracy : 81.40%
+│
+└── Testing accuracy : 45.17%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 26[m] 52[s]
+
+
+┌── Epoch (244/299)
+├── Training Loss : 0.0060
+├── Training accuracy : 80.91%
+│
+└── Testing accuracy : 45.32%
+Epoch time ─ 0[h] 0[m] 29[s]
+Estimated time ─ 0[h] 26[m] 41[s]
+
+
+┌── Epoch (245/299)
+├── Training Loss : 0.0060
+├── Training accuracy : 81.13%
+│
+└── Testing accuracy : 52.52%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 25[m] 37[s]
+
+
+┌── Epoch (246/299)
+├── Training Loss : 0.0057
+├── Training accuracy : 81.72%
+│
+└── Testing accuracy : 45.27%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 25[m] 3[s]
+
+
+┌── Epoch (247/299)
+├── Training Loss : 0.0061
+├── Training accuracy : 81.05%
+│
+└── Testing accuracy : 47.81%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 24[m] 37[s]
+
+
+┌── Epoch (248/299)
+├── Training Loss : 0.0058
+├── Training accuracy : 81.40%
+│
+└── Testing accuracy : 49.74%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 23[m] 49[s]
+
+
+┌── Epoch (249/299)
+├── Training Loss : 0.0059
+├── Training accuracy : 81.01%
+│
+└── Testing accuracy : 44.27%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 23[m] 39[s]
+
+
+┌── Epoch (250/299)
+├── Training Loss : 0.0064
+├── Training accuracy : 79.68%
+│
+└── Testing accuracy : 48.55%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 22[m] 57[s]
+
+
+┌── Epoch (251/299)
+├── Training Loss : 0.0057
+├── Training accuracy : 81.66%
+│
+└── Testing accuracy : 50.59%
+Epoch time ─ 0[h] 0[m] 27[s]
+Estimated time ─ 0[h] 22[m] 9[s]
+
+
+┌── Epoch (252/299)
+├── Training Loss : 0.0059
+├── Training accuracy : 81.48%
+│
+└── Testing accuracy : 44.77%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 22[m] 0[s]
+
+
+┌── Epoch (253/299)
+├── Training Loss : 0.0058
+├── Training accuracy : 81.48%
+│
+└── Testing accuracy : 46.60%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 21[m] 49[s]
+
+
+┌── Epoch (254/299)
+├── Training Loss : 0.0055
+├── Training accuracy : 82.30%
+│
+└── Testing accuracy : 42.84%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 21[m] 32[s]
+
+
+┌── Epoch (255/299)
+├── Training Loss : 0.0059
+├── Training accuracy : 81.21%
+│
+└── Testing accuracy : 49.31%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 20[m] 44[s]
+
+
+┌── Epoch (256/299)
+├── Training Loss : 0.0058
+├── Training accuracy : 81.48%
+│
+└── Testing accuracy : 45.12%
+Epoch time ─ 0[h] 0[m] 27[s]
+Estimated time ─ 0[h] 19[m] 58[s]
+
+
+┌── Epoch (257/299)
+├── Training Loss : 0.0059
+├── Training accuracy : 80.86%
+│
+└── Testing accuracy : 42.49%
+Epoch time ─ 0[h] 0[m] 27[s]
+Estimated time ─ 0[h] 19[m] 34[s]
+
+
+┌── Epoch (258/299)
+├── Training Loss : 0.0060
+├── Training accuracy : 81.45%
+│
+└── Testing accuracy : 46.44%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 19[m] 30[s]
+
+
+┌── Epoch (259/299)
+├── Training Loss : 0.0063
+├── Training accuracy : 80.10%
+│
+└── Testing accuracy : 46.96%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 18[m] 49[s]
+
+
+┌── Epoch (260/299)
+├── Training Loss : 0.0059
+├── Training accuracy : 80.80%
+│
+└── Testing accuracy : 47.46%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 18[m] 12[s]
+
+
+┌── Epoch (261/299)
+├── Training Loss : 0.0060
+├── Training accuracy : 81.10%
+│
+└── Testing accuracy : 48.12%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 17[m] 44[s]
+
+
+┌── Epoch (262/299)
+├── Training Loss : 0.0062
+├── Training accuracy : 79.90%
+│
+└── Testing accuracy : 45.63%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 17[m] 46[s]
+
+
+┌── Epoch (263/299)
+├── Training Loss : 0.0060
+├── Training accuracy : 80.96%
+│
+└── Testing accuracy : 42.18%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 17[m] 0[s]
+
+
+┌── Epoch (264/299)
+├── Training Loss : 0.0059
+├── Training accuracy : 81.83%
+│
+└── Testing accuracy : 49.02%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 16[m] 53[s]
+
+
+┌── Epoch (265/299)
+├── Training Loss : 0.0058
+├── Training accuracy : 82.20%
+│
+└── Testing accuracy : 48.88%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 16[m] 9[s]
+
+
+┌── Epoch (266/299)
+├── Training Loss : 0.0057
+├── Training accuracy : 82.60%
+│
+└── Testing accuracy : 50.09%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 15[m] 42[s]
+
+
+┌── Epoch (267/299)
+├── Training Loss : 0.0060
+├── Training accuracy : 80.73%
+│
+└── Testing accuracy : 44.53%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 15[m] 13[s]
+
+
+┌── Epoch (268/299)
+├── Training Loss : 0.0060
+├── Training accuracy : 80.70%
+│
+└── Testing accuracy : 46.88%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 14[m] 52[s]
+
+
+┌── Epoch (269/299)
+├── Training Loss : 0.0057
+├── Training accuracy : 82.37%
+│
+└── Testing accuracy : 48.95%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 14[m] 19[s]
+
+
+┌── Epoch (270/299)
+├── Training Loss : 0.0060
+├── Training accuracy : 81.05%
+│
+└── Testing accuracy : 45.37%
+Epoch time ─ 0[h] 0[m] 29[s]
+Estimated time ─ 0[h] 14[m] 24[s]
+
+
+┌── Epoch (271/299)
+├── Training Loss : 0.0059
+├── Training accuracy : 81.23%
+│
+└── Testing accuracy : 45.56%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 13[m] 25[s]
+
+
+┌── Epoch (272/299)
+├── Training Loss : 0.0055
+├── Training accuracy : 82.33%
+│
+└── Testing accuracy : 50.67%
+Epoch time ─ 0[h] 0[m] 29[s]
+Estimated time ─ 0[h] 13[m] 18[s]
+
+
+┌── Epoch (273/299)
+├── Training Loss : 0.0055
+├── Training accuracy : 82.67%
+│
+└── Testing accuracy : 50.57%
+Epoch time ─ 0[h] 0[m] 27[s]
+Estimated time ─ 0[h] 11[m] 56[s]
+
+
+┌── Epoch (274/299)
+├── Training Loss : 0.0057
+├── Training accuracy : 81.73%
+│
+└── Testing accuracy : 48.52%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 11[m] 57[s]
+
+
+┌── Epoch (275/299)
+├── Training Loss : 0.0058
+├── Training accuracy : 81.18%
+│
+└── Testing accuracy : 49.14%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 11[m] 15[s]
+
+
+┌── Epoch (276/299)
+├── Training Loss : 0.0055
+├── Training accuracy : 82.37%
+│
+└── Testing accuracy : 50.16%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 10[m] 59[s]
+
+
+┌── Epoch (277/299)
+├── Training Loss : 0.0058
+├── Training accuracy : 81.75%
+│
+└── Testing accuracy : 45.05%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 10[m] 23[s]
+
+
+┌── Epoch (278/299)
+├── Training Loss : 0.0056
+├── Training accuracy : 81.82%
+│
+└── Testing accuracy : 45.06%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 9[m] 56[s]
+
+
+┌── Epoch (279/299)
+├── Training Loss : 0.0059
+├── Training accuracy : 81.45%
+│
+└── Testing accuracy : 46.50%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 9[m] 31[s]
+
+
+┌── Epoch (280/299)
+├── Training Loss : 0.0057
+├── Training accuracy : 81.80%
+│
+└── Testing accuracy : 45.67%
+Epoch time ─ 0[h] 0[m] 27[s]
+Estimated time ─ 0[h] 8[m] 44[s]
+
+
+┌── Epoch (281/299)
+├── Training Loss : 0.0062
+├── Training accuracy : 80.06%
+│
+└── Testing accuracy : 41.96%
+Epoch time ─ 0[h] 0[m] 27[s]
+Estimated time ─ 0[h] 8[m] 17[s]
+
+
+┌── Epoch (282/299)
+├── Training Loss : 0.0060
+├── Training accuracy : 80.73%
+│
+└── Testing accuracy : 44.56%
+Epoch time ─ 0[h] 0[m] 27[s]
+Estimated time ─ 0[h] 7[m] 43[s]
+
+
+┌── Epoch (283/299)
+├── Training Loss : 0.0057
+├── Training accuracy : 81.87%
+│
+└── Testing accuracy : 51.73%
+Epoch time ─ 0[h] 0[m] 26[s]
+Estimated time ─ 0[h] 7[m] 11[s]
+
+
+┌── Epoch (284/299)
+├── Training Loss : 0.0058
+├── Training accuracy : 81.31%
+│
+└── Testing accuracy : 47.88%
+Epoch time ─ 0[h] 0[m] 27[s]
+Estimated time ─ 0[h] 6[m] 57[s]
+
+
+┌── Epoch (285/299)
+├── Training Loss : 0.0059
+├── Training accuracy : 81.21%
+│
+└── Testing accuracy : 48.77%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 6[m] 32[s]
+
+
+┌── Epoch (286/299)
+├── Training Loss : 0.0059
+├── Training accuracy : 81.13%
+│
+└── Testing accuracy : 43.04%
+Epoch time ─ 0[h] 0[m] 27[s]
+Estimated time ─ 0[h] 5[m] 56[s]
+
+
+┌── Epoch (287/299)
+├── Training Loss : 0.0061
+├── Training accuracy : 80.60%
+│
+└── Testing accuracy : 48.84%
+Epoch time ─ 0[h] 0[m] 27[s]
+Estimated time ─ 0[h] 5[m] 35[s]
+
+
+┌── Epoch (288/299)
+├── Training Loss : 0.0060
+├── Training accuracy : 80.45%
+│
+└── Testing accuracy : 43.32%
+Epoch time ─ 0[h] 0[m] 27[s]
+Estimated time ─ 0[h] 5[m] 5[s]
+
+
+┌── Epoch (289/299)
+├── Training Loss : 0.0061
+├── Training accuracy : 81.25%
+│
+└── Testing accuracy : 48.81%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 4[m] 43[s]
+
+
+┌── Epoch (290/299)
+├── Training Loss : 0.0063
+├── Training accuracy : 79.90%
+│
+└── Testing accuracy : 49.83%
+Epoch time ─ 0[h] 0[m] 29[s]
+Estimated time ─ 0[h] 4[m] 22[s]
+
+
+┌── Epoch (291/299)
+├── Training Loss : 0.0057
+├── Training accuracy : 82.00%
+│
+└── Testing accuracy : 50.54%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 3[m] 49[s]
+
+
+┌── Epoch (292/299)
+├── Training Loss : 0.0059
+├── Training accuracy : 81.13%
+│
+└── Testing accuracy : 43.11%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 3[m] 20[s]
+
+
+┌── Epoch (293/299)
+├── Training Loss : 0.0057
+├── Training accuracy : 82.32%
+│
+└── Testing accuracy : 51.05%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 2[m] 53[s]
+
+
+┌── Epoch (294/299)
+├── Training Loss : 0.0052
+├── Training accuracy : 83.20%
+│
+└── Testing accuracy : 46.63%
+Epoch time ─ 0[h] 0[m] 27[s]
+Estimated time ─ 0[h] 2[m] 19[s]
+
+
+┌── Epoch (295/299)
+├── Training Loss : 0.0055
+├── Training accuracy : 82.47%
+│
+└── Testing accuracy : 47.74%
+Epoch time ─ 0[h] 0[m] 27[s]
+Estimated time ─ 0[h] 1[m] 51[s]
+
+
+┌── Epoch (296/299)
+├── Training Loss : 0.0058
+├── Training accuracy : 81.10%
+│
+└── Testing accuracy : 50.17%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 1[m] 24[s]
+
+
+┌── Epoch (297/299)
+├── Training Loss : 0.0061
+├── Training accuracy : 80.05%
+│
+└── Testing accuracy : 40.78%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 0[m] 57[s]
+
+
+┌── Epoch (298/299)
+├── Training Loss : 0.0057
+├── Training accuracy : 81.48%
+│
+└── Testing accuracy : 46.67%
+Epoch time ─ 0[h] 0[m] 26[s]
+Estimated time ─ 0[h] 0[m] 26[s]
+
+
+┌── Epoch (299/299)
+├── Training Loss : 0.0058
+├── Training accuracy : 81.50%
+│
+└── Testing accuracy : 40.51%
+Epoch time ─ 0[h] 0[m] 26[s]
+Estimated time ─ 0[h] 0[m] 0[s]
+
+
+Done with accuracy : 56.77%

@@ -34,6 +34,7 @@ parser.add_argument('--learning_rate', type=float, default=1e-3)
 parser.add_argument("--model_name", type=str, default="resnet34")
 parser.add_argument("--pretrained", action='store_true')
 parser.add_argument("--batch_size", type=int, default=128)
+parser.add_argument("--weight_decay",type=float, default=5e-4)
 parser.add_argument("--n_optim_step", type=int, default=100)
 parser.add_argument("--cuda", type=str, default='0')
 
@@ -86,8 +87,8 @@ net_t = net_t.to(device)
 
 def train(net, train_loader, cur_epoch):
     criterion = nn.CrossEntropyLoss()
-    optimizer = optim.Adam(
-        net.parameters(), lr=args.learning_rate, weight_decay=4e-5)
+    optimizer = optim.SGD(
+        net.parameters(), lr=args.learning_rate, momentum=0.9, weight_decay=args.weight_decay)
     scheduler = optim.lr_scheduler.StepLR(optimizer, args.n_optim_step, gamma=0.1)
 
     train_avg_loss = 0

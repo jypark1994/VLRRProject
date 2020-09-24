@@ -1,0 +1,3034 @@
+Delete last experiment results
+Teacher: resnet32, Student: resnet32
+Wrapper mode : ResNet-CIFAR
+Load state dict with accuracy : 92.47%
+- Weight dir : ./pretrained/CIFAR10/CIFAR10_ResNet32_92_47.pth
+Wrapper mode : ResNet-CIFAR
+Load state dict with accuracy : 92.47%
+- Weight dir : ./pretrained/CIFAR10/CIFAR10_ResNet32_92_47.pth
+─── Start Training & Evalutation ───
+┌ Epoch (0/299)
+Soft loss = 0.1573, Hard loss = 0.9780, Total loss = 1.1352
+├── Training Loss : 0.0101
+├── Training accuracy : 42.74%
+│ Testing ...
+└── Testing accuracy : 53.19%
+  └──> Saving the best model to "./experiments/cifar10/DIST_KL_L4_CIFAR_A07_B0_T4_B128_L1E-1_WD5E-4/Tresnet32_Sresnet32_x4.pth"
+Epoch time ─ 0[h] 0[m] 19[s]
+Estimated time ─ 1[h] 39[m] 13[s]
+
+
+┌ Epoch (1/299)
+Soft loss = 0.1519, Hard loss = 0.7837, Total loss = 0.9356
+├── Training Loss : 0.0082
+├── Training accuracy : 54.53%
+│ Testing ...
+└── Testing accuracy : 56.80%
+  └──> Saving the best model to "./experiments/cifar10/DIST_KL_L4_CIFAR_A07_B0_T4_B128_L1E-1_WD5E-4/Tresnet32_Sresnet32_x4.pth"
+Epoch time ─ 0[h] 0[m] 20[s]
+Estimated time ─ 1[h] 40[m] 31[s]
+
+
+┌ Epoch (2/299)
+Soft loss = 0.1497, Hard loss = 0.6741, Total loss = 0.8238
+├── Training Loss : 0.0075
+├── Training accuracy : 59.77%
+│ Testing ...
+└── Testing accuracy : 58.40%
+  └──> Saving the best model to "./experiments/cifar10/DIST_KL_L4_CIFAR_A07_B0_T4_B128_L1E-1_WD5E-4/Tresnet32_Sresnet32_x4.pth"
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 47[m] 9[s]
+
+
+┌ Epoch (3/299)
+Soft loss = 0.1629, Hard loss = 0.7228, Total loss = 0.8858
+├── Training Loss : 0.0070
+├── Training accuracy : 63.69%
+│ Testing ...
+└── Testing accuracy : 63.55%
+  └──> Saving the best model to "./experiments/cifar10/DIST_KL_L4_CIFAR_A07_B0_T4_B128_L1E-1_WD5E-4/Tresnet32_Sresnet32_x4.pth"
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 44[m] 29[s]
+
+
+┌ Epoch (4/299)
+Soft loss = 0.1602, Hard loss = 0.7376, Total loss = 0.8978
+├── Training Loss : 0.0067
+├── Training accuracy : 66.04%
+│ Testing ...
+└── Testing accuracy : 65.61%
+  └──> Saving the best model to "./experiments/cifar10/DIST_KL_L4_CIFAR_A07_B0_T4_B128_L1E-1_WD5E-4/Tresnet32_Sresnet32_x4.pth"
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 47[m] 29[s]
+
+
+┌ Epoch (5/299)
+Soft loss = 0.1557, Hard loss = 0.6812, Total loss = 0.8369
+├── Training Loss : 0.0064
+├── Training accuracy : 67.66%
+│ Testing ...
+└── Testing accuracy : 69.21%
+  └──> Saving the best model to "./experiments/cifar10/DIST_KL_L4_CIFAR_A07_B0_T4_B128_L1E-1_WD5E-4/Tresnet32_Sresnet32_x4.pth"
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 47[m] 14[s]
+
+
+┌ Epoch (6/299)
+Soft loss = 0.1589, Hard loss = 0.6964, Total loss = 0.8554
+├── Training Loss : 0.0062
+├── Training accuracy : 69.42%
+│ Testing ...
+└── Testing accuracy : 69.61%
+  └──> Saving the best model to "./experiments/cifar10/DIST_KL_L4_CIFAR_A07_B0_T4_B128_L1E-1_WD5E-4/Tresnet32_Sresnet32_x4.pth"
+Epoch time ─ 0[h] 0[m] 20[s]
+Estimated time ─ 1[h] 41[m] 40[s]
+
+
+┌ Epoch (7/299)
+Soft loss = 0.1481, Hard loss = 0.7460, Total loss = 0.8941
+├── Training Loss : 0.0060
+├── Training accuracy : 70.52%
+│ Testing ...
+└── Testing accuracy : 67.85%
+Epoch time ─ 0[h] 0[m] 22[s]
+Estimated time ─ 1[h] 48[m] 26[s]
+
+
+┌ Epoch (8/299)
+Soft loss = 0.1658, Hard loss = 0.5501, Total loss = 0.7158
+├── Training Loss : 0.0059
+├── Training accuracy : 71.28%
+│ Testing ...
+└── Testing accuracy : 69.10%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 46[m] 13[s]
+
+
+┌ Epoch (9/299)
+Soft loss = 0.1535, Hard loss = 0.4531, Total loss = 0.6066
+├── Training Loss : 0.0057
+├── Training accuracy : 72.24%
+│ Testing ...
+└── Testing accuracy : 70.89%
+  └──> Saving the best model to "./experiments/cifar10/DIST_KL_L4_CIFAR_A07_B0_T4_B128_L1E-1_WD5E-4/Tresnet32_Sresnet32_x4.pth"
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 44[m] 10[s]
+
+
+┌ Epoch (10/299)
+Soft loss = 0.1777, Hard loss = 0.4144, Total loss = 0.5921
+├── Training Loss : 0.0056
+├── Training accuracy : 72.92%
+│ Testing ...
+└── Testing accuracy : 70.41%
+Epoch time ─ 0[h] 0[m] 22[s]
+Estimated time ─ 1[h] 46[m] 25[s]
+
+
+┌ Epoch (11/299)
+Soft loss = 0.1718, Hard loss = 0.4400, Total loss = 0.6118
+├── Training Loss : 0.0055
+├── Training accuracy : 73.76%
+│ Testing ...
+└── Testing accuracy : 70.67%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 43[m] 59[s]
+
+
+┌ Epoch (12/299)
+Soft loss = 0.1489, Hard loss = 0.5352, Total loss = 0.6841
+├── Training Loss : 0.0054
+├── Training accuracy : 74.40%
+│ Testing ...
+└── Testing accuracy : 71.14%
+  └──> Saving the best model to "./experiments/cifar10/DIST_KL_L4_CIFAR_A07_B0_T4_B128_L1E-1_WD5E-4/Tresnet32_Sresnet32_x4.pth"
+Epoch time ─ 0[h] 0[m] 22[s]
+Estimated time ─ 1[h] 45[m] 31[s]
+
+
+┌ Epoch (13/299)
+Soft loss = 0.1670, Hard loss = 0.4678, Total loss = 0.6348
+├── Training Loss : 0.0053
+├── Training accuracy : 74.89%
+│ Testing ...
+└── Testing accuracy : 72.34%
+  └──> Saving the best model to "./experiments/cifar10/DIST_KL_L4_CIFAR_A07_B0_T4_B128_L1E-1_WD5E-4/Tresnet32_Sresnet32_x4.pth"
+Epoch time ─ 0[h] 0[m] 22[s]
+Estimated time ─ 1[h] 46[m] 11[s]
+
+
+┌ Epoch (14/299)
+Soft loss = 0.1484, Hard loss = 0.5430, Total loss = 0.6915
+├── Training Loss : 0.0053
+├── Training accuracy : 75.22%
+│ Testing ...
+└── Testing accuracy : 71.85%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 41[m] 54[s]
+
+
+┌ Epoch (15/299)
+Soft loss = 0.1522, Hard loss = 0.4780, Total loss = 0.6302
+├── Training Loss : 0.0052
+├── Training accuracy : 76.01%
+│ Testing ...
+└── Testing accuracy : 72.40%
+  └──> Saving the best model to "./experiments/cifar10/DIST_KL_L4_CIFAR_A07_B0_T4_B128_L1E-1_WD5E-4/Tresnet32_Sresnet32_x4.pth"
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 41[m] 29[s]
+
+
+┌ Epoch (16/299)
+Soft loss = 0.1671, Hard loss = 0.3993, Total loss = 0.5663
+├── Training Loss : 0.0051
+├── Training accuracy : 76.39%
+│ Testing ...
+└── Testing accuracy : 73.09%
+  └──> Saving the best model to "./experiments/cifar10/DIST_KL_L4_CIFAR_A07_B0_T4_B128_L1E-1_WD5E-4/Tresnet32_Sresnet32_x4.pth"
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 42[m] 42[s]
+
+
+┌ Epoch (17/299)
+Soft loss = 0.1432, Hard loss = 0.5536, Total loss = 0.6967
+├── Training Loss : 0.0050
+├── Training accuracy : 76.87%
+│ Testing ...
+└── Testing accuracy : 73.25%
+  └──> Saving the best model to "./experiments/cifar10/DIST_KL_L4_CIFAR_A07_B0_T4_B128_L1E-1_WD5E-4/Tresnet32_Sresnet32_x4.pth"
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 42[m] 48[s]
+
+
+┌ Epoch (18/299)
+Soft loss = 0.1673, Hard loss = 0.4580, Total loss = 0.6252
+├── Training Loss : 0.0050
+├── Training accuracy : 77.42%
+│ Testing ...
+└── Testing accuracy : 74.05%
+  └──> Saving the best model to "./experiments/cifar10/DIST_KL_L4_CIFAR_A07_B0_T4_B128_L1E-1_WD5E-4/Tresnet32_Sresnet32_x4.pth"
+Epoch time ─ 0[h] 0[m] 22[s]
+Estimated time ─ 1[h] 43[m] 39[s]
+
+
+┌ Epoch (19/299)
+Soft loss = 0.1564, Hard loss = 0.5427, Total loss = 0.6990
+├── Training Loss : 0.0049
+├── Training accuracy : 77.72%
+│ Testing ...
+└── Testing accuracy : 72.03%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 39[m] 2[s]
+
+
+┌ Epoch (20/299)
+Soft loss = 0.1652, Hard loss = 0.4420, Total loss = 0.6072
+├── Training Loss : 0.0049
+├── Training accuracy : 78.03%
+│ Testing ...
+└── Testing accuracy : 72.95%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 38[m] 52[s]
+
+
+┌ Epoch (21/299)
+Soft loss = 0.1486, Hard loss = 0.5509, Total loss = 0.6995
+├── Training Loss : 0.0048
+├── Training accuracy : 78.31%
+│ Testing ...
+└── Testing accuracy : 73.02%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 41[m] 14[s]
+
+
+┌ Epoch (22/299)
+Soft loss = 0.1493, Hard loss = 0.4002, Total loss = 0.5495
+├── Training Loss : 0.0048
+├── Training accuracy : 78.57%
+│ Testing ...
+└── Testing accuracy : 73.25%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 38[m] 19[s]
+
+
+┌ Epoch (23/299)
+Soft loss = 0.1507, Hard loss = 0.3790, Total loss = 0.5297
+├── Training Loss : 0.0047
+├── Training accuracy : 78.81%
+│ Testing ...
+└── Testing accuracy : 74.25%
+  └──> Saving the best model to "./experiments/cifar10/DIST_KL_L4_CIFAR_A07_B0_T4_B128_L1E-1_WD5E-4/Tresnet32_Sresnet32_x4.pth"
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 38[m] 53[s]
+
+
+┌ Epoch (24/299)
+Soft loss = 0.1438, Hard loss = 0.4128, Total loss = 0.5566
+├── Training Loss : 0.0047
+├── Training accuracy : 79.27%
+│ Testing ...
+└── Testing accuracy : 73.96%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 40[m] 37[s]
+
+
+┌ Epoch (25/299)
+Soft loss = 0.1551, Hard loss = 0.4477, Total loss = 0.6027
+├── Training Loss : 0.0046
+├── Training accuracy : 79.57%
+│ Testing ...
+└── Testing accuracy : 72.18%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 37[m] 41[s]
+
+
+┌ Epoch (26/299)
+Soft loss = 0.1582, Hard loss = 0.3487, Total loss = 0.5069
+├── Training Loss : 0.0045
+├── Training accuracy : 80.21%
+│ Testing ...
+└── Testing accuracy : 73.40%
+Epoch time ─ 0[h] 0[m] 20[s]
+Estimated time ─ 1[h] 35[m] 25[s]
+
+
+┌ Epoch (27/299)
+Soft loss = 0.1748, Hard loss = 0.4302, Total loss = 0.6050
+├── Training Loss : 0.0045
+├── Training accuracy : 80.39%
+│ Testing ...
+└── Testing accuracy : 74.08%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 39[m] 11[s]
+
+
+┌ Epoch (28/299)
+Soft loss = 0.1562, Hard loss = 0.4124, Total loss = 0.5686
+├── Training Loss : 0.0045
+├── Training accuracy : 80.53%
+│ Testing ...
+└── Testing accuracy : 74.39%
+  └──> Saving the best model to "./experiments/cifar10/DIST_KL_L4_CIFAR_A07_B0_T4_B128_L1E-1_WD5E-4/Tresnet32_Sresnet32_x4.pth"
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 38[m] 14[s]
+
+
+┌ Epoch (29/299)
+Soft loss = 0.1456, Hard loss = 0.4732, Total loss = 0.6188
+├── Training Loss : 0.0044
+├── Training accuracy : 80.86%
+│ Testing ...
+└── Testing accuracy : 73.93%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 36[m] 32[s]
+
+
+┌ Epoch (30/299)
+Soft loss = 0.1500, Hard loss = 0.3031, Total loss = 0.4531
+├── Training Loss : 0.0043
+├── Training accuracy : 81.28%
+│ Testing ...
+└── Testing accuracy : 74.13%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 34[m] 34[s]
+
+
+┌ Epoch (31/299)
+Soft loss = 0.1479, Hard loss = 0.4220, Total loss = 0.5700
+├── Training Loss : 0.0043
+├── Training accuracy : 81.44%
+│ Testing ...
+└── Testing accuracy : 75.20%
+  └──> Saving the best model to "./experiments/cifar10/DIST_KL_L4_CIFAR_A07_B0_T4_B128_L1E-1_WD5E-4/Tresnet32_Sresnet32_x4.pth"
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 37[m] 7[s]
+
+
+┌ Epoch (32/299)
+Soft loss = 0.1561, Hard loss = 0.5949, Total loss = 0.7510
+├── Training Loss : 0.0043
+├── Training accuracy : 81.55%
+│ Testing ...
+└── Testing accuracy : 74.52%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 37[m] 5[s]
+
+
+┌ Epoch (33/299)
+Soft loss = 0.1496, Hard loss = 0.4010, Total loss = 0.5506
+├── Training Loss : 0.0042
+├── Training accuracy : 81.87%
+│ Testing ...
+└── Testing accuracy : 74.12%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 35[m] 43[s]
+
+
+┌ Epoch (34/299)
+Soft loss = 0.1479, Hard loss = 0.4980, Total loss = 0.6459
+├── Training Loss : 0.0042
+├── Training accuracy : 81.98%
+│ Testing ...
+└── Testing accuracy : 74.88%
+Epoch time ─ 0[h] 0[m] 20[s]
+Estimated time ─ 1[h] 32[m] 15[s]
+
+
+┌ Epoch (35/299)
+Soft loss = 0.1534, Hard loss = 0.5099, Total loss = 0.6634
+├── Training Loss : 0.0042
+├── Training accuracy : 82.25%
+│ Testing ...
+└── Testing accuracy : 75.06%
+Epoch time ─ 0[h] 0[m] 22[s]
+Estimated time ─ 1[h] 37[m] 0[s]
+
+
+┌ Epoch (36/299)
+Soft loss = 0.1648, Hard loss = 0.3802, Total loss = 0.5450
+├── Training Loss : 0.0042
+├── Training accuracy : 82.42%
+│ Testing ...
+└── Testing accuracy : 74.83%
+Epoch time ─ 0[h] 0[m] 20[s]
+Estimated time ─ 1[h] 31[m] 42[s]
+
+
+┌ Epoch (37/299)
+Soft loss = 0.1582, Hard loss = 0.3317, Total loss = 0.4899
+├── Training Loss : 0.0041
+├── Training accuracy : 82.77%
+│ Testing ...
+└── Testing accuracy : 74.85%
+Epoch time ─ 0[h] 0[m] 22[s]
+Estimated time ─ 1[h] 36[m] 4[s]
+
+
+┌ Epoch (38/299)
+Soft loss = 0.1552, Hard loss = 0.3942, Total loss = 0.5494
+├── Training Loss : 0.0041
+├── Training accuracy : 82.87%
+│ Testing ...
+└── Testing accuracy : 75.27%
+  └──> Saving the best model to "./experiments/cifar10/DIST_KL_L4_CIFAR_A07_B0_T4_B128_L1E-1_WD5E-4/Tresnet32_Sresnet32_x4.pth"
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 34[m] 27[s]
+
+
+┌ Epoch (39/299)
+Soft loss = 0.1607, Hard loss = 0.4349, Total loss = 0.5955
+├── Training Loss : 0.0040
+├── Training accuracy : 83.12%
+│ Testing ...
+└── Testing accuracy : 74.67%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 33[m] 45[s]
+
+
+┌ Epoch (40/299)
+Soft loss = 0.1349, Hard loss = 0.4957, Total loss = 0.6306
+├── Training Loss : 0.0040
+├── Training accuracy : 83.39%
+│ Testing ...
+└── Testing accuracy : 75.57%
+  └──> Saving the best model to "./experiments/cifar10/DIST_KL_L4_CIFAR_A07_B0_T4_B128_L1E-1_WD5E-4/Tresnet32_Sresnet32_x4.pth"
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 34[m] 24[s]
+
+
+┌ Epoch (41/299)
+Soft loss = 0.1503, Hard loss = 0.5017, Total loss = 0.6521
+├── Training Loss : 0.0040
+├── Training accuracy : 83.57%
+│ Testing ...
+└── Testing accuracy : 74.75%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 34[m] 7[s]
+
+
+┌ Epoch (42/299)
+Soft loss = 0.1483, Hard loss = 0.2898, Total loss = 0.4380
+├── Training Loss : 0.0040
+├── Training accuracy : 83.62%
+│ Testing ...
+└── Testing accuracy : 75.51%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 33[m] 16[s]
+
+
+┌ Epoch (43/299)
+Soft loss = 0.1534, Hard loss = 0.4392, Total loss = 0.5926
+├── Training Loss : 0.0039
+├── Training accuracy : 83.78%
+│ Testing ...
+└── Testing accuracy : 75.81%
+  └──> Saving the best model to "./experiments/cifar10/DIST_KL_L4_CIFAR_A07_B0_T4_B128_L1E-1_WD5E-4/Tresnet32_Sresnet32_x4.pth"
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 33[m] 26[s]
+
+
+┌ Epoch (44/299)
+Soft loss = 0.1550, Hard loss = 0.3955, Total loss = 0.5505
+├── Training Loss : 0.0039
+├── Training accuracy : 84.18%
+│ Testing ...
+└── Testing accuracy : 75.74%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 32[m] 20[s]
+
+
+┌ Epoch (45/299)
+Soft loss = 0.1667, Hard loss = 0.4399, Total loss = 0.6066
+├── Training Loss : 0.0039
+├── Training accuracy : 83.98%
+│ Testing ...
+└── Testing accuracy : 73.42%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 31[m] 47[s]
+
+
+┌ Epoch (46/299)
+Soft loss = 0.1494, Hard loss = 0.3208, Total loss = 0.4702
+├── Training Loss : 0.0038
+├── Training accuracy : 84.46%
+│ Testing ...
+└── Testing accuracy : 75.30%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 32[m] 32[s]
+
+
+┌ Epoch (47/299)
+Soft loss = 0.1585, Hard loss = 0.4092, Total loss = 0.5677
+├── Training Loss : 0.0038
+├── Training accuracy : 84.54%
+│ Testing ...
+└── Testing accuracy : 75.77%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 29[m] 52[s]
+
+
+┌ Epoch (48/299)
+Soft loss = 0.1566, Hard loss = 0.2790, Total loss = 0.4356
+├── Training Loss : 0.0038
+├── Training accuracy : 84.92%
+│ Testing ...
+└── Testing accuracy : 75.87%
+  └──> Saving the best model to "./experiments/cifar10/DIST_KL_L4_CIFAR_A07_B0_T4_B128_L1E-1_WD5E-4/Tresnet32_Sresnet32_x4.pth"
+Epoch time ─ 0[h] 0[m] 22[s]
+Estimated time ─ 1[h] 32[m] 25[s]
+
+
+┌ Epoch (49/299)
+Soft loss = 0.1411, Hard loss = 0.3385, Total loss = 0.4796
+├── Training Loss : 0.0038
+├── Training accuracy : 84.93%
+│ Testing ...
+└── Testing accuracy : 74.53%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 28[m] 9[s]
+
+
+┌ Epoch (50/299)
+Soft loss = 0.1593, Hard loss = 0.3702, Total loss = 0.5296
+├── Training Loss : 0.0037
+├── Training accuracy : 85.11%
+│ Testing ...
+└── Testing accuracy : 76.09%
+  └──> Saving the best model to "./experiments/cifar10/DIST_KL_L4_CIFAR_A07_B0_T4_B128_L1E-1_WD5E-4/Tresnet32_Sresnet32_x4.pth"
+Epoch time ─ 0[h] 0[m] 22[s]
+Estimated time ─ 1[h] 31[m] 43[s]
+
+
+┌ Epoch (51/299)
+Soft loss = 0.1580, Hard loss = 0.3643, Total loss = 0.5223
+├── Training Loss : 0.0037
+├── Training accuracy : 85.30%
+│ Testing ...
+└── Testing accuracy : 75.36%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 29[m] 15[s]
+
+
+┌ Epoch (52/299)
+Soft loss = 0.1502, Hard loss = 0.2969, Total loss = 0.4471
+├── Training Loss : 0.0037
+├── Training accuracy : 85.30%
+│ Testing ...
+└── Testing accuracy : 75.05%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 27[m] 38[s]
+
+
+┌ Epoch (53/299)
+Soft loss = 0.1533, Hard loss = 0.2624, Total loss = 0.4157
+├── Training Loss : 0.0037
+├── Training accuracy : 85.48%
+│ Testing ...
+└── Testing accuracy : 75.40%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 29[m] 6[s]
+
+
+┌ Epoch (54/299)
+Soft loss = 0.1546, Hard loss = 0.3797, Total loss = 0.5343
+├── Training Loss : 0.0037
+├── Training accuracy : 85.56%
+│ Testing ...
+└── Testing accuracy : 75.82%
+Epoch time ─ 0[h] 0[m] 22[s]
+Estimated time ─ 1[h] 30[m] 28[s]
+
+
+┌ Epoch (55/299)
+Soft loss = 0.1661, Hard loss = 0.2876, Total loss = 0.4537
+├── Training Loss : 0.0036
+├── Training accuracy : 85.99%
+│ Testing ...
+└── Testing accuracy : 75.30%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 26[m] 57[s]
+
+
+┌ Epoch (56/299)
+Soft loss = 0.1727, Hard loss = 0.4182, Total loss = 0.5909
+├── Training Loss : 0.0036
+├── Training accuracy : 86.11%
+│ Testing ...
+└── Testing accuracy : 75.83%
+Epoch time ─ 0[h] 0[m] 22[s]
+Estimated time ─ 1[h] 30[m] 9[s]
+
+
+┌ Epoch (57/299)
+Soft loss = 0.1526, Hard loss = 0.3342, Total loss = 0.4868
+├── Training Loss : 0.0036
+├── Training accuracy : 85.88%
+│ Testing ...
+└── Testing accuracy : 75.87%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 25[m] 39[s]
+
+
+┌ Epoch (58/299)
+Soft loss = 0.1515, Hard loss = 0.3293, Total loss = 0.4808
+├── Training Loss : 0.0036
+├── Training accuracy : 86.15%
+│ Testing ...
+└── Testing accuracy : 75.98%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 27[m] 35[s]
+
+
+┌ Epoch (59/299)
+Soft loss = 0.1501, Hard loss = 0.3307, Total loss = 0.4808
+├── Training Loss : 0.0036
+├── Training accuracy : 86.36%
+│ Testing ...
+└── Testing accuracy : 75.34%
+Epoch time ─ 0[h] 0[m] 22[s]
+Estimated time ─ 1[h] 28[m] 16[s]
+
+
+┌ Epoch (60/299)
+Soft loss = 0.1379, Hard loss = 0.2222, Total loss = 0.3601
+├── Training Loss : 0.0032
+├── Training accuracy : 89.15%
+│ Testing ...
+└── Testing accuracy : 77.91%
+  └──> Saving the best model to "./experiments/cifar10/DIST_KL_L4_CIFAR_A07_B0_T4_B128_L1E-1_WD5E-4/Tresnet32_Sresnet32_x4.pth"
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 25[m] 21[s]
+
+
+┌ Epoch (61/299)
+Soft loss = 0.1563, Hard loss = 0.2673, Total loss = 0.4236
+├── Training Loss : 0.0030
+├── Training accuracy : 90.09%
+│ Testing ...
+└── Testing accuracy : 78.21%
+  └──> Saving the best model to "./experiments/cifar10/DIST_KL_L4_CIFAR_A07_B0_T4_B128_L1E-1_WD5E-4/Tresnet32_Sresnet32_x4.pth"
+Epoch time ─ 0[h] 0[m] 22[s]
+Estimated time ─ 1[h] 27[m] 36[s]
+
+
+┌ Epoch (62/299)
+Soft loss = 0.1565, Hard loss = 0.2632, Total loss = 0.4197
+├── Training Loss : 0.0030
+├── Training accuracy : 90.14%
+│ Testing ...
+└── Testing accuracy : 78.29%
+  └──> Saving the best model to "./experiments/cifar10/DIST_KL_L4_CIFAR_A07_B0_T4_B128_L1E-1_WD5E-4/Tresnet32_Sresnet32_x4.pth"
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 23[m] 57[s]
+
+
+┌ Epoch (63/299)
+Soft loss = 0.1579, Hard loss = 0.2645, Total loss = 0.4224
+├── Training Loss : 0.0029
+├── Training accuracy : 90.62%
+│ Testing ...
+└── Testing accuracy : 77.91%
+Epoch time ─ 0[h] 0[m] 22[s]
+Estimated time ─ 1[h] 26[m] 45[s]
+
+
+┌ Epoch (64/299)
+Soft loss = 0.1817, Hard loss = 0.2256, Total loss = 0.4073
+├── Training Loss : 0.0029
+├── Training accuracy : 90.79%
+│ Testing ...
+└── Testing accuracy : 78.20%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 23[m] 51[s]
+
+
+┌ Epoch (65/299)
+Soft loss = 0.1507, Hard loss = 0.2143, Total loss = 0.3650
+├── Training Loss : 0.0029
+├── Training accuracy : 90.68%
+│ Testing ...
+└── Testing accuracy : 77.96%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 24[m] 51[s]
+
+
+┌ Epoch (66/299)
+Soft loss = 0.1590, Hard loss = 0.1680, Total loss = 0.3270
+├── Training Loss : 0.0029
+├── Training accuracy : 91.06%
+│ Testing ...
+└── Testing accuracy : 77.89%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 25[m] 25[s]
+
+
+┌ Epoch (67/299)
+Soft loss = 0.1495, Hard loss = 0.1928, Total loss = 0.3423
+├── Training Loss : 0.0029
+├── Training accuracy : 91.11%
+│ Testing ...
+└── Testing accuracy : 77.96%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 24[m] 24[s]
+
+
+┌ Epoch (68/299)
+Soft loss = 0.1842, Hard loss = 0.2158, Total loss = 0.3999
+├── Training Loss : 0.0028
+├── Training accuracy : 91.39%
+│ Testing ...
+└── Testing accuracy : 77.81%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 23[m] 32[s]
+
+
+┌ Epoch (69/299)
+Soft loss = 0.1697, Hard loss = 0.2488, Total loss = 0.4185
+├── Training Loss : 0.0029
+├── Training accuracy : 91.14%
+│ Testing ...
+└── Testing accuracy : 78.01%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 21[m] 7[s]
+
+
+┌ Epoch (70/299)
+Soft loss = 0.1497, Hard loss = 0.1913, Total loss = 0.3410
+├── Training Loss : 0.0028
+├── Training accuracy : 91.32%
+│ Testing ...
+└── Testing accuracy : 78.03%
+Epoch time ─ 0[h] 0[m] 22[s]
+Estimated time ─ 1[h] 24[m] 45[s]
+
+
+┌ Epoch (71/299)
+Soft loss = 0.1516, Hard loss = 0.2799, Total loss = 0.4315
+├── Training Loss : 0.0028
+├── Training accuracy : 91.64%
+│ Testing ...
+└── Testing accuracy : 77.96%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 21[m] 14[s]
+
+
+┌ Epoch (72/299)
+Soft loss = 0.1549, Hard loss = 0.1924, Total loss = 0.3473
+├── Training Loss : 0.0028
+├── Training accuracy : 91.49%
+│ Testing ...
+└── Testing accuracy : 77.80%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 21[m] 50[s]
+
+
+┌ Epoch (73/299)
+Soft loss = 0.1557, Hard loss = 0.2080, Total loss = 0.3637
+├── Training Loss : 0.0028
+├── Training accuracy : 91.56%
+│ Testing ...
+└── Testing accuracy : 77.91%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 20[m] 14[s]
+
+
+┌ Epoch (74/299)
+Soft loss = 0.1519, Hard loss = 0.1298, Total loss = 0.2817
+├── Training Loss : 0.0028
+├── Training accuracy : 91.70%
+│ Testing ...
+└── Testing accuracy : 77.93%
+Epoch time ─ 0[h] 0[m] 22[s]
+Estimated time ─ 1[h] 22[m] 52[s]
+
+
+┌ Epoch (75/299)
+Soft loss = 0.1529, Hard loss = 0.1409, Total loss = 0.2939
+├── Training Loss : 0.0028
+├── Training accuracy : 91.71%
+│ Testing ...
+└── Testing accuracy : 77.87%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 19[m] 0[s]
+
+
+┌ Epoch (76/299)
+Soft loss = 0.1695, Hard loss = 0.1848, Total loss = 0.3543
+├── Training Loss : 0.0028
+├── Training accuracy : 91.76%
+│ Testing ...
+└── Testing accuracy : 77.73%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 19[m] 28[s]
+
+
+┌ Epoch (77/299)
+Soft loss = 0.1567, Hard loss = 0.2322, Total loss = 0.3888
+├── Training Loss : 0.0028
+├── Training accuracy : 91.50%
+│ Testing ...
+└── Testing accuracy : 77.89%
+Epoch time ─ 0[h] 0[m] 22[s]
+Estimated time ─ 1[h] 21[m] 37[s]
+
+
+┌ Epoch (78/299)
+Soft loss = 0.1452, Hard loss = 0.1852, Total loss = 0.3304
+├── Training Loss : 0.0028
+├── Training accuracy : 91.78%
+│ Testing ...
+└── Testing accuracy : 77.67%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 20[m] 23[s]
+
+
+┌ Epoch (79/299)
+Soft loss = 0.1633, Hard loss = 0.1528, Total loss = 0.3161
+├── Training Loss : 0.0027
+├── Training accuracy : 91.88%
+│ Testing ...
+└── Testing accuracy : 77.64%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 19[m] 41[s]
+
+
+┌ Epoch (80/299)
+Soft loss = 0.1610, Hard loss = 0.2400, Total loss = 0.4009
+├── Training Loss : 0.0027
+├── Training accuracy : 91.94%
+│ Testing ...
+└── Testing accuracy : 77.91%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 17[m] 19[s]
+
+
+┌ Epoch (81/299)
+Soft loss = 0.1630, Hard loss = 0.2690, Total loss = 0.4320
+├── Training Loss : 0.0027
+├── Training accuracy : 91.95%
+│ Testing ...
+└── Testing accuracy : 77.56%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 17[m] 9[s]
+
+
+┌ Epoch (82/299)
+Soft loss = 0.1480, Hard loss = 0.2282, Total loss = 0.3761
+├── Training Loss : 0.0027
+├── Training accuracy : 92.11%
+│ Testing ...
+└── Testing accuracy : 77.84%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 19[m] 6[s]
+
+
+┌ Epoch (83/299)
+Soft loss = 0.1595, Hard loss = 0.2696, Total loss = 0.4292
+├── Training Loss : 0.0027
+├── Training accuracy : 92.21%
+│ Testing ...
+└── Testing accuracy : 77.74%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 17[m] 48[s]
+
+
+┌ Epoch (84/299)
+Soft loss = 0.1732, Hard loss = 0.1775, Total loss = 0.3507
+├── Training Loss : 0.0027
+├── Training accuracy : 92.23%
+│ Testing ...
+└── Testing accuracy : 77.86%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 16[m] 8[s]
+
+
+┌ Epoch (85/299)
+Soft loss = 0.1598, Hard loss = 0.1127, Total loss = 0.2725
+├── Training Loss : 0.0027
+├── Training accuracy : 92.48%
+│ Testing ...
+└── Testing accuracy : 77.69%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 18[m] 23[s]
+
+
+┌ Epoch (86/299)
+Soft loss = 0.1561, Hard loss = 0.2010, Total loss = 0.3571
+├── Training Loss : 0.0027
+├── Training accuracy : 92.08%
+│ Testing ...
+└── Testing accuracy : 77.63%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 15[m] 1[s]
+
+
+┌ Epoch (87/299)
+Soft loss = 0.1652, Hard loss = 0.1998, Total loss = 0.3650
+├── Training Loss : 0.0027
+├── Training accuracy : 92.29%
+│ Testing ...
+└── Testing accuracy : 77.71%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 17[m] 16[s]
+
+
+┌ Epoch (88/299)
+Soft loss = 0.1629, Hard loss = 0.1993, Total loss = 0.3622
+├── Training Loss : 0.0027
+├── Training accuracy : 92.33%
+│ Testing ...
+└── Testing accuracy : 77.58%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 16[m] 7[s]
+
+
+┌ Epoch (89/299)
+Soft loss = 0.1510, Hard loss = 0.1713, Total loss = 0.3224
+├── Training Loss : 0.0027
+├── Training accuracy : 92.32%
+│ Testing ...
+└── Testing accuracy : 77.70%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 15[m] 15[s]
+
+
+┌ Epoch (90/299)
+Soft loss = 0.1490, Hard loss = 0.1658, Total loss = 0.3148
+├── Training Loss : 0.0027
+├── Training accuracy : 92.37%
+│ Testing ...
+└── Testing accuracy : 77.49%
+Epoch time ─ 0[h] 0[m] 22[s]
+Estimated time ─ 1[h] 17[m] 9[s]
+
+
+┌ Epoch (91/299)
+Soft loss = 0.1579, Hard loss = 0.1437, Total loss = 0.3016
+├── Training Loss : 0.0026
+├── Training accuracy : 92.40%
+│ Testing ...
+└── Testing accuracy : 77.66%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 14[m] 20[s]
+
+
+┌ Epoch (92/299)
+Soft loss = 0.1675, Hard loss = 0.1251, Total loss = 0.2926
+├── Training Loss : 0.0027
+├── Training accuracy : 92.55%
+│ Testing ...
+└── Testing accuracy : 77.92%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 13[m] 30[s]
+
+
+┌ Epoch (93/299)
+Soft loss = 0.1543, Hard loss = 0.1977, Total loss = 0.3520
+├── Training Loss : 0.0027
+├── Training accuracy : 92.40%
+│ Testing ...
+└── Testing accuracy : 77.74%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 15[m] 5[s]
+
+
+┌ Epoch (94/299)
+Soft loss = 0.1585, Hard loss = 0.1536, Total loss = 0.3121
+├── Training Loss : 0.0026
+├── Training accuracy : 92.58%
+│ Testing ...
+└── Testing accuracy : 77.74%
+Epoch time ─ 0[h] 0[m] 22[s]
+Estimated time ─ 1[h] 16[m] 11[s]
+
+
+┌ Epoch (95/299)
+Soft loss = 0.1633, Hard loss = 0.3256, Total loss = 0.4889
+├── Training Loss : 0.0026
+├── Training accuracy : 92.56%
+│ Testing ...
+└── Testing accuracy : 77.70%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 13[m] 47[s]
+
+
+┌ Epoch (96/299)
+Soft loss = 0.1508, Hard loss = 0.1767, Total loss = 0.3274
+├── Training Loss : 0.0026
+├── Training accuracy : 92.51%
+│ Testing ...
+└── Testing accuracy : 77.65%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 14[m] 0[s]
+
+
+┌ Epoch (97/299)
+Soft loss = 0.1561, Hard loss = 0.2228, Total loss = 0.3789
+├── Training Loss : 0.0026
+├── Training accuracy : 92.63%
+│ Testing ...
+└── Testing accuracy : 77.60%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 13[m] 59[s]
+
+
+┌ Epoch (98/299)
+Soft loss = 0.1442, Hard loss = 0.0853, Total loss = 0.2295
+├── Training Loss : 0.0026
+├── Training accuracy : 92.73%
+│ Testing ...
+└── Testing accuracy : 77.29%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 11[m] 26[s]
+
+
+┌ Epoch (99/299)
+Soft loss = 0.1698, Hard loss = 0.2296, Total loss = 0.3994
+├── Training Loss : 0.0026
+├── Training accuracy : 92.87%
+│ Testing ...
+└── Testing accuracy : 77.56%
+Epoch time ─ 0[h] 0[m] 22[s]
+Estimated time ─ 1[h] 14[m] 1[s]
+
+
+┌ Epoch (100/299)
+Soft loss = 0.1616, Hard loss = 0.1296, Total loss = 0.2912
+├── Training Loss : 0.0026
+├── Training accuracy : 92.74%
+│ Testing ...
+└── Testing accuracy : 77.83%
+Epoch time ─ 0[h] 0[m] 22[s]
+Estimated time ─ 1[h] 13[m] 27[s]
+
+
+┌ Epoch (101/299)
+Soft loss = 0.1624, Hard loss = 0.3076, Total loss = 0.4700
+├── Training Loss : 0.0026
+├── Training accuracy : 92.91%
+│ Testing ...
+└── Testing accuracy : 77.38%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 12[m] 3[s]
+
+
+┌ Epoch (102/299)
+Soft loss = 0.1620, Hard loss = 0.1732, Total loss = 0.3352
+├── Training Loss : 0.0026
+├── Training accuracy : 92.82%
+│ Testing ...
+└── Testing accuracy : 77.82%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 10[m] 5[s]
+
+
+┌ Epoch (103/299)
+Soft loss = 0.1682, Hard loss = 0.1338, Total loss = 0.3020
+├── Training Loss : 0.0026
+├── Training accuracy : 92.85%
+│ Testing ...
+└── Testing accuracy : 77.56%
+Epoch time ─ 0[h] 0[m] 22[s]
+Estimated time ─ 1[h] 12[m] 13[s]
+
+
+┌ Epoch (104/299)
+Soft loss = 0.1485, Hard loss = 0.2247, Total loss = 0.3732
+├── Training Loss : 0.0026
+├── Training accuracy : 92.92%
+│ Testing ...
+└── Testing accuracy : 77.68%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 10[m] 45[s]
+
+
+┌ Epoch (105/299)
+Soft loss = 0.1449, Hard loss = 0.2226, Total loss = 0.3675
+├── Training Loss : 0.0026
+├── Training accuracy : 93.04%
+│ Testing ...
+└── Testing accuracy : 77.79%
+Epoch time ─ 0[h] 0[m] 22[s]
+Estimated time ─ 1[h] 12[m] 2[s]
+
+
+┌ Epoch (106/299)
+Soft loss = 0.1485, Hard loss = 0.1331, Total loss = 0.2816
+├── Training Loss : 0.0026
+├── Training accuracy : 92.90%
+│ Testing ...
+└── Testing accuracy : 77.74%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 10[m] 16[s]
+
+
+┌ Epoch (107/299)
+Soft loss = 0.1599, Hard loss = 0.1160, Total loss = 0.2759
+├── Training Loss : 0.0026
+├── Training accuracy : 93.08%
+│ Testing ...
+└── Testing accuracy : 77.78%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 7[m] 31[s]
+
+
+┌ Epoch (108/299)
+Soft loss = 0.1641, Hard loss = 0.1135, Total loss = 0.2776
+├── Training Loss : 0.0025
+├── Training accuracy : 93.09%
+│ Testing ...
+└── Testing accuracy : 77.73%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 9[m] 11[s]
+
+
+┌ Epoch (109/299)
+Soft loss = 0.1513, Hard loss = 0.2405, Total loss = 0.3918
+├── Training Loss : 0.0026
+├── Training accuracy : 92.90%
+│ Testing ...
+└── Testing accuracy : 77.53%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 8[m] 5[s]
+
+
+┌ Epoch (110/299)
+Soft loss = 0.1570, Hard loss = 0.1990, Total loss = 0.3560
+├── Training Loss : 0.0025
+├── Training accuracy : 93.17%
+│ Testing ...
+└── Testing accuracy : 77.45%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 8[m] 20[s]
+
+
+┌ Epoch (111/299)
+Soft loss = 0.1545, Hard loss = 0.1382, Total loss = 0.2926
+├── Training Loss : 0.0026
+├── Training accuracy : 93.07%
+│ Testing ...
+└── Testing accuracy : 77.39%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 7[m] 52[s]
+
+
+┌ Epoch (112/299)
+Soft loss = 0.1626, Hard loss = 0.1960, Total loss = 0.3586
+├── Training Loss : 0.0026
+├── Training accuracy : 93.02%
+│ Testing ...
+└── Testing accuracy : 77.45%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 8[m] 21[s]
+
+
+┌ Epoch (113/299)
+Soft loss = 0.1499, Hard loss = 0.1634, Total loss = 0.3132
+├── Training Loss : 0.0026
+├── Training accuracy : 92.99%
+│ Testing ...
+└── Testing accuracy : 77.78%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 6[m] 31[s]
+
+
+┌ Epoch (114/299)
+Soft loss = 0.1583, Hard loss = 0.1624, Total loss = 0.3207
+├── Training Loss : 0.0025
+├── Training accuracy : 93.31%
+│ Testing ...
+└── Testing accuracy : 77.83%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 6[m] 27[s]
+
+
+┌ Epoch (115/299)
+Soft loss = 0.1688, Hard loss = 0.2436, Total loss = 0.4124
+├── Training Loss : 0.0025
+├── Training accuracy : 93.21%
+│ Testing ...
+└── Testing accuracy : 77.84%
+Epoch time ─ 0[h] 0[m] 22[s]
+Estimated time ─ 1[h] 8[m] 7[s]
+
+
+┌ Epoch (116/299)
+Soft loss = 0.1622, Hard loss = 0.1098, Total loss = 0.2720
+├── Training Loss : 0.0025
+├── Training accuracy : 93.37%
+│ Testing ...
+└── Testing accuracy : 77.59%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 6[m] 38[s]
+
+
+┌ Epoch (117/299)
+Soft loss = 0.1520, Hard loss = 0.1976, Total loss = 0.3495
+├── Training Loss : 0.0025
+├── Training accuracy : 93.16%
+│ Testing ...
+└── Testing accuracy : 77.84%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 5[m] 0[s]
+
+
+┌ Epoch (118/299)
+Soft loss = 0.1520, Hard loss = 0.1952, Total loss = 0.3473
+├── Training Loss : 0.0025
+├── Training accuracy : 93.40%
+│ Testing ...
+└── Testing accuracy : 77.52%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 5[m] 1[s]
+
+
+┌ Epoch (119/299)
+Soft loss = 0.1536, Hard loss = 0.1271, Total loss = 0.2807
+├── Training Loss : 0.0025
+├── Training accuracy : 93.25%
+│ Testing ...
+└── Testing accuracy : 77.50%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 5[m] 55[s]
+
+
+┌ Epoch (120/299)
+Soft loss = 0.1701, Hard loss = 0.1698, Total loss = 0.3398
+├── Training Loss : 0.0025
+├── Training accuracy : 93.59%
+│ Testing ...
+└── Testing accuracy : 77.46%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 4[m] 14[s]
+
+
+┌ Epoch (121/299)
+Soft loss = 0.1551, Hard loss = 0.1423, Total loss = 0.2974
+├── Training Loss : 0.0025
+├── Training accuracy : 93.75%
+│ Testing ...
+└── Testing accuracy : 77.58%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 4[m] 19[s]
+
+
+┌ Epoch (122/299)
+Soft loss = 0.1665, Hard loss = 0.1778, Total loss = 0.3443
+├── Training Loss : 0.0025
+├── Training accuracy : 93.70%
+│ Testing ...
+└── Testing accuracy : 77.39%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 2[m] 54[s]
+
+
+┌ Epoch (123/299)
+Soft loss = 0.1720, Hard loss = 0.1999, Total loss = 0.3719
+├── Training Loss : 0.0025
+├── Training accuracy : 93.70%
+│ Testing ...
+└── Testing accuracy : 77.46%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 4[m] 26[s]
+
+
+┌ Epoch (124/299)
+Soft loss = 0.1611, Hard loss = 0.1422, Total loss = 0.3033
+├── Training Loss : 0.0025
+├── Training accuracy : 93.64%
+│ Testing ...
+└── Testing accuracy : 77.41%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 4[m] 0[s]
+
+
+┌ Epoch (125/299)
+Soft loss = 0.1547, Hard loss = 0.2064, Total loss = 0.3612
+├── Training Loss : 0.0025
+├── Training accuracy : 93.83%
+│ Testing ...
+└── Testing accuracy : 77.40%
+Epoch time ─ 0[h] 0[m] 22[s]
+Estimated time ─ 1[h] 3[m] 50[s]
+
+
+┌ Epoch (126/299)
+Soft loss = 0.1657, Hard loss = 0.1421, Total loss = 0.3078
+├── Training Loss : 0.0025
+├── Training accuracy : 93.68%
+│ Testing ...
+└── Testing accuracy : 77.58%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 1[m] 18[s]
+
+
+┌ Epoch (127/299)
+Soft loss = 0.1617, Hard loss = 0.1183, Total loss = 0.2800
+├── Training Loss : 0.0025
+├── Training accuracy : 93.74%
+│ Testing ...
+└── Testing accuracy : 77.47%
+Epoch time ─ 0[h] 0[m] 22[s]
+Estimated time ─ 1[h] 3[m] 12[s]
+
+
+┌ Epoch (128/299)
+Soft loss = 0.1578, Hard loss = 0.1433, Total loss = 0.3011
+├── Training Loss : 0.0025
+├── Training accuracy : 93.74%
+│ Testing ...
+└── Testing accuracy : 77.50%
+Epoch time ─ 0[h] 0[m] 22[s]
+Estimated time ─ 1[h] 2[m] 59[s]
+
+
+┌ Epoch (129/299)
+Soft loss = 0.1629, Hard loss = 0.1420, Total loss = 0.3049
+├── Training Loss : 0.0025
+├── Training accuracy : 93.69%
+│ Testing ...
+└── Testing accuracy : 77.39%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 0[m] 53[s]
+
+
+┌ Epoch (130/299)
+Soft loss = 0.1677, Hard loss = 0.1479, Total loss = 0.3156
+├── Training Loss : 0.0025
+├── Training accuracy : 93.76%
+│ Testing ...
+└── Testing accuracy : 77.52%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 1[h] 0[m] 57[s]
+
+
+┌ Epoch (131/299)
+Soft loss = 0.1538, Hard loss = 0.1344, Total loss = 0.2882
+├── Training Loss : 0.0025
+├── Training accuracy : 93.80%
+│ Testing ...
+└── Testing accuracy : 77.59%
+Epoch time ─ 0[h] 0[m] 22[s]
+Estimated time ─ 1[h] 1[m] 39[s]
+
+
+┌ Epoch (132/299)
+Soft loss = 0.1618, Hard loss = 0.1984, Total loss = 0.3602
+├── Training Loss : 0.0024
+├── Training accuracy : 93.86%
+│ Testing ...
+└── Testing accuracy : 77.45%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 59[m] 10[s]
+
+
+┌ Epoch (133/299)
+Soft loss = 0.1579, Hard loss = 0.1687, Total loss = 0.3267
+├── Training Loss : 0.0025
+├── Training accuracy : 93.71%
+│ Testing ...
+└── Testing accuracy : 77.57%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 59[m] 52[s]
+
+
+┌ Epoch (134/299)
+Soft loss = 0.1529, Hard loss = 0.1872, Total loss = 0.3401
+├── Training Loss : 0.0024
+├── Training accuracy : 93.90%
+│ Testing ...
+└── Testing accuracy : 77.55%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 58[m] 47[s]
+
+
+┌ Epoch (135/299)
+Soft loss = 0.1495, Hard loss = 0.1329, Total loss = 0.2824
+├── Training Loss : 0.0025
+├── Training accuracy : 93.80%
+│ Testing ...
+└── Testing accuracy : 77.48%
+Epoch time ─ 0[h] 0[m] 22[s]
+Estimated time ─ 1[h] 0[m] 57[s]
+
+
+┌ Epoch (136/299)
+Soft loss = 0.1515, Hard loss = 0.1388, Total loss = 0.2902
+├── Training Loss : 0.0024
+├── Training accuracy : 93.76%
+│ Testing ...
+└── Testing accuracy : 77.62%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 57[m] 47[s]
+
+
+┌ Epoch (137/299)
+Soft loss = 0.1602, Hard loss = 0.1730, Total loss = 0.3332
+├── Training Loss : 0.0024
+├── Training accuracy : 93.93%
+│ Testing ...
+└── Testing accuracy : 77.63%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 57[m] 48[s]
+
+
+┌ Epoch (138/299)
+Soft loss = 0.1530, Hard loss = 0.1421, Total loss = 0.2951
+├── Training Loss : 0.0025
+├── Training accuracy : 93.71%
+│ Testing ...
+└── Testing accuracy : 77.45%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 57[m] 48[s]
+
+
+┌ Epoch (139/299)
+Soft loss = 0.1615, Hard loss = 0.2643, Total loss = 0.4257
+├── Training Loss : 0.0024
+├── Training accuracy : 93.78%
+│ Testing ...
+└── Testing accuracy : 77.55%
+Epoch time ─ 0[h] 0[m] 22[s]
+Estimated time ─ 0[h] 58[m] 57[s]
+
+
+┌ Epoch (140/299)
+Soft loss = 0.1598, Hard loss = 0.2612, Total loss = 0.4210
+├── Training Loss : 0.0024
+├── Training accuracy : 93.95%
+│ Testing ...
+└── Testing accuracy : 77.41%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 57[m] 53[s]
+
+
+┌ Epoch (141/299)
+Soft loss = 0.1551, Hard loss = 0.1639, Total loss = 0.3190
+├── Training Loss : 0.0024
+├── Training accuracy : 93.92%
+│ Testing ...
+└── Testing accuracy : 77.62%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 56[m] 37[s]
+
+
+┌ Epoch (142/299)
+Soft loss = 0.1584, Hard loss = 0.1123, Total loss = 0.2706
+├── Training Loss : 0.0024
+├── Training accuracy : 93.86%
+│ Testing ...
+└── Testing accuracy : 77.56%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 55[m] 1[s]
+
+
+┌ Epoch (143/299)
+Soft loss = 0.1654, Hard loss = 0.1981, Total loss = 0.3634
+├── Training Loss : 0.0024
+├── Training accuracy : 93.75%
+│ Testing ...
+└── Testing accuracy : 77.61%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 56[m] 52[s]
+
+
+┌ Epoch (144/299)
+Soft loss = 0.1527, Hard loss = 0.2001, Total loss = 0.3528
+├── Training Loss : 0.0024
+├── Training accuracy : 93.79%
+│ Testing ...
+└── Testing accuracy : 77.49%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 56[m] 4[s]
+
+
+┌ Epoch (145/299)
+Soft loss = 0.1641, Hard loss = 0.1529, Total loss = 0.3170
+├── Training Loss : 0.0024
+├── Training accuracy : 94.04%
+│ Testing ...
+└── Testing accuracy : 77.47%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 55[m] 45[s]
+
+
+┌ Epoch (146/299)
+Soft loss = 0.1520, Hard loss = 0.1344, Total loss = 0.2864
+├── Training Loss : 0.0024
+├── Training accuracy : 93.96%
+│ Testing ...
+└── Testing accuracy : 77.47%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 56[m] 1[s]
+
+
+┌ Epoch (147/299)
+Soft loss = 0.1716, Hard loss = 0.2386, Total loss = 0.4102
+├── Training Loss : 0.0024
+├── Training accuracy : 93.94%
+│ Testing ...
+└── Testing accuracy : 77.37%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 55[m] 13[s]
+
+
+┌ Epoch (148/299)
+Soft loss = 0.1646, Hard loss = 0.1635, Total loss = 0.3281
+├── Training Loss : 0.0024
+├── Training accuracy : 94.00%
+│ Testing ...
+└── Testing accuracy : 77.50%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 54[m] 44[s]
+
+
+┌ Epoch (149/299)
+Soft loss = 0.1484, Hard loss = 0.1928, Total loss = 0.3412
+├── Training Loss : 0.0024
+├── Training accuracy : 93.86%
+│ Testing ...
+└── Testing accuracy : 77.50%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 53[m] 5[s]
+
+
+┌ Epoch (150/299)
+Soft loss = 0.1551, Hard loss = 0.1925, Total loss = 0.3476
+├── Training Loss : 0.0024
+├── Training accuracy : 93.84%
+│ Testing ...
+└── Testing accuracy : 77.61%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 53[m] 56[s]
+
+
+┌ Epoch (151/299)
+Soft loss = 0.1565, Hard loss = 0.2164, Total loss = 0.3729
+├── Training Loss : 0.0024
+├── Training accuracy : 94.02%
+│ Testing ...
+└── Testing accuracy : 77.50%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 53[m] 30[s]
+
+
+┌ Epoch (152/299)
+Soft loss = 0.1496, Hard loss = 0.1725, Total loss = 0.3222
+├── Training Loss : 0.0024
+├── Training accuracy : 94.03%
+│ Testing ...
+└── Testing accuracy : 77.59%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 53[m] 18[s]
+
+
+┌ Epoch (153/299)
+Soft loss = 0.1423, Hard loss = 0.2425, Total loss = 0.3848
+├── Training Loss : 0.0024
+├── Training accuracy : 93.77%
+│ Testing ...
+└── Testing accuracy : 77.53%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 52[m] 3[s]
+
+
+┌ Epoch (154/299)
+Soft loss = 0.1562, Hard loss = 0.2048, Total loss = 0.3609
+├── Training Loss : 0.0024
+├── Training accuracy : 93.76%
+│ Testing ...
+└── Testing accuracy : 77.58%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 52[m] 13[s]
+
+
+┌ Epoch (155/299)
+Soft loss = 0.1497, Hard loss = 0.2159, Total loss = 0.3656
+├── Training Loss : 0.0024
+├── Training accuracy : 93.79%
+│ Testing ...
+└── Testing accuracy : 77.49%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 51[m] 48[s]
+
+
+┌ Epoch (156/299)
+Soft loss = 0.1532, Hard loss = 0.1139, Total loss = 0.2671
+├── Training Loss : 0.0024
+├── Training accuracy : 93.96%
+│ Testing ...
+└── Testing accuracy : 77.36%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 52[m] 16[s]
+
+
+┌ Epoch (157/299)
+Soft loss = 0.1430, Hard loss = 0.1305, Total loss = 0.2735
+├── Training Loss : 0.0024
+├── Training accuracy : 93.86%
+│ Testing ...
+└── Testing accuracy : 77.24%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 51[m] 55[s]
+
+
+┌ Epoch (158/299)
+Soft loss = 0.1631, Hard loss = 0.1468, Total loss = 0.3099
+├── Training Loss : 0.0024
+├── Training accuracy : 93.99%
+│ Testing ...
+└── Testing accuracy : 77.43%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 50[m] 47[s]
+
+
+┌ Epoch (159/299)
+Soft loss = 0.1661, Hard loss = 0.2077, Total loss = 0.3738
+├── Training Loss : 0.0024
+├── Training accuracy : 94.04%
+│ Testing ...
+└── Testing accuracy : 77.38%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 51[m] 1[s]
+
+
+┌ Epoch (160/299)
+Soft loss = 0.1491, Hard loss = 0.1859, Total loss = 0.3350
+├── Training Loss : 0.0024
+├── Training accuracy : 93.88%
+│ Testing ...
+└── Testing accuracy : 77.57%
+Epoch time ─ 0[h] 0[m] 22[s]
+Estimated time ─ 0[h] 50[m] 59[s]
+
+
+┌ Epoch (161/299)
+Soft loss = 0.1587, Hard loss = 0.1635, Total loss = 0.3223
+├── Training Loss : 0.0024
+├── Training accuracy : 93.98%
+│ Testing ...
+└── Testing accuracy : 77.55%
+Epoch time ─ 0[h] 0[m] 22[s]
+Estimated time ─ 0[h] 50[m] 37[s]
+
+
+┌ Epoch (162/299)
+Soft loss = 0.1664, Hard loss = 0.1395, Total loss = 0.3058
+├── Training Loss : 0.0024
+├── Training accuracy : 94.02%
+│ Testing ...
+└── Testing accuracy : 77.70%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 48[m] 56[s]
+
+
+┌ Epoch (163/299)
+Soft loss = 0.1553, Hard loss = 0.2221, Total loss = 0.3774
+├── Training Loss : 0.0024
+├── Training accuracy : 93.93%
+│ Testing ...
+└── Testing accuracy : 77.49%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 49[m] 16[s]
+
+
+┌ Epoch (164/299)
+Soft loss = 0.1607, Hard loss = 0.1096, Total loss = 0.2703
+├── Training Loss : 0.0024
+├── Training accuracy : 93.89%
+│ Testing ...
+└── Testing accuracy : 77.44%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 48[m] 5[s]
+
+
+┌ Epoch (165/299)
+Soft loss = 0.1621, Hard loss = 0.1613, Total loss = 0.3235
+├── Training Loss : 0.0024
+├── Training accuracy : 93.90%
+│ Testing ...
+└── Testing accuracy : 77.65%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 48[m] 7[s]
+
+
+┌ Epoch (166/299)
+Soft loss = 0.1560, Hard loss = 0.1576, Total loss = 0.3136
+├── Training Loss : 0.0024
+├── Training accuracy : 93.95%
+│ Testing ...
+└── Testing accuracy : 77.56%
+Epoch time ─ 0[h] 0[m] 22[s]
+Estimated time ─ 0[h] 48[m] 58[s]
+
+
+┌ Epoch (167/299)
+Soft loss = 0.1661, Hard loss = 0.1605, Total loss = 0.3266
+├── Training Loss : 0.0024
+├── Training accuracy : 93.93%
+│ Testing ...
+└── Testing accuracy : 77.69%
+Epoch time ─ 0[h] 0[m] 22[s]
+Estimated time ─ 0[h] 48[m] 29[s]
+
+
+┌ Epoch (168/299)
+Soft loss = 0.1548, Hard loss = 0.1535, Total loss = 0.3083
+├── Training Loss : 0.0024
+├── Training accuracy : 93.86%
+│ Testing ...
+└── Testing accuracy : 77.56%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 46[m] 39[s]
+
+
+┌ Epoch (169/299)
+Soft loss = 0.1535, Hard loss = 0.1678, Total loss = 0.3213
+├── Training Loss : 0.0024
+├── Training accuracy : 93.93%
+│ Testing ...
+└── Testing accuracy : 77.52%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 47[m] 11[s]
+
+
+┌ Epoch (170/299)
+Soft loss = 0.1511, Hard loss = 0.1812, Total loss = 0.3324
+├── Training Loss : 0.0024
+├── Training accuracy : 93.90%
+│ Testing ...
+└── Testing accuracy : 77.62%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 46[m] 52[s]
+
+
+┌ Epoch (171/299)
+Soft loss = 0.1535, Hard loss = 0.1325, Total loss = 0.2861
+├── Training Loss : 0.0024
+├── Training accuracy : 93.98%
+│ Testing ...
+└── Testing accuracy : 77.41%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 45[m] 40[s]
+
+
+┌ Epoch (172/299)
+Soft loss = 0.1537, Hard loss = 0.2307, Total loss = 0.3844
+├── Training Loss : 0.0024
+├── Training accuracy : 94.19%
+│ Testing ...
+└── Testing accuracy : 77.47%
+Epoch time ─ 0[h] 0[m] 22[s]
+Estimated time ─ 0[h] 46[m] 46[s]
+
+
+┌ Epoch (173/299)
+Soft loss = 0.1485, Hard loss = 0.2310, Total loss = 0.3795
+├── Training Loss : 0.0024
+├── Training accuracy : 94.04%
+│ Testing ...
+└── Testing accuracy : 77.48%
+Epoch time ─ 0[h] 0[m] 22[s]
+Estimated time ─ 0[h] 46[m] 32[s]
+
+
+┌ Epoch (174/299)
+Soft loss = 0.1687, Hard loss = 0.2059, Total loss = 0.3746
+├── Training Loss : 0.0024
+├── Training accuracy : 94.08%
+│ Testing ...
+└── Testing accuracy : 77.46%
+Epoch time ─ 0[h] 0[m] 22[s]
+Estimated time ─ 0[h] 45[m] 57[s]
+
+
+┌ Epoch (175/299)
+Soft loss = 0.1499, Hard loss = 0.1316, Total loss = 0.2815
+├── Training Loss : 0.0024
+├── Training accuracy : 93.99%
+│ Testing ...
+└── Testing accuracy : 77.46%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 44[m] 5[s]
+
+
+┌ Epoch (176/299)
+Soft loss = 0.1557, Hard loss = 0.1133, Total loss = 0.2690
+├── Training Loss : 0.0024
+├── Training accuracy : 94.12%
+│ Testing ...
+└── Testing accuracy : 77.45%
+Epoch time ─ 0[h] 0[m] 22[s]
+Estimated time ─ 0[h] 45[m] 17[s]
+
+
+┌ Epoch (177/299)
+Soft loss = 0.1674, Hard loss = 0.2169, Total loss = 0.3843
+├── Training Loss : 0.0024
+├── Training accuracy : 94.12%
+│ Testing ...
+└── Testing accuracy : 77.47%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 43[m] 46[s]
+
+
+┌ Epoch (178/299)
+Soft loss = 0.1593, Hard loss = 0.1809, Total loss = 0.3402
+├── Training Loss : 0.0024
+├── Training accuracy : 94.02%
+│ Testing ...
+└── Testing accuracy : 77.42%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 44[m] 18[s]
+
+
+┌ Epoch (179/299)
+Soft loss = 0.1402, Hard loss = 0.1679, Total loss = 0.3082
+├── Training Loss : 0.0024
+├── Training accuracy : 93.99%
+│ Testing ...
+└── Testing accuracy : 77.38%
+Epoch time ─ 0[h] 0[m] 22[s]
+Estimated time ─ 0[h] 44[m] 8[s]
+
+
+┌ Epoch (180/299)
+Soft loss = 0.1519, Hard loss = 0.1382, Total loss = 0.2901
+├── Training Loss : 0.0024
+├── Training accuracy : 94.21%
+│ Testing ...
+└── Testing accuracy : 77.61%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 42[m] 0[s]
+
+
+┌ Epoch (181/299)
+Soft loss = 0.1547, Hard loss = 0.1071, Total loss = 0.2618
+├── Training Loss : 0.0024
+├── Training accuracy : 93.97%
+│ Testing ...
+└── Testing accuracy : 77.49%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 42[m] 49[s]
+
+
+┌ Epoch (182/299)
+Soft loss = 0.1505, Hard loss = 0.1973, Total loss = 0.3478
+├── Training Loss : 0.0024
+├── Training accuracy : 94.14%
+│ Testing ...
+└── Testing accuracy : 77.42%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 42[m] 23[s]
+
+
+┌ Epoch (183/299)
+Soft loss = 0.1573, Hard loss = 0.1535, Total loss = 0.3108
+├── Training Loss : 0.0024
+├── Training accuracy : 94.03%
+│ Testing ...
+└── Testing accuracy : 77.38%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 41[m] 26[s]
+
+
+┌ Epoch (184/299)
+Soft loss = 0.1568, Hard loss = 0.1385, Total loss = 0.2952
+├── Training Loss : 0.0024
+├── Training accuracy : 94.02%
+│ Testing ...
+└── Testing accuracy : 77.42%
+Epoch time ─ 0[h] 0[m] 22[s]
+Estimated time ─ 0[h] 42[m] 10[s]
+
+
+┌ Epoch (185/299)
+Soft loss = 0.1456, Hard loss = 0.1214, Total loss = 0.2670
+├── Training Loss : 0.0024
+├── Training accuracy : 94.04%
+│ Testing ...
+└── Testing accuracy : 77.44%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 41[m] 46[s]
+
+
+┌ Epoch (186/299)
+Soft loss = 0.1493, Hard loss = 0.1555, Total loss = 0.3048
+├── Training Loss : 0.0024
+├── Training accuracy : 94.26%
+│ Testing ...
+└── Testing accuracy : 77.56%
+Epoch time ─ 0[h] 0[m] 22[s]
+Estimated time ─ 0[h] 41[m] 40[s]
+
+
+┌ Epoch (187/299)
+Soft loss = 0.1630, Hard loss = 0.1827, Total loss = 0.3457
+├── Training Loss : 0.0024
+├── Training accuracy : 94.14%
+│ Testing ...
+└── Testing accuracy : 77.59%
+Epoch time ─ 0[h] 0[m] 22[s]
+Estimated time ─ 0[h] 41[m] 20[s]
+
+
+┌ Epoch (188/299)
+Soft loss = 0.1532, Hard loss = 0.1787, Total loss = 0.3319
+├── Training Loss : 0.0024
+├── Training accuracy : 93.97%
+│ Testing ...
+└── Testing accuracy : 77.40%
+Epoch time ─ 0[h] 0[m] 22[s]
+Estimated time ─ 0[h] 41[m] 0[s]
+
+
+┌ Epoch (189/299)
+Soft loss = 0.1573, Hard loss = 0.1427, Total loss = 0.3000
+├── Training Loss : 0.0024
+├── Training accuracy : 93.99%
+│ Testing ...
+└── Testing accuracy : 77.52%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 38[m] 56[s]
+
+
+┌ Epoch (190/299)
+Soft loss = 0.1473, Hard loss = 0.1471, Total loss = 0.2945
+├── Training Loss : 0.0024
+├── Training accuracy : 94.07%
+│ Testing ...
+└── Testing accuracy : 77.50%
+Epoch time ─ 0[h] 0[m] 22[s]
+Estimated time ─ 0[h] 40[m] 2[s]
+
+
+┌ Epoch (191/299)
+Soft loss = 0.1595, Hard loss = 0.1808, Total loss = 0.3404
+├── Training Loss : 0.0024
+├── Training accuracy : 94.10%
+│ Testing ...
+└── Testing accuracy : 77.47%
+Epoch time ─ 0[h] 0[m] 22[s]
+Estimated time ─ 0[h] 39[m] 50[s]
+
+
+┌ Epoch (192/299)
+Soft loss = 0.1499, Hard loss = 0.1380, Total loss = 0.2880
+├── Training Loss : 0.0024
+├── Training accuracy : 94.03%
+│ Testing ...
+└── Testing accuracy : 77.50%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 37[m] 57[s]
+
+
+┌ Epoch (193/299)
+Soft loss = 0.1777, Hard loss = 0.1074, Total loss = 0.2852
+├── Training Loss : 0.0024
+├── Training accuracy : 94.05%
+│ Testing ...
+└── Testing accuracy : 77.47%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 38[m] 45[s]
+
+
+┌ Epoch (194/299)
+Soft loss = 0.1444, Hard loss = 0.2770, Total loss = 0.4214
+├── Training Loss : 0.0024
+├── Training accuracy : 94.14%
+│ Testing ...
+└── Testing accuracy : 77.47%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 37[m] 38[s]
+
+
+┌ Epoch (195/299)
+Soft loss = 0.1430, Hard loss = 0.1781, Total loss = 0.3211
+├── Training Loss : 0.0024
+├── Training accuracy : 94.10%
+│ Testing ...
+└── Testing accuracy : 77.46%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 37[m] 56[s]
+
+
+┌ Epoch (196/299)
+Soft loss = 0.1454, Hard loss = 0.1437, Total loss = 0.2891
+├── Training Loss : 0.0024
+├── Training accuracy : 94.09%
+│ Testing ...
+└── Testing accuracy : 77.42%
+Epoch time ─ 0[h] 0[m] 22[s]
+Estimated time ─ 0[h] 37[m] 56[s]
+
+
+┌ Epoch (197/299)
+Soft loss = 0.1522, Hard loss = 0.2400, Total loss = 0.3921
+├── Training Loss : 0.0024
+├── Training accuracy : 93.99%
+│ Testing ...
+└── Testing accuracy : 77.48%
+Epoch time ─ 0[h] 0[m] 22[s]
+Estimated time ─ 0[h] 37[m] 32[s]
+
+
+┌ Epoch (198/299)
+Soft loss = 0.1575, Hard loss = 0.1778, Total loss = 0.3353
+├── Training Loss : 0.0024
+├── Training accuracy : 94.13%
+│ Testing ...
+└── Testing accuracy : 77.50%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 35[m] 42[s]
+
+
+┌ Epoch (199/299)
+Soft loss = 0.1675, Hard loss = 0.1529, Total loss = 0.3204
+├── Training Loss : 0.0024
+├── Training accuracy : 94.15%
+│ Testing ...
+└── Testing accuracy : 77.36%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 35[m] 34[s]
+
+
+┌ Epoch (200/299)
+Soft loss = 0.1672, Hard loss = 0.1309, Total loss = 0.2981
+├── Training Loss : 0.0024
+├── Training accuracy : 94.17%
+│ Testing ...
+└── Testing accuracy : 77.62%
+Epoch time ─ 0[h] 0[m] 22[s]
+Estimated time ─ 0[h] 36[m] 25[s]
+
+
+┌ Epoch (201/299)
+Soft loss = 0.1678, Hard loss = 0.1683, Total loss = 0.3361
+├── Training Loss : 0.0024
+├── Training accuracy : 94.12%
+│ Testing ...
+└── Testing accuracy : 77.50%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 35[m] 1[s]
+
+
+┌ Epoch (202/299)
+Soft loss = 0.1572, Hard loss = 0.1642, Total loss = 0.3214
+├── Training Loss : 0.0024
+├── Training accuracy : 94.12%
+│ Testing ...
+└── Testing accuracy : 77.49%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 34[m] 29[s]
+
+
+┌ Epoch (203/299)
+Soft loss = 0.1514, Hard loss = 0.1601, Total loss = 0.3115
+├── Training Loss : 0.0024
+├── Training accuracy : 94.12%
+│ Testing ...
+└── Testing accuracy : 77.42%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 34[m] 21[s]
+
+
+┌ Epoch (204/299)
+Soft loss = 0.1655, Hard loss = 0.2060, Total loss = 0.3715
+├── Training Loss : 0.0024
+├── Training accuracy : 93.95%
+│ Testing ...
+└── Testing accuracy : 77.34%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 34[m] 25[s]
+
+
+┌ Epoch (205/299)
+Soft loss = 0.1389, Hard loss = 0.1767, Total loss = 0.3156
+├── Training Loss : 0.0024
+├── Training accuracy : 94.21%
+│ Testing ...
+└── Testing accuracy : 77.45%
+Epoch time ─ 0[h] 0[m] 22[s]
+Estimated time ─ 0[h] 34[m] 30[s]
+
+
+┌ Epoch (206/299)
+Soft loss = 0.1508, Hard loss = 0.1800, Total loss = 0.3308
+├── Training Loss : 0.0024
+├── Training accuracy : 94.05%
+│ Testing ...
+└── Testing accuracy : 77.34%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 33[m] 9[s]
+
+
+┌ Epoch (207/299)
+Soft loss = 0.1801, Hard loss = 0.1225, Total loss = 0.3025
+├── Training Loss : 0.0024
+├── Training accuracy : 94.18%
+│ Testing ...
+└── Testing accuracy : 77.51%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 33[m] 23[s]
+
+
+┌ Epoch (208/299)
+Soft loss = 0.1585, Hard loss = 0.0787, Total loss = 0.2372
+├── Training Loss : 0.0024
+├── Training accuracy : 94.10%
+│ Testing ...
+└── Testing accuracy : 77.50%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 33[m] 4[s]
+
+
+┌ Epoch (209/299)
+Soft loss = 0.1674, Hard loss = 0.1598, Total loss = 0.3272
+├── Training Loss : 0.0024
+├── Training accuracy : 94.03%
+│ Testing ...
+└── Testing accuracy : 77.43%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 32[m] 44[s]
+
+
+┌ Epoch (210/299)
+Soft loss = 0.1574, Hard loss = 0.1032, Total loss = 0.2606
+├── Training Loss : 0.0024
+├── Training accuracy : 94.26%
+│ Testing ...
+└── Testing accuracy : 77.47%
+Epoch time ─ 0[h] 0[m] 22[s]
+Estimated time ─ 0[h] 32[m] 44[s]
+
+
+┌ Epoch (211/299)
+Soft loss = 0.1699, Hard loss = 0.1648, Total loss = 0.3347
+├── Training Loss : 0.0024
+├── Training accuracy : 94.07%
+│ Testing ...
+└── Testing accuracy : 77.47%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 30[m] 52[s]
+
+
+┌ Epoch (212/299)
+Soft loss = 0.1645, Hard loss = 0.1305, Total loss = 0.2950
+├── Training Loss : 0.0024
+├── Training accuracy : 94.02%
+│ Testing ...
+└── Testing accuracy : 77.48%
+Epoch time ─ 0[h] 0[m] 22[s]
+Estimated time ─ 0[h] 32[m] 3[s]
+
+
+┌ Epoch (213/299)
+Soft loss = 0.1597, Hard loss = 0.1982, Total loss = 0.3579
+├── Training Loss : 0.0024
+├── Training accuracy : 94.05%
+│ Testing ...
+└── Testing accuracy : 77.39%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 30[m] 55[s]
+
+
+┌ Epoch (214/299)
+Soft loss = 0.1583, Hard loss = 0.2279, Total loss = 0.3862
+├── Training Loss : 0.0024
+├── Training accuracy : 94.13%
+│ Testing ...
+└── Testing accuracy : 77.52%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 31[m] 5[s]
+
+
+┌ Epoch (215/299)
+Soft loss = 0.1469, Hard loss = 0.1356, Total loss = 0.2825
+├── Training Loss : 0.0024
+├── Training accuracy : 94.12%
+│ Testing ...
+└── Testing accuracy : 77.49%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 29[m] 37[s]
+
+
+┌ Epoch (216/299)
+Soft loss = 0.1530, Hard loss = 0.1020, Total loss = 0.2550
+├── Training Loss : 0.0024
+├── Training accuracy : 94.05%
+│ Testing ...
+└── Testing accuracy : 77.50%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 30[m] 19[s]
+
+
+┌ Epoch (217/299)
+Soft loss = 0.1663, Hard loss = 0.1245, Total loss = 0.2907
+├── Training Loss : 0.0024
+├── Training accuracy : 94.00%
+│ Testing ...
+└── Testing accuracy : 77.42%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 29[m] 18[s]
+
+
+┌ Epoch (218/299)
+Soft loss = 0.1634, Hard loss = 0.1082, Total loss = 0.2716
+├── Training Loss : 0.0024
+├── Training accuracy : 94.15%
+│ Testing ...
+└── Testing accuracy : 77.46%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 28[m] 58[s]
+
+
+┌ Epoch (219/299)
+Soft loss = 0.1449, Hard loss = 0.1590, Total loss = 0.3039
+├── Training Loss : 0.0024
+├── Training accuracy : 94.07%
+│ Testing ...
+└── Testing accuracy : 77.46%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 29[m] 0[s]
+
+
+┌ Epoch (220/299)
+Soft loss = 0.1453, Hard loss = 0.1211, Total loss = 0.2664
+├── Training Loss : 0.0024
+├── Training accuracy : 94.01%
+│ Testing ...
+└── Testing accuracy : 77.52%
+Epoch time ─ 0[h] 0[m] 22[s]
+Estimated time ─ 0[h] 29[m] 9[s]
+
+
+┌ Epoch (221/299)
+Soft loss = 0.1551, Hard loss = 0.1980, Total loss = 0.3531
+├── Training Loss : 0.0024
+├── Training accuracy : 94.05%
+│ Testing ...
+└── Testing accuracy : 77.33%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 28[m] 28[s]
+
+
+┌ Epoch (222/299)
+Soft loss = 0.1609, Hard loss = 0.1280, Total loss = 0.2889
+├── Training Loss : 0.0024
+├── Training accuracy : 94.07%
+│ Testing ...
+└── Testing accuracy : 77.41%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 27[m] 17[s]
+
+
+┌ Epoch (223/299)
+Soft loss = 0.1568, Hard loss = 0.0928, Total loss = 0.2495
+├── Training Loss : 0.0024
+├── Training accuracy : 94.18%
+│ Testing ...
+└── Testing accuracy : 77.40%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 27[m] 1[s]
+
+
+┌ Epoch (224/299)
+Soft loss = 0.1695, Hard loss = 0.1246, Total loss = 0.2941
+├── Training Loss : 0.0024
+├── Training accuracy : 94.01%
+│ Testing ...
+└── Testing accuracy : 77.49%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 26[m] 51[s]
+
+
+┌ Epoch (225/299)
+Soft loss = 0.1695, Hard loss = 0.1927, Total loss = 0.3622
+├── Training Loss : 0.0024
+├── Training accuracy : 94.22%
+│ Testing ...
+└── Testing accuracy : 77.59%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 26[m] 37[s]
+
+
+┌ Epoch (226/299)
+Soft loss = 0.1573, Hard loss = 0.1177, Total loss = 0.2749
+├── Training Loss : 0.0024
+├── Training accuracy : 94.19%
+│ Testing ...
+└── Testing accuracy : 77.54%
+Epoch time ─ 0[h] 0[m] 22[s]
+Estimated time ─ 0[h] 26[m] 57[s]
+
+
+┌ Epoch (227/299)
+Soft loss = 0.1443, Hard loss = 0.1429, Total loss = 0.2872
+├── Training Loss : 0.0024
+├── Training accuracy : 94.44%
+│ Testing ...
+└── Testing accuracy : 77.63%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 25[m] 56[s]
+
+
+┌ Epoch (228/299)
+Soft loss = 0.1602, Hard loss = 0.1985, Total loss = 0.3587
+├── Training Loss : 0.0024
+├── Training accuracy : 94.19%
+│ Testing ...
+└── Testing accuracy : 77.61%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 25[m] 50[s]
+
+
+┌ Epoch (229/299)
+Soft loss = 0.1620, Hard loss = 0.1449, Total loss = 0.3069
+├── Training Loss : 0.0024
+├── Training accuracy : 94.10%
+│ Testing ...
+└── Testing accuracy : 77.32%
+Epoch time ─ 0[h] 0[m] 20[s]
+Estimated time ─ 0[h] 24[m] 17[s]
+
+
+┌ Epoch (230/299)
+Soft loss = 0.1542, Hard loss = 0.1125, Total loss = 0.2667
+├── Training Loss : 0.0024
+├── Training accuracy : 94.06%
+│ Testing ...
+└── Testing accuracy : 77.45%
+Epoch time ─ 0[h] 0[m] 22[s]
+Estimated time ─ 0[h] 25[m] 26[s]
+
+
+┌ Epoch (231/299)
+Soft loss = 0.1652, Hard loss = 0.1560, Total loss = 0.3212
+├── Training Loss : 0.0024
+├── Training accuracy : 93.90%
+│ Testing ...
+└── Testing accuracy : 77.47%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 24[m] 53[s]
+
+
+┌ Epoch (232/299)
+Soft loss = 0.1644, Hard loss = 0.2137, Total loss = 0.3781
+├── Training Loss : 0.0024
+├── Training accuracy : 94.22%
+│ Testing ...
+└── Testing accuracy : 77.43%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 24[m] 13[s]
+
+
+┌ Epoch (233/299)
+Soft loss = 0.1621, Hard loss = 0.0976, Total loss = 0.2596
+├── Training Loss : 0.0024
+├── Training accuracy : 94.21%
+│ Testing ...
+└── Testing accuracy : 77.38%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 23[m] 13[s]
+
+
+┌ Epoch (234/299)
+Soft loss = 0.1526, Hard loss = 0.1665, Total loss = 0.3190
+├── Training Loss : 0.0024
+├── Training accuracy : 94.23%
+│ Testing ...
+└── Testing accuracy : 77.45%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 23[m] 23[s]
+
+
+┌ Epoch (235/299)
+Soft loss = 0.1621, Hard loss = 0.1320, Total loss = 0.2941
+├── Training Loss : 0.0024
+├── Training accuracy : 94.22%
+│ Testing ...
+└── Testing accuracy : 77.43%
+Epoch time ─ 0[h] 0[m] 22[s]
+Estimated time ─ 0[h] 23[m] 39[s]
+
+
+┌ Epoch (236/299)
+Soft loss = 0.1704, Hard loss = 0.1367, Total loss = 0.3071
+├── Training Loss : 0.0024
+├── Training accuracy : 94.09%
+│ Testing ...
+└── Testing accuracy : 77.53%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 22[m] 41[s]
+
+
+┌ Epoch (237/299)
+Soft loss = 0.1394, Hard loss = 0.2568, Total loss = 0.3961
+├── Training Loss : 0.0024
+├── Training accuracy : 94.05%
+│ Testing ...
+└── Testing accuracy : 77.61%
+Epoch time ─ 0[h] 0[m] 20[s]
+Estimated time ─ 0[h] 21[m] 40[s]
+
+
+┌ Epoch (238/299)
+Soft loss = 0.1441, Hard loss = 0.1237, Total loss = 0.2678
+├── Training Loss : 0.0024
+├── Training accuracy : 94.11%
+│ Testing ...
+└── Testing accuracy : 77.53%
+Epoch time ─ 0[h] 0[m] 22[s]
+Estimated time ─ 0[h] 22[m] 33[s]
+
+
+┌ Epoch (239/299)
+Soft loss = 0.1487, Hard loss = 0.1420, Total loss = 0.2907
+├── Training Loss : 0.0024
+├── Training accuracy : 94.09%
+│ Testing ...
+└── Testing accuracy : 77.55%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 21[m] 24[s]
+
+
+┌ Epoch (240/299)
+Soft loss = 0.1710, Hard loss = 0.1825, Total loss = 0.3536
+├── Training Loss : 0.0024
+├── Training accuracy : 94.14%
+│ Testing ...
+└── Testing accuracy : 77.57%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 21[m] 10[s]
+
+
+┌ Epoch (241/299)
+Soft loss = 0.1587, Hard loss = 0.0997, Total loss = 0.2584
+├── Training Loss : 0.0024
+├── Training accuracy : 94.23%
+│ Testing ...
+└── Testing accuracy : 77.50%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 20[m] 46[s]
+
+
+┌ Epoch (242/299)
+Soft loss = 0.1460, Hard loss = 0.0932, Total loss = 0.2392
+├── Training Loss : 0.0024
+├── Training accuracy : 94.07%
+│ Testing ...
+└── Testing accuracy : 77.47%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 20[m] 16[s]
+
+
+┌ Epoch (243/299)
+Soft loss = 0.1515, Hard loss = 0.0866, Total loss = 0.2381
+├── Training Loss : 0.0024
+├── Training accuracy : 94.16%
+│ Testing ...
+└── Testing accuracy : 77.36%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 20[m] 29[s]
+
+
+┌ Epoch (244/299)
+Soft loss = 0.1618, Hard loss = 0.2162, Total loss = 0.3780
+├── Training Loss : 0.0024
+├── Training accuracy : 94.14%
+│ Testing ...
+└── Testing accuracy : 77.47%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 19[m] 36[s]
+
+
+┌ Epoch (245/299)
+Soft loss = 0.1556, Hard loss = 0.1234, Total loss = 0.2790
+├── Training Loss : 0.0024
+├── Training accuracy : 94.07%
+│ Testing ...
+└── Testing accuracy : 77.48%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 19[m] 46[s]
+
+
+┌ Epoch (246/299)
+Soft loss = 0.1671, Hard loss = 0.1538, Total loss = 0.3209
+├── Training Loss : 0.0024
+├── Training accuracy : 94.04%
+│ Testing ...
+└── Testing accuracy : 77.49%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 18[m] 58[s]
+
+
+┌ Epoch (247/299)
+Soft loss = 0.1467, Hard loss = 0.1319, Total loss = 0.2786
+├── Training Loss : 0.0024
+├── Training accuracy : 93.99%
+│ Testing ...
+└── Testing accuracy : 77.40%
+Epoch time ─ 0[h] 0[m] 22[s]
+Estimated time ─ 0[h] 19[m] 10[s]
+
+
+┌ Epoch (248/299)
+Soft loss = 0.1613, Hard loss = 0.1655, Total loss = 0.3268
+├── Training Loss : 0.0024
+├── Training accuracy : 94.14%
+│ Testing ...
+└── Testing accuracy : 77.47%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 18[m] 36[s]
+
+
+┌ Epoch (249/299)
+Soft loss = 0.1662, Hard loss = 0.1310, Total loss = 0.2972
+├── Training Loss : 0.0024
+├── Training accuracy : 94.22%
+│ Testing ...
+└── Testing accuracy : 77.57%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 17[m] 55[s]
+
+
+┌ Epoch (250/299)
+Soft loss = 0.1470, Hard loss = 0.1043, Total loss = 0.2513
+├── Training Loss : 0.0024
+├── Training accuracy : 94.14%
+│ Testing ...
+└── Testing accuracy : 77.42%
+Epoch time ─ 0[h] 0[m] 22[s]
+Estimated time ─ 0[h] 18[m] 5[s]
+
+
+┌ Epoch (251/299)
+Soft loss = 0.1500, Hard loss = 0.1755, Total loss = 0.3255
+├── Training Loss : 0.0024
+├── Training accuracy : 94.22%
+│ Testing ...
+└── Testing accuracy : 77.35%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 17[m] 19[s]
+
+
+┌ Epoch (252/299)
+Soft loss = 0.1453, Hard loss = 0.1270, Total loss = 0.2723
+├── Training Loss : 0.0024
+├── Training accuracy : 94.01%
+│ Testing ...
+└── Testing accuracy : 77.48%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 16[m] 58[s]
+
+
+┌ Epoch (253/299)
+Soft loss = 0.1500, Hard loss = 0.1352, Total loss = 0.2852
+├── Training Loss : 0.0024
+├── Training accuracy : 94.06%
+│ Testing ...
+└── Testing accuracy : 77.55%
+Epoch time ─ 0[h] 0[m] 22[s]
+Estimated time ─ 0[h] 16[m] 58[s]
+
+
+┌ Epoch (254/299)
+Soft loss = 0.1635, Hard loss = 0.1200, Total loss = 0.2834
+├── Training Loss : 0.0024
+├── Training accuracy : 94.05%
+│ Testing ...
+└── Testing accuracy : 77.31%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 16[m] 13[s]
+
+
+┌ Epoch (255/299)
+Soft loss = 0.1582, Hard loss = 0.1410, Total loss = 0.2993
+├── Training Loss : 0.0024
+├── Training accuracy : 94.31%
+│ Testing ...
+└── Testing accuracy : 77.45%
+Epoch time ─ 0[h] 0[m] 22[s]
+Estimated time ─ 0[h] 16[m] 9[s]
+
+
+┌ Epoch (256/299)
+Soft loss = 0.1618, Hard loss = 0.1243, Total loss = 0.2860
+├── Training Loss : 0.0024
+├── Training accuracy : 94.14%
+│ Testing ...
+└── Testing accuracy : 77.42%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 15[m] 45[s]
+
+
+┌ Epoch (257/299)
+Soft loss = 0.1609, Hard loss = 0.1515, Total loss = 0.3124
+├── Training Loss : 0.0024
+├── Training accuracy : 94.14%
+│ Testing ...
+└── Testing accuracy : 77.50%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 15[m] 17[s]
+
+
+┌ Epoch (258/299)
+Soft loss = 0.1511, Hard loss = 0.1251, Total loss = 0.2762
+├── Training Loss : 0.0024
+├── Training accuracy : 94.15%
+│ Testing ...
+└── Testing accuracy : 77.57%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 15[m] 0[s]
+
+
+┌ Epoch (259/299)
+Soft loss = 0.1666, Hard loss = 0.1379, Total loss = 0.3046
+├── Training Loss : 0.0024
+├── Training accuracy : 94.13%
+│ Testing ...
+└── Testing accuracy : 77.35%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 14[m] 12[s]
+
+
+┌ Epoch (260/299)
+Soft loss = 0.1536, Hard loss = 0.1358, Total loss = 0.2894
+├── Training Loss : 0.0024
+├── Training accuracy : 93.98%
+│ Testing ...
+└── Testing accuracy : 77.40%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 14[m] 8[s]
+
+
+┌ Epoch (261/299)
+Soft loss = 0.1484, Hard loss = 0.1826, Total loss = 0.3311
+├── Training Loss : 0.0024
+├── Training accuracy : 94.17%
+│ Testing ...
+└── Testing accuracy : 77.54%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 13[m] 51[s]
+
+
+┌ Epoch (262/299)
+Soft loss = 0.1580, Hard loss = 0.1695, Total loss = 0.3275
+├── Training Loss : 0.0024
+├── Training accuracy : 94.08%
+│ Testing ...
+└── Testing accuracy : 77.32%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 13[m] 16[s]
+
+
+┌ Epoch (263/299)
+Soft loss = 0.1638, Hard loss = 0.1628, Total loss = 0.3266
+├── Training Loss : 0.0024
+├── Training accuracy : 94.14%
+│ Testing ...
+└── Testing accuracy : 77.48%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 13[m] 5[s]
+
+
+┌ Epoch (264/299)
+Soft loss = 0.1474, Hard loss = 0.1480, Total loss = 0.2953
+├── Training Loss : 0.0024
+├── Training accuracy : 94.18%
+│ Testing ...
+└── Testing accuracy : 77.38%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 12[m] 44[s]
+
+
+┌ Epoch (265/299)
+Soft loss = 0.1680, Hard loss = 0.1115, Total loss = 0.2795
+├── Training Loss : 0.0024
+├── Training accuracy : 94.03%
+│ Testing ...
+└── Testing accuracy : 77.42%
+Epoch time ─ 0[h] 0[m] 22[s]
+Estimated time ─ 0[h] 12[m] 30[s]
+
+
+┌ Epoch (266/299)
+Soft loss = 0.1581, Hard loss = 0.1383, Total loss = 0.2964
+├── Training Loss : 0.0024
+├── Training accuracy : 94.21%
+│ Testing ...
+└── Testing accuracy : 77.66%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 11[m] 54[s]
+
+
+┌ Epoch (267/299)
+Soft loss = 0.1655, Hard loss = 0.2246, Total loss = 0.3900
+├── Training Loss : 0.0024
+├── Training accuracy : 94.09%
+│ Testing ...
+└── Testing accuracy : 77.53%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 11[m] 40[s]
+
+
+┌ Epoch (268/299)
+Soft loss = 0.1460, Hard loss = 0.1176, Total loss = 0.2637
+├── Training Loss : 0.0024
+├── Training accuracy : 94.14%
+│ Testing ...
+└── Testing accuracy : 77.51%
+Epoch time ─ 0[h] 0[m] 22[s]
+Estimated time ─ 0[h] 11[m] 26[s]
+
+
+┌ Epoch (269/299)
+Soft loss = 0.1462, Hard loss = 0.1972, Total loss = 0.3434
+├── Training Loss : 0.0024
+├── Training accuracy : 94.07%
+│ Testing ...
+└── Testing accuracy : 77.54%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 10[m] 34[s]
+
+
+┌ Epoch (270/299)
+Soft loss = 0.1542, Hard loss = 0.1868, Total loss = 0.3410
+├── Training Loss : 0.0024
+├── Training accuracy : 94.00%
+│ Testing ...
+└── Testing accuracy : 77.57%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 10[m] 27[s]
+
+
+┌ Epoch (271/299)
+Soft loss = 0.1658, Hard loss = 0.1704, Total loss = 0.3362
+├── Training Loss : 0.0024
+├── Training accuracy : 94.29%
+│ Testing ...
+└── Testing accuracy : 77.63%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 10[m] 13[s]
+
+
+┌ Epoch (272/299)
+Soft loss = 0.1483, Hard loss = 0.1479, Total loss = 0.2963
+├── Training Loss : 0.0024
+├── Training accuracy : 94.09%
+│ Testing ...
+└── Testing accuracy : 77.44%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 9[m] 53[s]
+
+
+┌ Epoch (273/299)
+Soft loss = 0.1466, Hard loss = 0.1838, Total loss = 0.3304
+├── Training Loss : 0.0024
+├── Training accuracy : 94.10%
+│ Testing ...
+└── Testing accuracy : 77.62%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 9[m] 27[s]
+
+
+┌ Epoch (274/299)
+Soft loss = 0.1440, Hard loss = 0.1917, Total loss = 0.3358
+├── Training Loss : 0.0024
+├── Training accuracy : 94.11%
+│ Testing ...
+└── Testing accuracy : 77.60%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 8[m] 54[s]
+
+
+┌ Epoch (275/299)
+Soft loss = 0.1773, Hard loss = 0.0808, Total loss = 0.2581
+├── Training Loss : 0.0024
+├── Training accuracy : 94.21%
+│ Testing ...
+└── Testing accuracy : 77.44%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 8[m] 45[s]
+
+
+┌ Epoch (276/299)
+Soft loss = 0.1499, Hard loss = 0.1468, Total loss = 0.2967
+├── Training Loss : 0.0024
+├── Training accuracy : 94.22%
+│ Testing ...
+└── Testing accuracy : 77.48%
+Epoch time ─ 0[h] 0[m] 22[s]
+Estimated time ─ 0[h] 8[m] 31[s]
+
+
+┌ Epoch (277/299)
+Soft loss = 0.1521, Hard loss = 0.1940, Total loss = 0.3461
+├── Training Loss : 0.0024
+├── Training accuracy : 93.90%
+│ Testing ...
+└── Testing accuracy : 77.57%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 7[m] 55[s]
+
+
+┌ Epoch (278/299)
+Soft loss = 0.1536, Hard loss = 0.1421, Total loss = 0.2956
+├── Training Loss : 0.0024
+├── Training accuracy : 94.01%
+│ Testing ...
+└── Testing accuracy : 77.61%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 7[m] 34[s]
+
+
+┌ Epoch (279/299)
+Soft loss = 0.1555, Hard loss = 0.2199, Total loss = 0.3754
+├── Training Loss : 0.0024
+├── Training accuracy : 94.13%
+│ Testing ...
+└── Testing accuracy : 77.36%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 7[m] 19[s]
+
+
+┌ Epoch (280/299)
+Soft loss = 0.1658, Hard loss = 0.1279, Total loss = 0.2938
+├── Training Loss : 0.0024
+├── Training accuracy : 94.21%
+│ Testing ...
+└── Testing accuracy : 77.45%
+Epoch time ─ 0[h] 0[m] 22[s]
+Estimated time ─ 0[h] 7[m] 0[s]
+
+
+┌ Epoch (281/299)
+Soft loss = 0.1565, Hard loss = 0.0898, Total loss = 0.2464
+├── Training Loss : 0.0024
+├── Training accuracy : 94.04%
+│ Testing ...
+└── Testing accuracy : 77.46%
+Epoch time ─ 0[h] 0[m] 22[s]
+Estimated time ─ 0[h] 6[m] 38[s]
+
+
+┌ Epoch (282/299)
+Soft loss = 0.1561, Hard loss = 0.2350, Total loss = 0.3910
+├── Training Loss : 0.0024
+├── Training accuracy : 94.09%
+│ Testing ...
+└── Testing accuracy : 77.48%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 6[m] 3[s]
+
+
+┌ Epoch (283/299)
+Soft loss = 0.1622, Hard loss = 0.1626, Total loss = 0.3248
+├── Training Loss : 0.0024
+├── Training accuracy : 94.05%
+│ Testing ...
+└── Testing accuracy : 77.47%
+Epoch time ─ 0[h] 0[m] 22[s]
+Estimated time ─ 0[h] 5[m] 56[s]
+
+
+┌ Epoch (284/299)
+Soft loss = 0.1600, Hard loss = 0.1109, Total loss = 0.2709
+├── Training Loss : 0.0024
+├── Training accuracy : 94.10%
+│ Testing ...
+└── Testing accuracy : 77.38%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 5[m] 23[s]
+
+
+┌ Epoch (285/299)
+Soft loss = 0.1585, Hard loss = 0.1241, Total loss = 0.2826
+├── Training Loss : 0.0024
+├── Training accuracy : 94.19%
+│ Testing ...
+└── Testing accuracy : 77.46%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 5[m] 7[s]
+
+
+┌ Epoch (286/299)
+Soft loss = 0.1485, Hard loss = 0.2528, Total loss = 0.4013
+├── Training Loss : 0.0024
+├── Training accuracy : 94.00%
+│ Testing ...
+└── Testing accuracy : 77.45%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 4[m] 43[s]
+
+
+┌ Epoch (287/299)
+Soft loss = 0.1449, Hard loss = 0.1233, Total loss = 0.2682
+├── Training Loss : 0.0024
+├── Training accuracy : 94.08%
+│ Testing ...
+└── Testing accuracy : 77.49%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 4[m] 22[s]
+
+
+┌ Epoch (288/299)
+Soft loss = 0.1606, Hard loss = 0.1261, Total loss = 0.2867
+├── Training Loss : 0.0024
+├── Training accuracy : 94.06%
+│ Testing ...
+└── Testing accuracy : 77.36%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 3[m] 53[s]
+
+
+┌ Epoch (289/299)
+Soft loss = 0.1556, Hard loss = 0.1938, Total loss = 0.3494
+├── Training Loss : 0.0024
+├── Training accuracy : 94.02%
+│ Testing ...
+└── Testing accuracy : 77.42%
+Epoch time ─ 0[h] 0[m] 22[s]
+Estimated time ─ 0[h] 3[m] 41[s]
+
+
+┌ Epoch (290/299)
+Soft loss = 0.1538, Hard loss = 0.1725, Total loss = 0.3263
+├── Training Loss : 0.0024
+├── Training accuracy : 94.18%
+│ Testing ...
+└── Testing accuracy : 77.51%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 3[m] 15[s]
+
+
+┌ Epoch (291/299)
+Soft loss = 0.1501, Hard loss = 0.1086, Total loss = 0.2587
+├── Training Loss : 0.0024
+├── Training accuracy : 94.09%
+│ Testing ...
+└── Testing accuracy : 77.60%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 2[m] 53[s]
+
+
+┌ Epoch (292/299)
+Soft loss = 0.1631, Hard loss = 0.1299, Total loss = 0.2930
+├── Training Loss : 0.0024
+├── Training accuracy : 94.06%
+│ Testing ...
+└── Testing accuracy : 77.53%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 2[m] 31[s]
+
+
+┌ Epoch (293/299)
+Soft loss = 0.1705, Hard loss = 0.1810, Total loss = 0.3514
+├── Training Loss : 0.0024
+├── Training accuracy : 94.29%
+│ Testing ...
+└── Testing accuracy : 77.54%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 2[m] 10[s]
+
+
+┌ Epoch (294/299)
+Soft loss = 0.1516, Hard loss = 0.1635, Total loss = 0.3152
+├── Training Loss : 0.0024
+├── Training accuracy : 94.06%
+│ Testing ...
+└── Testing accuracy : 77.38%
+Epoch time ─ 0[h] 0[m] 20[s]
+Estimated time ─ 0[h] 1[m] 44[s]
+
+
+┌ Epoch (295/299)
+Soft loss = 0.1625, Hard loss = 0.1815, Total loss = 0.3440
+├── Training Loss : 0.0024
+├── Training accuracy : 94.05%
+│ Testing ...
+└── Testing accuracy : 77.37%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 1[m] 25[s]
+
+
+┌ Epoch (296/299)
+Soft loss = 0.1647, Hard loss = 0.1103, Total loss = 0.2750
+├── Training Loss : 0.0024
+├── Training accuracy : 94.14%
+│ Testing ...
+└── Testing accuracy : 77.40%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 1[m] 3[s]
+
+
+┌ Epoch (297/299)
+Soft loss = 0.1540, Hard loss = 0.1717, Total loss = 0.3257
+├── Training Loss : 0.0024
+├── Training accuracy : 94.13%
+│ Testing ...
+└── Testing accuracy : 77.34%
+Epoch time ─ 0[h] 0[m] 22[s]
+Estimated time ─ 0[h] 0[m] 44[s]
+
+
+┌ Epoch (298/299)
+Soft loss = 0.1760, Hard loss = 0.1402, Total loss = 0.3162
+├── Training Loss : 0.0024
+├── Training accuracy : 94.15%
+│ Testing ...
+└── Testing accuracy : 77.54%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 0[m] 21[s]
+
+
+┌ Epoch (299/299)
+Soft loss = 0.1571, Hard loss = 0.1495, Total loss = 0.3066
+├── Training Loss : 0.0024
+├── Training accuracy : 94.06%
+│ Testing ...
+└── Testing accuracy : 77.55%
+Epoch time ─ 0[h] 0[m] 21[s]
+Estimated time ─ 0[h] 0[m] 0[s]
+
+

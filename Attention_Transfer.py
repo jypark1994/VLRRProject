@@ -20,14 +20,16 @@ parser.add_argument("--gpus", type=str, default="",
                     help="If blank, use CPU computation.")
 parser.add_argument("--root", type=str, default="/home/ryan/dataset")
 parser.add_argument("--n_epochs", type=int, default=300)
-parser.add_argument("--alpha", type=float, default=0.5)
-parser.add_argument("--beta", type=float, default=1)
-parser.add_argument("--temperature", type=float, default=10)
-parser.add_argument("--learning_rate", type=float, default=1e-2)
-parser.add_argument("--weight_decay", type=float, default=4e-5)
+parser.add_argument("--alpha", type=float, default=0)
+parser.add_argument("--beta", type=float, default=0)
+parser.add_argument("--temperature", type=float, default=4) # According to Zagoruyko's Implementation (CIFAR)
+parser.add_argument("--learning_rate", type=float, default=1e-1) # According to Zagoruyko's Implementation (CIFAR)
+parser.add_argument("--weight_decay", type=float, default=5e-4) # According to Zagoruyko's Implementation (CIFAR)
+parser.add_argument("--decay_step", type=int, default=60) # According to Zagoruyko's Implementation (CIFAR)
 parser.add_argument("--LR_scale", type=int, default=4)
-parser.add_argument("--batch_size", type=int, default=512)
+parser.add_argument("--batch_size", type=int, default=128) # According to Zagoruyko's Implementation (CIFAR)
 parser.add_argument("--show_batch", action="store_true", default=False)
+parser.add_argument("--scratch_student", action="store_true", default=False)
 parser.add_argument("--img_type", type=str, default="cub200")
 parser.add_argument("--num_classes", type=int, default=200)
 parser.add_argument("--attention_metric", type=str, default="sum")
@@ -141,8 +143,12 @@ net_t = get_model(teacher_name, args.num_classes,
                   data_name, args.teacher_weight)
 net_t = net_t.to(device)
 
-net_s = get_model(student_name, args.num_classes,
-                  data_name, args.teacher_weight)
+if args.scratch_student:
+    net_s = get_model(student_name, args.num_classes,
+                    data_name, None)
+else:
+    net_s = get_model(student_name, args.num_classes,
+                    data_name, args.teacher_weight)
 net_s = net_s.to(device)
 
 net_t = nn.DataParallel(net_t)
@@ -151,7 +157,7 @@ net_s = nn.DataParallel(net_s)
 optimizer = optim.SGD(net_s.parameters(
 ), lr=args.learning_rate, momentum=0.9, weight_decay=args.weight_decay)
 
-scheduler = optim.lr_scheduler.MultiStepLR(optimizer, [100,200], gamma=0.1)
+scheduler = optim.lr_scheduler.StepLR(optimizer, args.decay_step, gamma=0.1)
 
 class KD_loss():
     def __init__(self, params):
@@ -225,7 +231,6 @@ def distillate(teacher, student, train_loader, cur_epoch):
     teacher.eval()
     teacher.requires_grad = False
     student.train()
-    scheduler.step()
 
     for i, data in enumerate(train_loader):
         n_iter += 1
@@ -279,7 +284,8 @@ def distillate(teacher, student, train_loader, cur_epoch):
     writer.add_scalar("acc/train_epoch", train_accuracy*100,
                           global_step=cur_epoch)
 
-
+    scheduler.step()
+    
     return train_accuracy, train_avg_loss, student
 
 

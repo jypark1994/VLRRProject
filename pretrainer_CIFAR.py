@@ -34,6 +34,7 @@ parser.add_argument("--pretrained", action='store_true')
 parser.add_argument("--interpolate", action='store_true')
 parser.add_argument("--batch_size", type=int, default=128)
 parser.add_argument("--num_workers", type=int, default=8)
+parser.add_argument("--weight_decay", type=float, default=1e-4)
 parser.add_argument("--multi_gpu", action='store_true')
 parser.add_argument("--root", type=str, default='~/dataset')
 args = parser.parse_args()
@@ -51,7 +52,8 @@ num_classes = 10
 def get_model(model, pretrained=False, num_classes = 10):
     if model == 'resnet32':
         net = resnet32()
-        # net.fc = nn.Linear(in_features=512, out_features=num_classes)
+        if num_classes != 10:
+            net.fc = nn.Linear(in_features=512, out_features=num_classes)
     return net
 
 model_name = args.model_name
@@ -61,7 +63,7 @@ net = net.to(device)
 if args.multi_gpu == True:
     net = nn.DataParallel(net)
 
-optimizer = optim.SGD(net.parameters(),momentum=0.9,lr=0.1, weight_decay=1e-4)
+optimizer = optim.SGD(net.parameters(),momentum=0.9,lr=0.1, weight_decay=args.weight_decay)
 scheduler = optim.lr_scheduler.MultiStepLR(optimizer,milestones=[100,150])
 
 def train(train_loader):

@@ -1,0 +1,2918 @@
+Namespace(batch_size=128, cuda='1', down_scale=4, epochs=300, expr_name='ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4', learning_rate=0.0001, model_name='resnet34', n_optim_step=30, pretrained=True, weight_decay=0.0001)
+Using device ... cuda
+Delete last experiment results
+Files already downloaded and verified
+Files already downloaded and verified
+Use pretrained model. (ImageNet)
+─── Start Training & Evalutation ───
+┌── Epoch (0/299)
+├── Training Loss : 0.0431
+├── Training accuracy : 0.73%
+│
+└── Testing accuracy : 0.50%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 32[s]
+Estimated time ─ 2[h] 40[m] 32[s]
+
+
+┌── Epoch (1/299)
+├── Training Loss : 0.0429
+├── Training accuracy : 0.70%
+│
+└── Testing accuracy : 0.47%
+Epoch time ─ 0[h] 0[m] 32[s]
+Estimated time ─ 2[h] 42[m] 3[s]
+
+
+┌── Epoch (2/299)
+├── Training Loss : 0.0427
+├── Training accuracy : 0.55%
+│
+└── Testing accuracy : 0.59%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 31[s]
+Estimated time ─ 2[h] 36[m] 20[s]
+
+
+┌── Epoch (3/299)
+├── Training Loss : 0.0425
+├── Training accuracy : 0.73%
+│
+└── Testing accuracy : 0.62%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 29[s]
+Estimated time ─ 2[h] 27[m] 13[s]
+
+
+┌── Epoch (4/299)
+├── Training Loss : 0.0422
+├── Training accuracy : 0.73%
+│
+└── Testing accuracy : 0.74%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 29[s]
+Estimated time ─ 2[h] 24[m] 33[s]
+
+
+┌── Epoch (5/299)
+├── Training Loss : 0.0421
+├── Training accuracy : 0.80%
+│
+└── Testing accuracy : 0.72%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 2[h] 19[m] 42[s]
+
+
+┌── Epoch (6/299)
+├── Training Loss : 0.0419
+├── Training accuracy : 0.70%
+│
+└── Testing accuracy : 0.76%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 29[s]
+Estimated time ─ 2[h] 22[m] 47[s]
+
+
+┌── Epoch (7/299)
+├── Training Loss : 0.0418
+├── Training accuracy : 0.95%
+│
+└── Testing accuracy : 0.76%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 2[h] 19[m] 57[s]
+
+
+┌── Epoch (8/299)
+├── Training Loss : 0.0416
+├── Training accuracy : 1.08%
+│
+└── Testing accuracy : 0.85%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 29[s]
+Estimated time ─ 2[h] 21[m] 34[s]
+
+
+┌── Epoch (9/299)
+├── Training Loss : 0.0415
+├── Training accuracy : 0.92%
+│
+└── Testing accuracy : 0.97%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 2[h] 19[m] 26[s]
+
+
+┌── Epoch (10/299)
+├── Training Loss : 0.0413
+├── Training accuracy : 1.17%
+│
+└── Testing accuracy : 1.00%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 2[h] 16[m] 59[s]
+
+
+┌── Epoch (11/299)
+├── Training Loss : 0.0412
+├── Training accuracy : 0.95%
+│
+└── Testing accuracy : 1.19%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 2[h] 15[m] 38[s]
+
+
+┌── Epoch (12/299)
+├── Training Loss : 0.0411
+├── Training accuracy : 1.27%
+│
+└── Testing accuracy : 1.42%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 2[h] 16[m] 27[s]
+
+
+┌── Epoch (13/299)
+├── Training Loss : 0.0410
+├── Training accuracy : 1.47%
+│
+└── Testing accuracy : 1.35%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 2[h] 13[m] 36[s]
+
+
+┌── Epoch (14/299)
+├── Training Loss : 0.0408
+├── Training accuracy : 1.50%
+│
+└── Testing accuracy : 1.52%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 2[h] 13[m] 26[s]
+
+
+┌── Epoch (15/299)
+├── Training Loss : 0.0407
+├── Training accuracy : 1.89%
+│
+└── Testing accuracy : 1.71%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 2[h] 15[m] 19[s]
+
+
+┌── Epoch (16/299)
+├── Training Loss : 0.0406
+├── Training accuracy : 2.05%
+│
+└── Testing accuracy : 1.85%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 2[h] 13[m] 34[s]
+
+
+┌── Epoch (17/299)
+├── Training Loss : 0.0405
+├── Training accuracy : 2.00%
+│
+└── Testing accuracy : 1.98%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 2[h] 14[m] 25[s]
+
+
+┌── Epoch (18/299)
+├── Training Loss : 0.0403
+├── Training accuracy : 2.05%
+│
+└── Testing accuracy : 2.16%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 2[h] 12[m] 12[s]
+
+
+┌── Epoch (19/299)
+├── Training Loss : 0.0402
+├── Training accuracy : 2.45%
+│
+└── Testing accuracy : 2.80%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 2[h] 12[m] 26[s]
+
+
+┌── Epoch (20/299)
+├── Training Loss : 0.0400
+├── Training accuracy : 2.79%
+│
+└── Testing accuracy : 2.85%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 2[h] 12[m] 48[s]
+
+
+┌── Epoch (21/299)
+├── Training Loss : 0.0400
+├── Training accuracy : 2.94%
+│
+└── Testing accuracy : 3.16%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 2[h] 10[m] 15[s]
+
+
+┌── Epoch (22/299)
+├── Training Loss : 0.0399
+├── Training accuracy : 2.77%
+│
+└── Testing accuracy : 3.21%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 2[h] 10[m] 38[s]
+
+
+┌── Epoch (23/299)
+├── Training Loss : 0.0397
+├── Training accuracy : 3.75%
+│
+└── Testing accuracy : 3.73%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 2[h] 12[m] 39[s]
+
+
+┌── Epoch (24/299)
+├── Training Loss : 0.0396
+├── Training accuracy : 4.12%
+│
+└── Testing accuracy : 3.80%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 2[h] 9[m] 25[s]
+
+
+┌── Epoch (25/299)
+├── Training Loss : 0.0394
+├── Training accuracy : 4.17%
+│
+└── Testing accuracy : 4.28%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 2[h] 10[m] 32[s]
+
+
+┌── Epoch (26/299)
+├── Training Loss : 0.0393
+├── Training accuracy : 4.44%
+│
+└── Testing accuracy : 4.52%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 27[s]
+Estimated time ─ 2[h] 6[m] 46[s]
+
+
+┌── Epoch (27/299)
+├── Training Loss : 0.0392
+├── Training accuracy : 4.85%
+│
+└── Testing accuracy : 4.90%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 2[h] 8[m] 5[s]
+
+
+┌── Epoch (28/299)
+├── Training Loss : 0.0390
+├── Training accuracy : 4.72%
+│
+└── Testing accuracy : 5.14%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 2[h] 7[m] 28[s]
+
+
+┌── Epoch (29/299)
+├── Training Loss : 0.0389
+├── Training accuracy : 5.49%
+│
+└── Testing accuracy : 5.52%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 2[h] 6[m] 27[s]
+
+
+┌── Epoch (30/299)
+├── Training Loss : 0.0387
+├── Training accuracy : 5.39%
+│
+└── Testing accuracy : 5.82%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 2[h] 7[m] 44[s]
+
+
+┌── Epoch (31/299)
+├── Training Loss : 0.0386
+├── Training accuracy : 5.89%
+│
+└── Testing accuracy : 6.13%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 2[h] 5[m] 59[s]
+
+
+┌── Epoch (32/299)
+├── Training Loss : 0.0384
+├── Training accuracy : 5.97%
+│
+└── Testing accuracy : 6.27%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 27[s]
+Estimated time ─ 2[h] 3[m] 42[s]
+
+
+┌── Epoch (33/299)
+├── Training Loss : 0.0383
+├── Training accuracy : 6.21%
+│
+└── Testing accuracy : 6.75%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 27[s]
+Estimated time ─ 2[h] 3[m] 59[s]
+
+
+┌── Epoch (34/299)
+├── Training Loss : 0.0381
+├── Training accuracy : 6.39%
+│
+└── Testing accuracy : 7.39%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 27[s]
+Estimated time ─ 2[h] 2[m] 16[s]
+
+
+┌── Epoch (35/299)
+├── Training Loss : 0.0380
+├── Training accuracy : 6.72%
+│
+└── Testing accuracy : 7.32%
+Epoch time ─ 0[h] 0[m] 27[s]
+Estimated time ─ 2[h] 2[m] 49[s]
+
+
+┌── Epoch (36/299)
+├── Training Loss : 0.0377
+├── Training accuracy : 7.69%
+│
+└── Testing accuracy : 7.66%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 2[h] 2[m] 58[s]
+
+
+┌── Epoch (37/299)
+├── Training Loss : 0.0377
+├── Training accuracy : 7.62%
+│
+└── Testing accuracy : 8.11%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 2[h] 4[m] 24[s]
+
+
+┌── Epoch (38/299)
+├── Training Loss : 0.0375
+├── Training accuracy : 8.06%
+│
+└── Testing accuracy : 8.75%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 27[s]
+Estimated time ─ 2[h] 1[m] 26[s]
+
+
+┌── Epoch (39/299)
+├── Training Loss : 0.0373
+├── Training accuracy : 7.96%
+│
+└── Testing accuracy : 9.04%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 2[h] 1[m] 26[s]
+
+
+┌── Epoch (40/299)
+├── Training Loss : 0.0372
+├── Training accuracy : 8.79%
+│
+└── Testing accuracy : 9.22%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 2[h] 1[m] 47[s]
+
+
+┌── Epoch (41/299)
+├── Training Loss : 0.0370
+├── Training accuracy : 9.21%
+│
+└── Testing accuracy : 9.63%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 2[h] 1[m] 35[s]
+
+
+┌── Epoch (42/299)
+├── Training Loss : 0.0368
+├── Training accuracy : 9.81%
+│
+└── Testing accuracy : 10.20%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 2[h] 2[m] 28[s]
+
+
+┌── Epoch (43/299)
+├── Training Loss : 0.0367
+├── Training accuracy : 9.81%
+│
+└── Testing accuracy : 10.84%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 27[s]
+Estimated time ─ 1[h] 58[m] 37[s]
+
+
+┌── Epoch (44/299)
+├── Training Loss : 0.0365
+├── Training accuracy : 10.03%
+│
+└── Testing accuracy : 11.10%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 27[s]
+Estimated time ─ 1[h] 58[m] 25[s]
+
+
+┌── Epoch (45/299)
+├── Training Loss : 0.0362
+├── Training accuracy : 10.98%
+│
+└── Testing accuracy : 11.60%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 59[m] 0[s]
+
+
+┌── Epoch (46/299)
+├── Training Loss : 0.0360
+├── Training accuracy : 11.43%
+│
+└── Testing accuracy : 12.10%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 58[m] 16[s]
+
+
+┌── Epoch (47/299)
+├── Training Loss : 0.0359
+├── Training accuracy : 10.76%
+│
+└── Testing accuracy : 12.55%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 58[m] 38[s]
+
+
+┌── Epoch (48/299)
+├── Training Loss : 0.0358
+├── Training accuracy : 12.31%
+│
+└── Testing accuracy : 13.19%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 27[s]
+Estimated time ─ 1[h] 56[m] 1[s]
+
+
+┌── Epoch (49/299)
+├── Training Loss : 0.0356
+├── Training accuracy : 12.83%
+│
+└── Testing accuracy : 13.50%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 58[m] 6[s]
+
+
+┌── Epoch (50/299)
+├── Training Loss : 0.0355
+├── Training accuracy : 12.43%
+│
+└── Testing accuracy : 13.74%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 57[m] 49[s]
+
+
+┌── Epoch (51/299)
+├── Training Loss : 0.0353
+├── Training accuracy : 13.46%
+│
+└── Testing accuracy : 14.15%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 56[m] 13[s]
+
+
+┌── Epoch (52/299)
+├── Training Loss : 0.0351
+├── Training accuracy : 13.53%
+│
+└── Testing accuracy : 14.31%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 55[m] 29[s]
+
+
+┌── Epoch (53/299)
+├── Training Loss : 0.0350
+├── Training accuracy : 13.68%
+│
+└── Testing accuracy : 15.27%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 55[m] 25[s]
+
+
+┌── Epoch (54/299)
+├── Training Loss : 0.0348
+├── Training accuracy : 14.55%
+│
+└── Testing accuracy : 15.81%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 57[m] 2[s]
+
+
+┌── Epoch (55/299)
+├── Training Loss : 0.0348
+├── Training accuracy : 14.41%
+│
+└── Testing accuracy : 16.24%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 55[m] 26[s]
+
+
+┌── Epoch (56/299)
+├── Training Loss : 0.0345
+├── Training accuracy : 15.15%
+│
+└── Testing accuracy : 16.78%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 29[s]
+Estimated time ─ 1[h] 58[m] 2[s]
+
+
+┌── Epoch (57/299)
+├── Training Loss : 0.0344
+├── Training accuracy : 15.10%
+│
+└── Testing accuracy : 17.29%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 56[m] 44[s]
+
+
+┌── Epoch (58/299)
+├── Training Loss : 0.0342
+├── Training accuracy : 16.08%
+│
+└── Testing accuracy : 17.64%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 52[m] 46[s]
+
+
+┌── Epoch (59/299)
+├── Training Loss : 0.0341
+├── Training accuracy : 15.98%
+│
+└── Testing accuracy : 18.04%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 54[m] 35[s]
+
+
+┌── Epoch (60/299)
+├── Training Loss : 0.0339
+├── Training accuracy : 16.87%
+│
+└── Testing accuracy : 18.52%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 54[m] 55[s]
+
+
+┌── Epoch (61/299)
+├── Training Loss : 0.0337
+├── Training accuracy : 16.90%
+│
+└── Testing accuracy : 18.88%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 29[s]
+Estimated time ─ 1[h] 55[m] 57[s]
+
+
+┌── Epoch (62/299)
+├── Training Loss : 0.0336
+├── Training accuracy : 17.13%
+│
+└── Testing accuracy : 19.54%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 53[m] 16[s]
+
+
+┌── Epoch (63/299)
+├── Training Loss : 0.0334
+├── Training accuracy : 17.25%
+│
+└── Testing accuracy : 20.14%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 53[m] 17[s]
+
+
+┌── Epoch (64/299)
+├── Training Loss : 0.0332
+├── Training accuracy : 18.90%
+│
+└── Testing accuracy : 20.85%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 51[m] 56[s]
+
+
+┌── Epoch (65/299)
+├── Training Loss : 0.0331
+├── Training accuracy : 19.14%
+│
+└── Testing accuracy : 21.25%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 52[m] 15[s]
+
+
+┌── Epoch (66/299)
+├── Training Loss : 0.0329
+├── Training accuracy : 19.14%
+│
+└── Testing accuracy : 21.76%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 52[m] 22[s]
+
+
+┌── Epoch (67/299)
+├── Training Loss : 0.0329
+├── Training accuracy : 18.92%
+│
+└── Testing accuracy : 21.97%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 50[m] 12[s]
+
+
+┌── Epoch (68/299)
+├── Training Loss : 0.0326
+├── Training accuracy : 19.67%
+│
+└── Testing accuracy : 22.63%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 50[m] 5[s]
+
+
+┌── Epoch (69/299)
+├── Training Loss : 0.0325
+├── Training accuracy : 19.82%
+│
+└── Testing accuracy : 22.94%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 51[m] 4[s]
+
+
+┌── Epoch (70/299)
+├── Training Loss : 0.0324
+├── Training accuracy : 20.64%
+│
+└── Testing accuracy : 23.32%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 29[s]
+Estimated time ─ 1[h] 51[m] 26[s]
+
+
+┌── Epoch (71/299)
+├── Training Loss : 0.0322
+├── Training accuracy : 20.02%
+│
+└── Testing accuracy : 23.68%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 29[s]
+Estimated time ─ 1[h] 51[m] 48[s]
+
+
+┌── Epoch (72/299)
+├── Training Loss : 0.0320
+├── Training accuracy : 21.10%
+│
+└── Testing accuracy : 24.09%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 29[s]
+Estimated time ─ 1[h] 53[m] 8[s]
+
+
+┌── Epoch (73/299)
+├── Training Loss : 0.0319
+├── Training accuracy : 21.27%
+│
+└── Testing accuracy : 24.51%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 47[m] 54[s]
+
+
+┌── Epoch (74/299)
+├── Training Loss : 0.0317
+├── Training accuracy : 21.96%
+│
+└── Testing accuracy : 24.85%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 45[m] 59[s]
+
+
+┌── Epoch (75/299)
+├── Training Loss : 0.0316
+├── Training accuracy : 21.81%
+│
+└── Testing accuracy : 25.04%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 44[m] 33[s]
+
+
+┌── Epoch (76/299)
+├── Training Loss : 0.0316
+├── Training accuracy : 21.76%
+│
+└── Testing accuracy : 25.39%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 45[m] 20[s]
+
+
+┌── Epoch (77/299)
+├── Training Loss : 0.0313
+├── Training accuracy : 22.64%
+│
+└── Testing accuracy : 25.96%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 43[m] 39[s]
+
+
+┌── Epoch (78/299)
+├── Training Loss : 0.0311
+├── Training accuracy : 22.92%
+│
+└── Testing accuracy : 26.41%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 45[m] 24[s]
+
+
+┌── Epoch (79/299)
+├── Training Loss : 0.0310
+├── Training accuracy : 22.99%
+│
+└── Testing accuracy : 26.92%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 44[m] 48[s]
+
+
+┌── Epoch (80/299)
+├── Training Loss : 0.0309
+├── Training accuracy : 23.51%
+│
+└── Testing accuracy : 27.05%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 44[m] 4[s]
+
+
+┌── Epoch (81/299)
+├── Training Loss : 0.0308
+├── Training accuracy : 23.72%
+│
+└── Testing accuracy : 27.58%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 29[s]
+Estimated time ─ 1[h] 46[m] 16[s]
+
+
+┌── Epoch (82/299)
+├── Training Loss : 0.0307
+├── Training accuracy : 23.52%
+│
+└── Testing accuracy : 27.96%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 29[s]
+Estimated time ─ 1[h] 45[m] 49[s]
+
+
+┌── Epoch (83/299)
+├── Training Loss : 0.0305
+├── Training accuracy : 25.06%
+│
+└── Testing accuracy : 28.01%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 43[m] 59[s]
+
+
+┌── Epoch (84/299)
+├── Training Loss : 0.0303
+├── Training accuracy : 25.18%
+│
+└── Testing accuracy : 28.58%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 43[m] 49[s]
+
+
+┌── Epoch (85/299)
+├── Training Loss : 0.0302
+├── Training accuracy : 25.49%
+│
+└── Testing accuracy : 28.96%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 43[m] 25[s]
+
+
+┌── Epoch (86/299)
+├── Training Loss : 0.0300
+├── Training accuracy : 26.33%
+│
+└── Testing accuracy : 29.00%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 42[m] 37[s]
+
+
+┌── Epoch (87/299)
+├── Training Loss : 0.0300
+├── Training accuracy : 25.44%
+│
+└── Testing accuracy : 29.17%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 29[s]
+Estimated time ─ 1[h] 44[m] 23[s]
+
+
+┌── Epoch (88/299)
+├── Training Loss : 0.0297
+├── Training accuracy : 27.46%
+│
+└── Testing accuracy : 29.96%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 41[m] 43[s]
+
+
+┌── Epoch (89/299)
+├── Training Loss : 0.0297
+├── Training accuracy : 26.39%
+│
+└── Testing accuracy : 29.89%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 40[m] 57[s]
+
+
+┌── Epoch (90/299)
+├── Training Loss : 0.0296
+├── Training accuracy : 26.46%
+│
+└── Testing accuracy : 30.34%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 39[m] 37[s]
+
+
+┌── Epoch (91/299)
+├── Training Loss : 0.0295
+├── Training accuracy : 27.26%
+│
+└── Testing accuracy : 30.69%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 39[m] 43[s]
+
+
+┌── Epoch (92/299)
+├── Training Loss : 0.0292
+├── Training accuracy : 28.06%
+│
+└── Testing accuracy : 30.62%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 38[m] 50[s]
+
+
+┌── Epoch (93/299)
+├── Training Loss : 0.0291
+├── Training accuracy : 28.08%
+│
+└── Testing accuracy : 31.39%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 37[m] 54[s]
+
+
+┌── Epoch (94/299)
+├── Training Loss : 0.0291
+├── Training accuracy : 28.78%
+│
+└── Testing accuracy : 31.45%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 38[m] 44[s]
+
+
+┌── Epoch (95/299)
+├── Training Loss : 0.0290
+├── Training accuracy : 27.98%
+│
+└── Testing accuracy : 31.26%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 36[m] 49[s]
+
+
+┌── Epoch (96/299)
+├── Training Loss : 0.0288
+├── Training accuracy : 28.36%
+│
+└── Testing accuracy : 31.95%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 36[m] 42[s]
+
+
+┌── Epoch (97/299)
+├── Training Loss : 0.0287
+├── Training accuracy : 29.03%
+│
+└── Testing accuracy : 32.12%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 27[s]
+Estimated time ─ 1[h] 34[m] 12[s]
+
+
+┌── Epoch (98/299)
+├── Training Loss : 0.0286
+├── Training accuracy : 28.81%
+│
+└── Testing accuracy : 32.67%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 36[m] 20[s]
+
+
+┌── Epoch (99/299)
+├── Training Loss : 0.0285
+├── Training accuracy : 28.86%
+│
+└── Testing accuracy : 32.41%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 35[m] 46[s]
+
+
+┌── Epoch (100/299)
+├── Training Loss : 0.0285
+├── Training accuracy : 29.50%
+│
+└── Testing accuracy : 32.53%
+Epoch time ─ 0[h] 0[m] 29[s]
+Estimated time ─ 1[h] 36[m] 40[s]
+
+
+┌── Epoch (101/299)
+├── Training Loss : 0.0282
+├── Training accuracy : 29.80%
+│
+└── Testing accuracy : 33.50%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 34[m] 4[s]
+
+
+┌── Epoch (102/299)
+├── Training Loss : 0.0281
+├── Training accuracy : 29.93%
+│
+└── Testing accuracy : 33.79%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 34[m] 48[s]
+
+
+┌── Epoch (103/299)
+├── Training Loss : 0.0280
+├── Training accuracy : 31.23%
+│
+└── Testing accuracy : 33.57%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 34[m] 39[s]
+
+
+┌── Epoch (104/299)
+├── Training Loss : 0.0279
+├── Training accuracy : 31.08%
+│
+└── Testing accuracy : 33.95%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 33[m] 50[s]
+
+
+┌── Epoch (105/299)
+├── Training Loss : 0.0279
+├── Training accuracy : 30.45%
+│
+└── Testing accuracy : 34.24%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 32[m] 8[s]
+
+
+┌── Epoch (106/299)
+├── Training Loss : 0.0277
+├── Training accuracy : 31.06%
+│
+└── Testing accuracy : 34.76%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 30[m] 43[s]
+
+
+┌── Epoch (107/299)
+├── Training Loss : 0.0276
+├── Training accuracy : 30.81%
+│
+└── Testing accuracy : 34.81%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 30[m] 29[s]
+
+
+┌── Epoch (108/299)
+├── Training Loss : 0.0275
+├── Training accuracy : 32.10%
+│
+└── Testing accuracy : 34.88%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 31[m] 6[s]
+
+
+┌── Epoch (109/299)
+├── Training Loss : 0.0273
+├── Training accuracy : 32.65%
+│
+└── Testing accuracy : 35.12%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 29[m] 59[s]
+
+
+┌── Epoch (110/299)
+├── Training Loss : 0.0272
+├── Training accuracy : 32.62%
+│
+└── Testing accuracy : 35.80%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 29[m] 10[s]
+
+
+┌── Epoch (111/299)
+├── Training Loss : 0.0271
+├── Training accuracy : 33.32%
+│
+└── Testing accuracy : 35.76%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 28[m] 19[s]
+
+
+┌── Epoch (112/299)
+├── Training Loss : 0.0270
+├── Training accuracy : 32.95%
+│
+└── Testing accuracy : 35.93%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 29[m] 13[s]
+
+
+┌── Epoch (113/299)
+├── Training Loss : 0.0269
+├── Training accuracy : 33.27%
+│
+└── Testing accuracy : 36.04%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 29[m] 18[s]
+
+
+┌── Epoch (114/299)
+├── Training Loss : 0.0269
+├── Training accuracy : 32.80%
+│
+└── Testing accuracy : 36.47%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 27[m] 48[s]
+
+
+┌── Epoch (115/299)
+├── Training Loss : 0.0268
+├── Training accuracy : 33.40%
+│
+└── Testing accuracy : 36.54%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 26[m] 46[s]
+
+
+┌── Epoch (116/299)
+├── Training Loss : 0.0267
+├── Training accuracy : 33.68%
+│
+└── Testing accuracy : 37.16%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 26[m] 21[s]
+
+
+┌── Epoch (117/299)
+├── Training Loss : 0.0266
+├── Training accuracy : 33.45%
+│
+└── Testing accuracy : 37.14%
+Epoch time ─ 0[h] 0[m] 29[s]
+Estimated time ─ 1[h] 28[m] 2[s]
+
+
+┌── Epoch (118/299)
+├── Training Loss : 0.0263
+├── Training accuracy : 34.00%
+│
+└── Testing accuracy : 37.19%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 29[s]
+Estimated time ─ 1[h] 27[m] 33[s]
+
+
+┌── Epoch (119/299)
+├── Training Loss : 0.0263
+├── Training accuracy : 34.35%
+│
+└── Testing accuracy : 37.45%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 26[m] 37[s]
+
+
+┌── Epoch (120/299)
+├── Training Loss : 0.0263
+├── Training accuracy : 34.82%
+│
+└── Testing accuracy : 37.44%
+Epoch time ─ 0[h] 0[m] 29[s]
+Estimated time ─ 1[h] 27[m] 36[s]
+
+
+┌── Epoch (121/299)
+├── Training Loss : 0.0262
+├── Training accuracy : 35.52%
+│
+└── Testing accuracy : 37.81%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 29[s]
+Estimated time ─ 1[h] 27[m] 56[s]
+
+
+┌── Epoch (122/299)
+├── Training Loss : 0.0260
+├── Training accuracy : 35.45%
+│
+└── Testing accuracy : 38.68%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 29[s]
+Estimated time ─ 1[h] 26[m] 24[s]
+
+
+┌── Epoch (123/299)
+├── Training Loss : 0.0260
+├── Training accuracy : 35.12%
+│
+└── Testing accuracy : 38.59%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 23[m] 36[s]
+
+
+┌── Epoch (124/299)
+├── Training Loss : 0.0260
+├── Training accuracy : 34.93%
+│
+└── Testing accuracy : 38.35%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 23[m] 26[s]
+
+
+┌── Epoch (125/299)
+├── Training Loss : 0.0258
+├── Training accuracy : 35.70%
+│
+└── Testing accuracy : 38.68%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 23[m] 35[s]
+
+
+┌── Epoch (126/299)
+├── Training Loss : 0.0257
+├── Training accuracy : 35.55%
+│
+└── Testing accuracy : 39.23%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 29[s]
+Estimated time ─ 1[h] 25[m] 36[s]
+
+
+┌── Epoch (127/299)
+├── Training Loss : 0.0256
+├── Training accuracy : 36.15%
+│
+└── Testing accuracy : 39.44%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 29[s]
+Estimated time ─ 1[h] 23[m] 23[s]
+
+
+┌── Epoch (128/299)
+├── Training Loss : 0.0254
+├── Training accuracy : 36.90%
+│
+└── Testing accuracy : 39.68%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 29[s]
+Estimated time ─ 1[h] 23[m] 35[s]
+
+
+┌── Epoch (129/299)
+├── Training Loss : 0.0253
+├── Training accuracy : 37.15%
+│
+└── Testing accuracy : 40.09%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 21[m] 38[s]
+
+
+┌── Epoch (130/299)
+├── Training Loss : 0.0252
+├── Training accuracy : 37.42%
+│
+└── Testing accuracy : 40.47%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 29[s]
+Estimated time ─ 1[h] 22[m] 34[s]
+
+
+┌── Epoch (131/299)
+├── Training Loss : 0.0250
+├── Training accuracy : 37.95%
+│
+└── Testing accuracy : 40.13%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 21[m] 1[s]
+
+
+┌── Epoch (132/299)
+├── Training Loss : 0.0251
+├── Training accuracy : 36.67%
+│
+└── Testing accuracy : 40.82%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 29[s]
+Estimated time ─ 1[h] 21[m] 17[s]
+
+
+┌── Epoch (133/299)
+├── Training Loss : 0.0250
+├── Training accuracy : 38.24%
+│
+└── Testing accuracy : 40.70%
+Epoch time ─ 0[h] 0[m] 29[s]
+Estimated time ─ 1[h] 20[m] 34[s]
+
+
+┌── Epoch (134/299)
+├── Training Loss : 0.0250
+├── Training accuracy : 37.94%
+│
+└── Testing accuracy : 41.25%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 29[s]
+Estimated time ─ 1[h] 20[m] 9[s]
+
+
+┌── Epoch (135/299)
+├── Training Loss : 0.0248
+├── Training accuracy : 37.17%
+│
+└── Testing accuracy : 41.08%
+Epoch time ─ 0[h] 0[m] 29[s]
+Estimated time ─ 1[h] 20[m] 6[s]
+
+
+┌── Epoch (136/299)
+├── Training Loss : 0.0248
+├── Training accuracy : 37.39%
+│
+└── Testing accuracy : 41.28%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 29[s]
+Estimated time ─ 1[h] 21[m] 8[s]
+
+
+┌── Epoch (137/299)
+├── Training Loss : 0.0248
+├── Training accuracy : 37.67%
+│
+└── Testing accuracy : 41.46%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 29[s]
+Estimated time ─ 1[h] 19[m] 19[s]
+
+
+┌── Epoch (138/299)
+├── Training Loss : 0.0247
+├── Training accuracy : 38.56%
+│
+└── Testing accuracy : 41.91%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 29[s]
+Estimated time ─ 1[h] 18[m] 53[s]
+
+
+┌── Epoch (139/299)
+├── Training Loss : 0.0245
+├── Training accuracy : 38.89%
+│
+└── Testing accuracy : 42.08%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 29[s]
+Estimated time ─ 1[h] 18[m] 27[s]
+
+
+┌── Epoch (140/299)
+├── Training Loss : 0.0246
+├── Training accuracy : 38.81%
+│
+└── Testing accuracy : 42.23%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 29[s]
+Estimated time ─ 1[h] 17[m] 6[s]
+
+
+┌── Epoch (141/299)
+├── Training Loss : 0.0243
+├── Training accuracy : 39.16%
+│
+└── Testing accuracy : 42.25%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 29[s]
+Estimated time ─ 1[h] 18[m] 31[s]
+
+
+┌── Epoch (142/299)
+├── Training Loss : 0.0243
+├── Training accuracy : 39.52%
+│
+└── Testing accuracy : 42.98%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 30[s]
+Estimated time ─ 1[h] 18[m] 42[s]
+
+
+┌── Epoch (143/299)
+├── Training Loss : 0.0242
+├── Training accuracy : 40.12%
+│
+└── Testing accuracy : 43.04%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 29[s]
+Estimated time ─ 1[h] 16[m] 57[s]
+
+
+┌── Epoch (144/299)
+├── Training Loss : 0.0242
+├── Training accuracy : 39.37%
+│
+└── Testing accuracy : 43.18%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 29[s]
+Estimated time ─ 1[h] 16[m] 58[s]
+
+
+┌── Epoch (145/299)
+├── Training Loss : 0.0239
+├── Training accuracy : 40.92%
+│
+└── Testing accuracy : 43.56%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 29[s]
+Estimated time ─ 1[h] 14[m] 55[s]
+
+
+┌── Epoch (146/299)
+├── Training Loss : 0.0239
+├── Training accuracy : 39.44%
+│
+└── Testing accuracy : 43.42%
+Epoch time ─ 0[h] 0[m] 29[s]
+Estimated time ─ 1[h] 14[m] 48[s]
+
+
+┌── Epoch (147/299)
+├── Training Loss : 0.0239
+├── Training accuracy : 39.66%
+│
+└── Testing accuracy : 43.87%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 29[s]
+Estimated time ─ 1[h] 14[m] 50[s]
+
+
+┌── Epoch (148/299)
+├── Training Loss : 0.0239
+├── Training accuracy : 40.02%
+│
+└── Testing accuracy : 43.86%
+Epoch time ─ 0[h] 0[m] 29[s]
+Estimated time ─ 1[h] 14[m] 41[s]
+
+
+┌── Epoch (149/299)
+├── Training Loss : 0.0237
+├── Training accuracy : 40.94%
+│
+└── Testing accuracy : 43.94%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 29[s]
+Estimated time ─ 1[h] 13[m] 28[s]
+
+
+┌── Epoch (150/299)
+├── Training Loss : 0.0236
+├── Training accuracy : 41.01%
+│
+└── Testing accuracy : 44.25%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 29[s]
+Estimated time ─ 1[h] 12[m] 23[s]
+
+
+┌── Epoch (151/299)
+├── Training Loss : 0.0237
+├── Training accuracy : 39.91%
+│
+└── Testing accuracy : 44.48%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 10[m] 2[s]
+
+
+┌── Epoch (152/299)
+├── Training Loss : 0.0235
+├── Training accuracy : 41.09%
+│
+└── Testing accuracy : 44.58%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 8[m] 59[s]
+
+
+┌── Epoch (153/299)
+├── Training Loss : 0.0234
+├── Training accuracy : 41.07%
+│
+└── Testing accuracy : 45.25%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 9[m] 5[s]
+
+
+┌── Epoch (154/299)
+├── Training Loss : 0.0233
+├── Training accuracy : 42.28%
+│
+└── Testing accuracy : 45.12%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 8[m] 2[s]
+
+
+┌── Epoch (155/299)
+├── Training Loss : 0.0233
+├── Training accuracy : 41.91%
+│
+└── Testing accuracy : 45.22%
+Epoch time ─ 0[h] 0[m] 27[s]
+Estimated time ─ 1[h] 7[m] 9[s]
+
+
+┌── Epoch (156/299)
+├── Training Loss : 0.0232
+├── Training accuracy : 41.01%
+│
+└── Testing accuracy : 45.55%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 7[m] 52[s]
+
+
+┌── Epoch (157/299)
+├── Training Loss : 0.0230
+├── Training accuracy : 43.06%
+│
+└── Testing accuracy : 45.53%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 6[m] 42[s]
+
+
+┌── Epoch (158/299)
+├── Training Loss : 0.0230
+├── Training accuracy : 42.51%
+│
+└── Testing accuracy : 45.82%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 6[m] 32[s]
+
+
+┌── Epoch (159/299)
+├── Training Loss : 0.0230
+├── Training accuracy : 41.19%
+│
+└── Testing accuracy : 45.84%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 7[m] 11[s]
+
+
+┌── Epoch (160/299)
+├── Training Loss : 0.0228
+├── Training accuracy : 42.66%
+│
+└── Testing accuracy : 46.06%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 5[m] 36[s]
+
+
+┌── Epoch (161/299)
+├── Training Loss : 0.0229
+├── Training accuracy : 42.73%
+│
+└── Testing accuracy : 46.00%
+Epoch time ─ 0[h] 0[m] 27[s]
+Estimated time ─ 1[h] 4[m] 23[s]
+
+
+┌── Epoch (162/299)
+├── Training Loss : 0.0228
+├── Training accuracy : 43.11%
+│
+└── Testing accuracy : 46.24%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 4[m] 51[s]
+
+
+┌── Epoch (163/299)
+├── Training Loss : 0.0228
+├── Training accuracy : 42.49%
+│
+└── Testing accuracy : 46.08%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 4[m] 25[s]
+
+
+┌── Epoch (164/299)
+├── Training Loss : 0.0227
+├── Training accuracy : 43.69%
+│
+└── Testing accuracy : 46.67%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 4[m] 17[s]
+
+
+┌── Epoch (165/299)
+├── Training Loss : 0.0226
+├── Training accuracy : 43.28%
+│
+└── Testing accuracy : 46.65%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 3[m] 11[s]
+
+
+┌── Epoch (166/299)
+├── Training Loss : 0.0224
+├── Training accuracy : 44.19%
+│
+└── Testing accuracy : 46.62%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 2[m] 43[s]
+
+
+┌── Epoch (167/299)
+├── Training Loss : 0.0224
+├── Training accuracy : 43.19%
+│
+└── Testing accuracy : 47.08%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 2[m] 0[s]
+
+
+┌── Epoch (168/299)
+├── Training Loss : 0.0224
+├── Training accuracy : 43.03%
+│
+└── Testing accuracy : 47.24%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 27[s]
+Estimated time ─ 1[h] 0[m] 45[s]
+
+
+┌── Epoch (169/299)
+├── Training Loss : 0.0223
+├── Training accuracy : 44.01%
+│
+└── Testing accuracy : 47.26%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 2[m] 36[s]
+
+
+┌── Epoch (170/299)
+├── Training Loss : 0.0223
+├── Training accuracy : 43.26%
+│
+└── Testing accuracy : 47.43%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 0[m] 32[s]
+
+
+┌── Epoch (171/299)
+├── Training Loss : 0.0221
+├── Training accuracy : 44.34%
+│
+└── Testing accuracy : 47.88%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 1[h] 1[m] 14[s]
+
+
+┌── Epoch (172/299)
+├── Training Loss : 0.0221
+├── Training accuracy : 44.61%
+│
+└── Testing accuracy : 47.91%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 59[m] 38[s]
+
+
+┌── Epoch (173/299)
+├── Training Loss : 0.0220
+├── Training accuracy : 44.69%
+│
+└── Testing accuracy : 47.76%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 59[m] 24[s]
+
+
+┌── Epoch (174/299)
+├── Training Loss : 0.0220
+├── Training accuracy : 43.89%
+│
+└── Testing accuracy : 48.34%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 59[m] 0[s]
+
+
+┌── Epoch (175/299)
+├── Training Loss : 0.0218
+├── Training accuracy : 45.11%
+│
+└── Testing accuracy : 48.00%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 59[m] 3[s]
+
+
+┌── Epoch (176/299)
+├── Training Loss : 0.0218
+├── Training accuracy : 44.76%
+│
+└── Testing accuracy : 48.17%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 59[m] 17[s]
+
+
+┌── Epoch (177/299)
+├── Training Loss : 0.0218
+├── Training accuracy : 45.50%
+│
+└── Testing accuracy : 48.57%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 58[m] 7[s]
+
+
+┌── Epoch (178/299)
+├── Training Loss : 0.0217
+├── Training accuracy : 44.53%
+│
+└── Testing accuracy : 48.76%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 57[m] 59[s]
+
+
+┌── Epoch (179/299)
+├── Training Loss : 0.0216
+├── Training accuracy : 45.65%
+│
+└── Testing accuracy : 48.98%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 57[m] 44[s]
+
+
+┌── Epoch (180/299)
+├── Training Loss : 0.0216
+├── Training accuracy : 45.70%
+│
+└── Testing accuracy : 49.50%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 56[m] 47[s]
+
+
+┌── Epoch (181/299)
+├── Training Loss : 0.0216
+├── Training accuracy : 44.33%
+│
+└── Testing accuracy : 49.31%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 56[m] 56[s]
+
+
+┌── Epoch (182/299)
+├── Training Loss : 0.0215
+├── Training accuracy : 45.23%
+│
+└── Testing accuracy : 49.50%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 56[m] 30[s]
+
+
+┌── Epoch (183/299)
+├── Training Loss : 0.0214
+├── Training accuracy : 46.11%
+│
+└── Testing accuracy : 49.93%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 55[m] 36[s]
+
+
+┌── Epoch (184/299)
+├── Training Loss : 0.0214
+├── Training accuracy : 45.38%
+│
+└── Testing accuracy : 49.86%
+Epoch time ─ 0[h] 0[m] 29[s]
+Estimated time ─ 0[h] 56[m] 2[s]
+
+
+┌── Epoch (185/299)
+├── Training Loss : 0.0213
+├── Training accuracy : 45.78%
+│
+└── Testing accuracy : 50.09%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 29[s]
+Estimated time ─ 0[h] 56[m] 11[s]
+
+
+┌── Epoch (186/299)
+├── Training Loss : 0.0212
+├── Training accuracy : 46.41%
+│
+└── Testing accuracy : 50.35%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 54[m] 30[s]
+
+
+┌── Epoch (187/299)
+├── Training Loss : 0.0212
+├── Training accuracy : 46.45%
+│
+└── Testing accuracy : 50.02%
+Epoch time ─ 0[h] 0[m] 29[s]
+Estimated time ─ 0[h] 54[m] 53[s]
+
+
+┌── Epoch (188/299)
+├── Training Loss : 0.0211
+├── Training accuracy : 45.75%
+│
+└── Testing accuracy : 50.64%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 29[s]
+Estimated time ─ 0[h] 54[m] 43[s]
+
+
+┌── Epoch (189/299)
+├── Training Loss : 0.0210
+├── Training accuracy : 47.16%
+│
+└── Testing accuracy : 50.40%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 51[m] 40[s]
+
+
+┌── Epoch (190/299)
+├── Training Loss : 0.0209
+├── Training accuracy : 47.05%
+│
+└── Testing accuracy : 50.54%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 51[m] 13[s]
+
+
+┌── Epoch (191/299)
+├── Training Loss : 0.0210
+├── Training accuracy : 46.50%
+│
+└── Testing accuracy : 50.78%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 51[m] 18[s]
+
+
+┌── Epoch (192/299)
+├── Training Loss : 0.0209
+├── Training accuracy : 47.01%
+│
+└── Testing accuracy : 50.72%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 50[m] 12[s]
+
+
+┌── Epoch (193/299)
+├── Training Loss : 0.0208
+├── Training accuracy : 47.30%
+│
+└── Testing accuracy : 51.16%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 49[m] 55[s]
+
+
+┌── Epoch (194/299)
+├── Training Loss : 0.0207
+├── Training accuracy : 47.91%
+│
+└── Testing accuracy : 51.47%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 49[m] 30[s]
+
+
+┌── Epoch (195/299)
+├── Training Loss : 0.0206
+├── Training accuracy : 47.48%
+│
+└── Testing accuracy : 51.23%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 48[m] 43[s]
+
+
+┌── Epoch (196/299)
+├── Training Loss : 0.0206
+├── Training accuracy : 47.46%
+│
+└── Testing accuracy : 51.57%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 49[m] 3[s]
+
+
+┌── Epoch (197/299)
+├── Training Loss : 0.0206
+├── Training accuracy : 47.73%
+│
+└── Testing accuracy : 51.71%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 27[s]
+Estimated time ─ 0[h] 47[m] 19[s]
+
+
+┌── Epoch (198/299)
+├── Training Loss : 0.0205
+├── Training accuracy : 47.88%
+│
+└── Testing accuracy : 51.90%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 27[s]
+Estimated time ─ 0[h] 47[m] 6[s]
+
+
+┌── Epoch (199/299)
+├── Training Loss : 0.0205
+├── Training accuracy : 47.45%
+│
+└── Testing accuracy : 51.71%
+Epoch time ─ 0[h] 0[m] 27[s]
+Estimated time ─ 0[h] 46[m] 36[s]
+
+
+┌── Epoch (200/299)
+├── Training Loss : 0.0204
+├── Training accuracy : 47.90%
+│
+└── Testing accuracy : 52.16%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 47[m] 14[s]
+
+
+┌── Epoch (201/299)
+├── Training Loss : 0.0203
+├── Training accuracy : 47.81%
+│
+└── Testing accuracy : 52.23%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 46[m] 2[s]
+
+
+┌── Epoch (202/299)
+├── Training Loss : 0.0204
+├── Training accuracy : 47.40%
+│
+└── Testing accuracy : 52.05%
+Epoch time ─ 0[h] 0[m] 27[s]
+Estimated time ─ 0[h] 44[m] 58[s]
+
+
+┌── Epoch (203/299)
+├── Training Loss : 0.0203
+├── Training accuracy : 48.08%
+│
+└── Testing accuracy : 52.17%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 44[m] 55[s]
+
+
+┌── Epoch (204/299)
+├── Training Loss : 0.0201
+├── Training accuracy : 48.40%
+│
+└── Testing accuracy : 52.61%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 27[s]
+Estimated time ─ 0[h] 44[m] 15[s]
+
+
+┌── Epoch (205/299)
+├── Training Loss : 0.0201
+├── Training accuracy : 48.50%
+│
+└── Testing accuracy : 52.73%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 44[m] 33[s]
+
+
+┌── Epoch (206/299)
+├── Training Loss : 0.0202
+├── Training accuracy : 48.08%
+│
+└── Testing accuracy : 52.95%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 43[m] 38[s]
+
+
+┌── Epoch (207/299)
+├── Training Loss : 0.0199
+├── Training accuracy : 49.42%
+│
+└── Testing accuracy : 53.09%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 27[s]
+Estimated time ─ 0[h] 42[m] 34[s]
+
+
+┌── Epoch (208/299)
+├── Training Loss : 0.0199
+├── Training accuracy : 49.47%
+│
+└── Testing accuracy : 52.81%
+Epoch time ─ 0[h] 0[m] 27[s]
+Estimated time ─ 0[h] 42[m] 21[s]
+
+
+┌── Epoch (209/299)
+├── Training Loss : 0.0200
+├── Training accuracy : 48.35%
+│
+└── Testing accuracy : 53.16%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 42[m] 15[s]
+
+
+┌── Epoch (210/299)
+├── Training Loss : 0.0198
+├── Training accuracy : 49.30%
+│
+└── Testing accuracy : 53.24%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 42[m] 3[s]
+
+
+┌── Epoch (211/299)
+├── Training Loss : 0.0197
+├── Training accuracy : 49.38%
+│
+└── Testing accuracy : 53.40%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 27[s]
+Estimated time ─ 0[h] 40[m] 45[s]
+
+
+┌── Epoch (212/299)
+├── Training Loss : 0.0197
+├── Training accuracy : 49.63%
+│
+└── Testing accuracy : 53.69%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 41[m] 13[s]
+
+
+┌── Epoch (213/299)
+├── Training Loss : 0.0196
+├── Training accuracy : 49.65%
+│
+└── Testing accuracy : 53.54%
+Epoch time ─ 0[h] 0[m] 27[s]
+Estimated time ─ 0[h] 40[m] 1[s]
+
+
+┌── Epoch (214/299)
+├── Training Loss : 0.0196
+├── Training accuracy : 50.62%
+│
+└── Testing accuracy : 53.81%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 40[m] 6[s]
+
+
+┌── Epoch (215/299)
+├── Training Loss : 0.0196
+├── Training accuracy : 50.05%
+│
+└── Testing accuracy : 53.50%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 39[m] 53[s]
+
+
+┌── Epoch (216/299)
+├── Training Loss : 0.0196
+├── Training accuracy : 49.82%
+│
+└── Testing accuracy : 54.06%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 39[m] 2[s]
+
+
+┌── Epoch (217/299)
+├── Training Loss : 0.0195
+├── Training accuracy : 50.55%
+│
+└── Testing accuracy : 53.99%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 38[m] 21[s]
+
+
+┌── Epoch (218/299)
+├── Training Loss : 0.0195
+├── Training accuracy : 49.73%
+│
+└── Testing accuracy : 53.95%
+Epoch time ─ 0[h] 0[m] 27[s]
+Estimated time ─ 0[h] 37[m] 31[s]
+
+
+┌── Epoch (219/299)
+├── Training Loss : 0.0194
+├── Training accuracy : 50.37%
+│
+└── Testing accuracy : 54.19%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 37[m] 29[s]
+
+
+┌── Epoch (220/299)
+├── Training Loss : 0.0194
+├── Training accuracy : 50.13%
+│
+└── Testing accuracy : 54.12%
+Epoch time ─ 0[h] 0[m] 27[s]
+Estimated time ─ 0[h] 36[m] 51[s]
+
+
+┌── Epoch (221/299)
+├── Training Loss : 0.0193
+├── Training accuracy : 49.77%
+│
+└── Testing accuracy : 54.35%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 36[m] 26[s]
+
+
+┌── Epoch (222/299)
+├── Training Loss : 0.0192
+├── Training accuracy : 51.38%
+│
+└── Testing accuracy : 54.69%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 36[m] 39[s]
+
+
+┌── Epoch (223/299)
+├── Training Loss : 0.0193
+├── Training accuracy : 50.15%
+│
+└── Testing accuracy : 54.42%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 35[m] 35[s]
+
+
+┌── Epoch (224/299)
+├── Training Loss : 0.0192
+├── Training accuracy : 50.62%
+│
+└── Testing accuracy : 54.75%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 35[m] 2[s]
+
+
+┌── Epoch (225/299)
+├── Training Loss : 0.0191
+├── Training accuracy : 51.23%
+│
+└── Testing accuracy : 55.01%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 34[m] 53[s]
+
+
+┌── Epoch (226/299)
+├── Training Loss : 0.0189
+├── Training accuracy : 51.35%
+│
+└── Testing accuracy : 55.11%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 35[m] 1[s]
+
+
+┌── Epoch (227/299)
+├── Training Loss : 0.0189
+├── Training accuracy : 51.57%
+│
+└── Testing accuracy : 55.04%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 34[m] 23[s]
+
+
+┌── Epoch (228/299)
+├── Training Loss : 0.0189
+├── Training accuracy : 51.02%
+│
+└── Testing accuracy : 55.07%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 33[m] 26[s]
+
+
+┌── Epoch (229/299)
+├── Training Loss : 0.0188
+├── Training accuracy : 52.45%
+│
+└── Testing accuracy : 55.02%
+Epoch time ─ 0[h] 0[m] 27[s]
+Estimated time ─ 0[h] 32[m] 31[s]
+
+
+┌── Epoch (230/299)
+├── Training Loss : 0.0189
+├── Training accuracy : 51.03%
+│
+└── Testing accuracy : 55.01%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 32[m] 29[s]
+
+
+┌── Epoch (231/299)
+├── Training Loss : 0.0186
+├── Training accuracy : 51.65%
+│
+└── Testing accuracy : 55.01%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 32[m] 16[s]
+
+
+┌── Epoch (232/299)
+├── Training Loss : 0.0188
+├── Training accuracy : 51.28%
+│
+└── Testing accuracy : 55.71%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 31[m] 55[s]
+
+
+┌── Epoch (233/299)
+├── Training Loss : 0.0187
+├── Training accuracy : 51.05%
+│
+└── Testing accuracy : 55.66%
+Epoch time ─ 0[h] 0[m] 27[s]
+Estimated time ─ 0[h] 30[m] 43[s]
+
+
+┌── Epoch (234/299)
+├── Training Loss : 0.0185
+├── Training accuracy : 52.09%
+│
+└── Testing accuracy : 55.52%
+Epoch time ─ 0[h] 0[m] 27[s]
+Estimated time ─ 0[h] 30[m] 11[s]
+
+
+┌── Epoch (235/299)
+├── Training Loss : 0.0186
+├── Training accuracy : 51.58%
+│
+└── Testing accuracy : 56.11%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 30[m] 13[s]
+
+
+┌── Epoch (236/299)
+├── Training Loss : 0.0186
+├── Training accuracy : 52.62%
+│
+└── Testing accuracy : 55.85%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 30[m] 20[s]
+
+
+┌── Epoch (237/299)
+├── Training Loss : 0.0185
+├── Training accuracy : 52.44%
+│
+└── Testing accuracy : 56.01%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 29[m] 22[s]
+
+
+┌── Epoch (238/299)
+├── Training Loss : 0.0184
+├── Training accuracy : 52.94%
+│
+└── Testing accuracy : 55.90%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 28[m] 32[s]
+
+
+┌── Epoch (239/299)
+├── Training Loss : 0.0186
+├── Training accuracy : 51.97%
+│
+└── Testing accuracy : 56.09%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 28[m] 15[s]
+
+
+┌── Epoch (240/299)
+├── Training Loss : 0.0184
+├── Training accuracy : 52.67%
+│
+└── Testing accuracy : 55.85%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 27[m] 57[s]
+
+
+┌── Epoch (241/299)
+├── Training Loss : 0.0184
+├── Training accuracy : 51.35%
+│
+└── Testing accuracy : 56.58%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 27[m] 20[s]
+
+
+┌── Epoch (242/299)
+├── Training Loss : 0.0183
+├── Training accuracy : 53.02%
+│
+└── Testing accuracy : 56.23%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 26[m] 42[s]
+
+
+┌── Epoch (243/299)
+├── Training Loss : 0.0183
+├── Training accuracy : 51.80%
+│
+└── Testing accuracy : 56.51%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 26[m] 41[s]
+
+
+┌── Epoch (244/299)
+├── Training Loss : 0.0181
+├── Training accuracy : 53.50%
+│
+└── Testing accuracy : 56.68%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 26[m] 9[s]
+
+
+┌── Epoch (245/299)
+├── Training Loss : 0.0181
+├── Training accuracy : 53.44%
+│
+└── Testing accuracy : 56.64%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 25[m] 17[s]
+
+
+┌── Epoch (246/299)
+├── Training Loss : 0.0181
+├── Training accuracy : 52.70%
+│
+└── Testing accuracy : 56.85%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 25[m] 19[s]
+
+
+┌── Epoch (247/299)
+├── Training Loss : 0.0180
+├── Training accuracy : 53.74%
+│
+└── Testing accuracy : 56.97%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 24[m] 36[s]
+
+
+┌── Epoch (248/299)
+├── Training Loss : 0.0181
+├── Training accuracy : 52.97%
+│
+└── Testing accuracy : 57.09%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 24[m] 18[s]
+
+
+┌── Epoch (249/299)
+├── Training Loss : 0.0179
+├── Training accuracy : 53.67%
+│
+└── Testing accuracy : 57.08%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 23[m] 27[s]
+
+
+┌── Epoch (250/299)
+├── Training Loss : 0.0179
+├── Training accuracy : 53.77%
+│
+└── Testing accuracy : 56.94%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 23[m] 10[s]
+
+
+┌── Epoch (251/299)
+├── Training Loss : 0.0178
+├── Training accuracy : 53.67%
+│
+└── Testing accuracy : 57.13%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 22[m] 54[s]
+
+
+┌── Epoch (252/299)
+├── Training Loss : 0.0178
+├── Training accuracy : 53.99%
+│
+└── Testing accuracy : 57.61%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 22[m] 30[s]
+
+
+┌── Epoch (253/299)
+├── Training Loss : 0.0178
+├── Training accuracy : 53.84%
+│
+└── Testing accuracy : 57.42%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 21[m] 47[s]
+
+
+┌── Epoch (254/299)
+├── Training Loss : 0.0178
+├── Training accuracy : 53.47%
+│
+└── Testing accuracy : 57.21%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 21[m] 33[s]
+
+
+┌── Epoch (255/299)
+├── Training Loss : 0.0176
+├── Training accuracy : 54.80%
+│
+└── Testing accuracy : 57.47%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 20[m] 55[s]
+
+
+┌── Epoch (256/299)
+├── Training Loss : 0.0176
+├── Training accuracy : 54.44%
+│
+└── Testing accuracy : 57.75%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 29[s]
+Estimated time ─ 0[h] 21[m] 3[s]
+
+
+┌── Epoch (257/299)
+├── Training Loss : 0.0178
+├── Training accuracy : 53.57%
+│
+└── Testing accuracy : 57.92%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 19[m] 56[s]
+
+
+┌── Epoch (258/299)
+├── Training Loss : 0.0177
+├── Training accuracy : 54.15%
+│
+└── Testing accuracy : 57.56%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 19[m] 39[s]
+
+
+┌── Epoch (259/299)
+├── Training Loss : 0.0175
+├── Training accuracy : 54.97%
+│
+└── Testing accuracy : 57.70%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 18[m] 52[s]
+
+
+┌── Epoch (260/299)
+├── Training Loss : 0.0176
+├── Training accuracy : 53.94%
+│
+└── Testing accuracy : 57.66%
+Epoch time ─ 0[h] 0[m] 29[s]
+Estimated time ─ 0[h] 18[m] 53[s]
+
+
+┌── Epoch (261/299)
+├── Training Loss : 0.0175
+├── Training accuracy : 54.47%
+│
+└── Testing accuracy : 57.77%
+Epoch time ─ 0[h] 0[m] 29[s]
+Estimated time ─ 0[h] 18[m] 30[s]
+
+
+┌── Epoch (262/299)
+├── Training Loss : 0.0175
+├── Training accuracy : 53.92%
+│
+└── Testing accuracy : 57.82%
+Epoch time ─ 0[h] 0[m] 29[s]
+Estimated time ─ 0[h] 18[m] 5[s]
+
+
+┌── Epoch (263/299)
+├── Training Loss : 0.0175
+├── Training accuracy : 53.84%
+│
+└── Testing accuracy : 58.30%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 29[s]
+Estimated time ─ 0[h] 17[m] 53[s]
+
+
+┌── Epoch (264/299)
+├── Training Loss : 0.0174
+├── Training accuracy : 54.44%
+│
+└── Testing accuracy : 57.85%
+Epoch time ─ 0[h] 0[m] 30[s]
+Estimated time ─ 0[h] 17[m] 32[s]
+
+
+┌── Epoch (265/299)
+├── Training Loss : 0.0175
+├── Training accuracy : 54.80%
+│
+└── Testing accuracy : 58.35%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 29[s]
+Estimated time ─ 0[h] 16[m] 42[s]
+
+
+┌── Epoch (266/299)
+├── Training Loss : 0.0173
+├── Training accuracy : 54.77%
+│
+└── Testing accuracy : 58.18%
+Epoch time ─ 0[h] 0[m] 29[s]
+Estimated time ─ 0[h] 16[m] 3[s]
+
+
+┌── Epoch (267/299)
+├── Training Loss : 0.0173
+├── Training accuracy : 54.37%
+│
+└── Testing accuracy : 58.35%
+Epoch time ─ 0[h] 0[m] 29[s]
+Estimated time ─ 0[h] 15[m] 40[s]
+
+
+┌── Epoch (268/299)
+├── Training Loss : 0.0172
+├── Training accuracy : 55.06%
+│
+└── Testing accuracy : 58.53%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 14[m] 55[s]
+
+
+┌── Epoch (269/299)
+├── Training Loss : 0.0173
+├── Training accuracy : 54.57%
+│
+└── Testing accuracy : 58.56%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 29[s]
+Estimated time ─ 0[h] 14[m] 53[s]
+
+
+┌── Epoch (270/299)
+├── Training Loss : 0.0171
+├── Training accuracy : 54.99%
+│
+└── Testing accuracy : 58.54%
+Epoch time ─ 0[h] 0[m] 29[s]
+Estimated time ─ 0[h] 14[m] 19[s]
+
+
+┌── Epoch (271/299)
+├── Training Loss : 0.0173
+├── Training accuracy : 54.87%
+│
+└── Testing accuracy : 58.61%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 13[m] 27[s]
+
+
+┌── Epoch (272/299)
+├── Training Loss : 0.0173
+├── Training accuracy : 53.70%
+│
+└── Testing accuracy : 58.77%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 29[s]
+Estimated time ─ 0[h] 13[m] 7[s]
+
+
+┌── Epoch (273/299)
+├── Training Loss : 0.0169
+├── Training accuracy : 56.64%
+│
+└── Testing accuracy : 58.84%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 12[m] 30[s]
+
+
+┌── Epoch (274/299)
+├── Training Loss : 0.0169
+├── Training accuracy : 55.17%
+│
+└── Testing accuracy : 58.85%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 29[s]
+Estimated time ─ 0[h] 12[m] 12[s]
+
+
+┌── Epoch (275/299)
+├── Training Loss : 0.0170
+├── Training accuracy : 55.79%
+│
+└── Testing accuracy : 58.91%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 29[s]
+Estimated time ─ 0[h] 11[m] 47[s]
+
+
+┌── Epoch (276/299)
+├── Training Loss : 0.0169
+├── Training accuracy : 56.07%
+│
+└── Testing accuracy : 59.03%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 29[s]
+Estimated time ─ 0[h] 11[m] 14[s]
+
+
+┌── Epoch (277/299)
+├── Training Loss : 0.0169
+├── Training accuracy : 55.87%
+│
+└── Testing accuracy : 59.27%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 30[s]
+Estimated time ─ 0[h] 11[m] 2[s]
+
+
+┌── Epoch (278/299)
+├── Training Loss : 0.0167
+├── Training accuracy : 56.01%
+│
+└── Testing accuracy : 59.23%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 10[m] 4[s]
+
+
+┌── Epoch (279/299)
+├── Training Loss : 0.0169
+├── Training accuracy : 55.04%
+│
+└── Testing accuracy : 59.22%
+Epoch time ─ 0[h] 0[m] 29[s]
+Estimated time ─ 0[h] 9[m] 40[s]
+
+
+┌── Epoch (280/299)
+├── Training Loss : 0.0168
+├── Training accuracy : 56.19%
+│
+└── Testing accuracy : 59.48%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 9[m] 6[s]
+
+
+┌── Epoch (281/299)
+├── Training Loss : 0.0167
+├── Training accuracy : 56.46%
+│
+└── Testing accuracy : 59.68%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 8[m] 37[s]
+
+
+┌── Epoch (282/299)
+├── Training Loss : 0.0166
+├── Training accuracy : 57.34%
+│
+└── Testing accuracy : 59.63%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 8[m] 4[s]
+
+
+┌── Epoch (283/299)
+├── Training Loss : 0.0167
+├── Training accuracy : 56.06%
+│
+└── Testing accuracy : 59.65%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 7[m] 38[s]
+
+
+┌── Epoch (284/299)
+├── Training Loss : 0.0167
+├── Training accuracy : 55.51%
+│
+└── Testing accuracy : 59.75%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 7[m] 11[s]
+
+
+┌── Epoch (285/299)
+├── Training Loss : 0.0165
+├── Training accuracy : 56.86%
+│
+└── Testing accuracy : 59.75%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 6[m] 33[s]
+
+
+┌── Epoch (286/299)
+├── Training Loss : 0.0166
+├── Training accuracy : 56.89%
+│
+└── Testing accuracy : 59.86%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 6[m] 12[s]
+
+
+┌── Epoch (287/299)
+├── Training Loss : 0.0165
+├── Training accuracy : 57.16%
+│
+└── Testing accuracy : 59.79%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 5[m] 47[s]
+
+
+┌── Epoch (288/299)
+├── Training Loss : 0.0165
+├── Training accuracy : 56.16%
+│
+└── Testing accuracy : 59.92%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 29[s]
+Estimated time ─ 0[h] 5[m] 19[s]
+
+
+┌── Epoch (289/299)
+├── Training Loss : 0.0163
+├── Training accuracy : 57.77%
+│
+└── Testing accuracy : 60.04%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 29[s]
+Estimated time ─ 0[h] 4[m] 50[s]
+
+
+┌── Epoch (290/299)
+├── Training Loss : 0.0165
+├── Training accuracy : 57.06%
+│
+└── Testing accuracy : 60.15%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 4[m] 17[s]
+
+
+┌── Epoch (291/299)
+├── Training Loss : 0.0164
+├── Training accuracy : 56.96%
+│
+└── Testing accuracy : 59.68%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 3[m] 47[s]
+
+
+┌── Epoch (292/299)
+├── Training Loss : 0.0163
+├── Training accuracy : 57.24%
+│
+└── Testing accuracy : 60.30%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 3[m] 19[s]
+
+
+┌── Epoch (293/299)
+├── Training Loss : 0.0162
+├── Training accuracy : 56.82%
+│
+└── Testing accuracy : 60.25%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 2[m] 53[s]
+
+
+┌── Epoch (294/299)
+├── Training Loss : 0.0161
+├── Training accuracy : 57.77%
+│
+└── Testing accuracy : 60.04%
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 2[m] 20[s]
+
+
+┌── Epoch (295/299)
+├── Training Loss : 0.0163
+├── Training accuracy : 57.06%
+│
+└── Testing accuracy : 60.58%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 28[s]
+Estimated time ─ 0[h] 1[m] 55[s]
+
+
+┌── Epoch (296/299)
+├── Training Loss : 0.0162
+├── Training accuracy : 57.14%
+│
+└── Testing accuracy : 60.79%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 26[s]
+Estimated time ─ 0[h] 1[m] 20[s]
+
+
+┌── Epoch (297/299)
+├── Training Loss : 0.0161
+├── Training accuracy : 56.89%
+│
+└── Testing accuracy : 60.56%
+Epoch time ─ 0[h] 0[m] 25[s]
+Estimated time ─ 0[h] 0[m] 50[s]
+
+
+┌── Epoch (298/299)
+├── Training Loss : 0.0160
+├── Training accuracy : 58.69%
+│
+└── Testing accuracy : 60.48%
+Epoch time ─ 0[h] 0[m] 24[s]
+Estimated time ─ 0[h] 0[m] 24[s]
+
+
+┌── Epoch (299/299)
+├── Training Loss : 0.0160
+├── Training accuracy : 57.79%
+│
+└── Testing accuracy : 60.91%
+  └──> Saving the best model to "./experiments/ResNet34_Pretrained_CUB_x4_L1e-4_S30_W1e-4/best_resnet34_x4_True.pth"
+Epoch time ─ 0[h] 0[m] 25[s]
+Estimated time ─ 0[h] 0[m] 0[s]
+
+
+Done with accuracy : 60.91%
